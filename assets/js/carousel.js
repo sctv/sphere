@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".owl-carousel").owlCarousel({center:!0,loop:!0,margin:0});var o=$(".owl-carousel");o.owlCarousel(),$(".customNextBtn").click(function(){o.trigger("next.owl.carousel")}),$(".customPrevBtn").click(function(){o.trigger("prev.owl.carousel")}),$(".beginningBtn").click(function(){o.trigger("to.owl.carousel",[0])})}),$(".hero .image").dimmer("show");
