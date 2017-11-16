@@ -3,6 +3,7 @@
 
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@
   <link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
 
   <!-- Semantic UI -->
-  <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
 
   <!-- FONTS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
@@ -33,9 +34,6 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css">
   
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.0.2/dist/instantsearch.min.css">
-  
-
 
   <!-- Begin Jekyll SEO tag v2.3.0 -->
 <title>DIYbiosphere | A collaborative library of Do-it-Yourself Biology initiatives</title>
@@ -49,7 +47,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@DIYbiosphere">
 <script type="application/ld+json">
-{"name":"DIYbiosphere","description":"A collaborative library of Do-it-Yourself Biology initiatives","author":null,"@type":"WebSite","url":"sphere.diybio.org/","image":null,"publisher":null,"headline":"DIYbiosphere","dateModified":"2017-11-15T20:47:25+00:00","datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":"DIYbiosphere","description":"A collaborative library of Do-it-Yourself Biology initiatives","author":null,"@type":"WebSite","url":"sphere.diybio.org/","image":null,"publisher":null,"headline":"DIYbiosphere","dateModified":"2017-11-16T10:52:35+00:00","datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -72,6 +70,15 @@
     ga('send', 'pageview');
   </script>
 
+  <opensearchdescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <shortname>DIYbiosphere</shortname>
+  <description>Open source project to collect DIYbio initiative</description>
+  <url type="text/html" method="get" template="http://sphere.diybio.org?q={searchTerms}"></url>
+  <inputencoding>UTF-8</inputencoding>
+  <image height="32" width="32" type="image/png">/assets/img/diybiosphere-icon.png</image>
+  <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="DIYbiosphere">
+</opensearchdescription>
+
 </head>
 
 
@@ -79,72 +86,75 @@
 
     <header>
   <nav>
-    <div class="ui huge fixed borderless menu">
-      <!-- logo -->
+    <div class="ui large fixed borderless menu">
+      <!-- LOGO & LINK TO LANDING PAGE -->
       <div class="item">
         <a href="/">
         <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
       </div>
-
+      <div class="ui dropdown item">
+        ABOUT
+        <i class="angle down icon"></i>
+        <div class="menu">
+          <a class="item" href="/about/diybiosphere/"><i class="far fa-info icon"></i>DIYbiosphere</a>
+          <a class="item" href="/about/community/"><i class="far fa-heart icon"></i>Our Community</a>
+          <a class="item" href="/about/philosophy/"><i class="far fa-compass icon"></i>Philosophy</a>
+          <a class="item" href="/about/contact/"><i class="far fa-paper-plane icon"></i>Contact</a>
+        </div>
+      </div>
+      <!-- CONTRIBUTE NAV -->
+      <div class="ui dropdown item">
+        CONTRIBUTE
+        <i class="angle down icon"></i>
+        <div class="menu">
+          <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square icon"></i>Add Entry</a>
+          <a class="item" href="docs/tutorials/edit-content"><i class="far fa-pen-square icon"></i>Edit Content</a>
+          <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
+          <a class="item" href="/docs/"><i class="far fa-book icon"></i>Learn More (docs)</a>
+          <a class="item" href="/about/support-us/"><i class="far fa-thumbs-up icon"></i>Support Us</a>
+        </div>
+      </div>
       <!-- search -->
       <div class="item">
-        <div class="ui small left action fluid input" id="aa-input-container">
-            <a class="noelink noul" href="/entries/">
-              <button class="ui labeled icon black button" data-tooltip="Or do an Advanced Search" data-inverted="" data-position="bottom center" data-variation="tiny">
-                <i class="options icon"></i>
-                Browse
-              </button>
-            </a>
-            <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search (name/location)" name="search" autocomplete="on">
-          </div>
+        <div class="ui left action input">
+          <a class="ui primary button" href="/entries/" data-tooltip="with advanced filters" data-position="bottom center" data-variation="mini">
+            <i class="fa fa-search icon"></i> Browse or
+          </a>
+          <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search by name or location" name="search" autocomplete="on">
+        </div>
       </div>
       <!-- right menu -->
       <div class="right menu">
-        <!-- about -->
-        <div class="ui dropdown item">
-          About
-          <i class="angle down icon"></i>
-          <div class="menu">
-            <a class="item" href="/diybiosphere"><i class="far fa-info icon"></i>DIYbiosphere</a>
-            <a class="item" href="/community"><i class="far fa-heart icon"></i>Our Community</a>
-            <a class="item" href="/philosophy"><i class="far fa-compass icon"></i>Philosophy</a>
-            <a class="item" href="/contact"><i class="far fa-paper-plane icon"></i>Contact</a>
-          </div>
-        </div>
-        <!-- contribute -->
-        <div class="ui dropdown item">
-          Contribute
-          <i class="angle down icon"></i>
-          <div class="menu">
-            <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square icon"></i>Add Entry</a>
-            <a class="item" href="/docs/tutorials/edit-content"><i class="far fa-pen-square icon"></i>Edit Content</a>
-            <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
-            <a class="item" href="/docs/"><i class="far fa-book icon"></i>Learn More (docs)</a>
-            <a class="item" href="/support-us/"><i class="far fa-thumbs-up icon"></i>Support Us</a>
-          </div>
-        </div>
+
         <a target="_blank" class="item" href="https://diybio.org">
           <img class="ui image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png">
         </a>
+
       </div> <!-- close  menu-->
     </div> <!-- end menu -->
+
   </nav>
 </header>
 
-      <main class="xo margin top fivefold">
+      <main class="xo margin top threefold">
         <div class="xo padding top">
           <!-- google maps API AIzaSyAgB5AWTL7CZagEdJp-WbeHvCDgRPaFidc -->
 
+
+<!-- LANDING CAROUSEL -->
 <div class="owl-carousel">
   <!-- main image -->
   <div class="ui image">
-    <div class="ui active dimmer">
-      <div class="content">
+    <div class="ui active inverted dimmer">
+      <div class="content" style="height: 500px;">
         <div class="center">
-          <div class="ui basic segment">
-          <div class="ui inverted huge header">The DIYbiosphere</div>
-          <div class="ui inverted medium header">Connecting DIYbio all over the world. <br> Search for, browse or add your own initiative!</div>
-          <a href="/support-us/"><button class="ui inverted big button">LEARN MORE</button></a>
+          <div class="ui basic fluid blurring segment">
+          <h1 class="ui  header"><div class="ui huge inverted header">DIYbiosphere</div></h1>
+          <div class="ui huge inverted header">An open source project to collect DIYbio initiatives from all over the world. <br> Search, browse, update, or add an initiative!</div>
+          <div class="ui medium inverted header">
+            To contribute all you need is a <a href="https://www.google.ch/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&amp;url=https%3A%2F%2Fgithub.com%2Fjoin&amp;usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
+          </div>
+          <a href="/about/diybiosphere/"><button class="ui inverted big button">LEARN MORE</button></a>
           </div>
         </div>
       </div>
@@ -155,368 +165,365 @@
   
     
      
-       <!-- call-to-action -->
-      <!-- docs -->
+      
+    <!-- docs --> 
   
     
      
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-      <!-- docs -->
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
   
     
      
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-      <!-- docs -->
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
   
     
      
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
       
        
         <div class="ui image">
-         <div class="ui active dimmer">
-           <div class="content">
-             <div class="center xo padding left right">
-               <div class="ui basic fluid segment">
-                 <a href="https://www.genspace.org/classes-alt"><button class="ui inverted big button"><p>TAKE A CLASS</p>
-
-</button></a>
-                 <div class="ui inverted medium header">
+         <div class="ui active inverted dimmer">
+           <div class="content" style="height: 500px;">
+             <div class="center">
+               <div class="ui basic fluid blurring segment">
+                 <a href="/labs/Genspace/Genspace">
+                   <h1 class="ui header">
+                     <div class="ui large inverted header">
+                       <span>Genspace</span>
+                       <div class="sub header">
+                         <em>Lab
+                           
+                            in Brooklyn,
+                           
+                           
+                            United States
+                           
+                         </em>
+                       </div>
+                     </div>
+                   </h1>
+                 </a>
+                 <div class="ui huge inverted header">
 <p>Genspace instructors come from top institutions around the New York City area to teach advanced biology in an easy-to-understand, hands-on way.</p>
 
 </div>
+                 <a href="https://www.genspace.org/classes-alt"><button class="ui big inverted button"><p>Take a Class</p>
 
-               <h3 class="ui inverted header">
-                 // Genspace //
-                 <div class="sub header">
-                   <em>Lab
-                     
-                      in Brooklyn,
-                     
-                     
-                      United States
-                     
-                   </em>
-                 </div>
-               </h3>
+</button></a>
               </div>
              </div>
            </div>
          </div>
          
-          <img class="ui image owl-img" src="https://raw.githubusercontent.com/DIYbiosphere/sphere/master/_labs/Genspace/header.jpg">
+          <img class="ui image owl-img" src="/labs/Genspace/header.jpg">
          
        </div>
-        <!-- item -->
-       <!-- call-to-action -->
-     
+      <!-- item --> 
+    <!-- call-to-action -->  
+    <!-- docs --> 
       
        
         <div class="ui image">
-         <div class="ui active dimmer">
-           <div class="content">
-             <div class="center xo padding left right">
-               <div class="ui basic fluid segment">
-                 <a href="http://wiki.hackuarium.ch/w/Main_Page"><button class="ui inverted big button"><p>JOIN OUR OPEN MEETUPS</p>
-
-</button></a>
-                 <div class="ui inverted medium header">
+         <div class="ui active inverted dimmer">
+           <div class="content" style="height: 500px;">
+             <div class="center">
+               <div class="ui basic fluid blurring segment">
+                 <a href="/labs/Hackuarium/Hackuarium">
+                   <h1 class="ui header">
+                     <div class="ui large inverted header">
+                       <span>Hackuarium</span>
+                       <div class="sub header">
+                         <em>Lab
+                           
+                            in Renens,
+                           
+                           
+                            Switzerland
+                           
+                         </em>
+                       </div>
+                     </div>
+                   </h1>
+                 </a>
+                 <div class="ui huge inverted header">
 <p>Come visit on <em>OpenHackuarium</em> night every Wednesday, from 7:30-10:30</p>
 
 </div>
+                 <a href="http://wiki.hackuarium.ch/w/Main_Page"><button class="ui big inverted button"><p>Join our Open Meetups</p>
 
-               <h3 class="ui inverted header">
-                 // Hackuarium //
-                 <div class="sub header">
-                   <em>Lab
-                     
-                      in Renens,
-                     
-                     
-                      Switzerland
-                     
-                   </em>
-                 </div>
-               </h3>
+</button></a>
               </div>
              </div>
            </div>
          </div>
          
-          <img class="ui image owl-img" src="https://raw.githubusercontent.com/DIYbiosphere/sphere/master/_labs/Hackuarium/header.jpg">
+          <img class="ui image owl-img" src="/labs/Hackuarium/header.jpg">
          
        </div>
-        <!-- item -->
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-      <!-- docs -->
+      <!-- item --> 
+    <!-- call-to-action -->  
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
   
     
      
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-      <!-- docs -->
-  
-    
-      <!-- docs -->
-  
-    
-      <!-- docs -->
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
   
     
      
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-     
-       <!-- call-to-action -->
-      <!-- docs -->
   
     
      
-       <!-- call-to-action -->
+  
+    
      
-       <!-- call-to-action -->
-      <!-- docs -->
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
+  
+    
+     
+      
+    <!-- docs --> 
+      
+    <!-- docs --> 
    <!-- collections -->
-</div>
-
-<!-- Carousel buttons -->
-<div class="ui three bottom attached buttons">
-    <div class="ui button customPrevBtn"><i class="far fa-angle-left"></i></div>
-    <div class="ui button beginningBtn"></div>
-    <div class="ui button customNextBtn"><i class="far fa-angle-right"></i></div>
-</div>
-
-<div>
-</div>
+</div> <!-- end carousel -->
 
 <div class="ui grid">
-  <!-- Statistics -->
-  <div class="row xo top bottom padding fourfold" style="background-color: black;">
+  <!--
+  <div class="grey row xo top bottom padding fourfold">
     <div class="column">
       <div class="ui container">
-        <div class="ui inverted three large statistics">
-          <div class="statistic">
+        <div class="ui three large inverted statistics">
+          <div class="inverted statistic">
             <div class="value">
-              <span id="index-stats-container">
-            </span>
-</div>
+              <span id="index-stats-container"</span>
+            </div>
             <div class="label">
               Total Entries
             </div>
           </div>
-          <div class="statistic">
+          <div class=" statistic">
             <div class="value">
-               9
+              
             </div>
             <div class="label">
               Total Contributors
             </div>
           </div>
-          <div class="statistic">
+          <div class="inverted statistic">
             <div class="value">
-              147
+              
             </div>
             <div class="label">
               Total Edits
             </div>
           </div>
         </div>
-      </div> <!-- container -->
-    </div> <!-- column -->
-  </div> <!-- row -->
+      </div>
+    </div>
+  </div>  -->
 
-  <!-- Latest entries -->
-  <div class="row xo padding top fourfold">
-    <div class="ui container">
-      <h2 class="ui center aligned header">Browse Last Edited Entries</h2>
+<!--
+  <div class="row xo padding top fourfold" style="background: ">
+      <div class="ui container">
+        <h2 class="ui center aligned header">Browse Last Edited Entries</h2>
+      </div>
     </div>
-  </div>
-  <div class="row xo padding bottom fourfold">
-    <div class="ui container xo top bottom padding twofold">
-      <div id="index-hits-container"></div>
-    </div>
-  </div>
+    <div class="row xo padding bottom fourfold">
+      <div class="ui container xo top bottom padding twofold">
+        <div id="index-hits-container"></div>
+      </div>
+    </div> -->
+
 
   <!-- Browse by Collection -->
 
-    <div class="row xo padding top fourfold" style="background-color: white;">
+    <div class="row xo padding top fourfold">
       <div class="ui container">
         <h2 class="ui center aligned header">Browse by Collection</h2>
       </div>
     </div>
-    <div class="row xo padding top bottom fourfold" style="background-color: white;">
-      <div class="ui two column very relaxed internally celled grid container">
+    <!-- ROWS OF COLLECTION -->
+    <div class="row xo padding top bottom fourfold">
+      <div class="ui two column very relaxed celled grid container">
         <div class="row">
           <!-- Projects -->
           <div class="column">
@@ -524,7 +531,7 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Project">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-briefcase icon"></i>
                   </i>
                 </div>
@@ -543,7 +550,7 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Startup">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-rocket icon"></i>
                   </i>
                 </div>
@@ -564,7 +571,7 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Lab">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-flask icon"></i>
                   </i>
                 </div>
@@ -583,7 +590,7 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Incubator">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-leaf icon"></i>
                   </i>
                 </div>
@@ -604,8 +611,8 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Group">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
-                    <i class="far fa-user icon"></i>
+                    <i class="big circle inverted icon"></i>
+                    <i class="far fa-users icon"></i>
                   </i>
                 </div>
                 <div class="middle aligned content">
@@ -623,7 +630,7 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Network">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
+                    <i class="big circle inverted icon"></i>
                     <i class="far fa-share-alt icon"></i>
                   </i>
                 </div>
@@ -644,8 +651,8 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Event">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
-                    <i class="far fa-briefcase icon"></i>
+                    <i class="big circle inverted icon"></i>
+                    <i class="far fa-calendar-alt icon"></i>
                   </i>
                 </div>
                 <div class="middle aligned content">
@@ -663,8 +670,8 @@
               <a class="item noul" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=Other">
                 <div class="ui tiny image">
                   <i class="huge icons">
-                    <i class="big yellow circle inverted icon"></i>
-                    <i class="far fa-magic icon"></i>
+                    <i class="big circle inverted icon"></i>
+                    <i class="far fa-umbrella icon"></i>
                   </i>
                 </div>
                 <div class="middle aligned content">
@@ -680,187 +687,14 @@
       </div> <!-- relaxed grid -->
     </div> <!-- row -->
 
-<!--
-<div class="ui padded grid">
-  <h2 class="ui header">Browse by Collection</h2>
-    <div class="two column row" style="background-color: white;">
-      <div class="column yellow">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-briefcase fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">PROJECTS</span> have particular aims, like in research, engineering, art and design</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-rocket fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">STARTUPS</span> Entrepreneurial ventures and generally concern products or services</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="two column row" style="background-color: white;">
-      <div class="column">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-flask fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">LABS</span> Dedicated physical spaces, static or mobile, with materials and equipment</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column yellow">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-leaf fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">INCUBATORS</span> Organizations and spaces that help projects and startups to develop</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="two column row" style="background-color: white;">
-      <div class="column yellow">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-user fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">GROUPS</span> Associations of people (online and offline) interested in DIYbio</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-share-alt fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">NETWORKS</span> Organizations that facilitate communication and collaboration</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="two column row" style="background-color: white;">
-      <div class="column">
-        <div class="ui basic right floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-calendar fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">EVENTS</span>Global or regional events by and/or for the DIYbio community</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="column yellow">
-        <div class="ui basic left floated segment" style="width: 500px; height: 100px;">
-          <div class="ui items">
-            <div class="item">
-              <a class="ui tiny image">
-                <i class="far fa-magic fa-5x"></i>
-              </a>
-              <div class="content">
-                <div class="description">
-                  <p><span class="ui small header">OTHERS</span> Umbrella term for the rest of misfit entries. New collections may arise</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  -->
-  <!-- Final Call -->
-  <div class="row xo padding bottom top fourfold">
-    <div class="ui container">
-      <h1 class="ui center aligned header">DIYbiosphere is an Open Source Project!</h1>
-      <div class="ui basic center aligned segment">
-        <div class="ui medium header">
-          All the content in this website is provided by volunteer contributors<br>
-          and is dedicated to the public domain (<a href="http://creativecommons.org/publicdomain/zero/1.0/">CC0</a>) to be freely (re)used <br>
-        </div>
-        <div class="ui medium header">
-          To contribute all you need is a <a href="https://www.google.ch/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;cad=rja&amp;uact=8&amp;ved=0ahUKEwig3Zb8wMTVAhUPmbQKHU31DbwQFggoMAA&amp;url=https%3A%2F%2Fgithub.com%2Fjoin&amp;usg=AFQjCNF6nezHQWX1hKwEFQVYRrUheS9_Ig">GitHub account!</a>
-        </div>
-
-        <div class="xo top padding twofold">
-          <a href="/docs/tutorials/add-entry/">
-            <button class="ui primary button">
-              <i class="far fa-plus"></i>
-               Add a new initiative
-            </button>
-          </a>
-          <a href="/docs/tutorials/edit-content/">
-            <button class="ui primary button">
-              <i class="far fa-pencil"></i>
-               Edit or update content
-            </button>
-          </a>
-        </div>
-
-      </div>
-
-
-    </div> <!-- container -->
-  </div> <!-- row -->
 </div> <!-- grid -->
 
 
         </div>
       </main>
 
-  <footer class="xo top margin fourfold">
-  <div class="ui grid xo top padding twofold" style="background-color: black;">
+  <footer class="xo top margin fourfold" style="background-color: #F3F3F3;">
+  <div class="ui grid xo top padding twofold border-footer">
 
     <!-- Useful links -->
     <div class="row">
@@ -868,8 +702,8 @@
         <div class="doubling six column row">
           <!-- DIYbiosphere -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">DIYBIOSPHERE</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">DIYBIOSPHERE</div>
               <a class="item noul" href="/about/DIYbiosphere/">Project</a>
               <a class="item noul" href="/about/community/">Community</a>
               <a class="item noul" href="/about/philosophy/">Philosophy</a>
@@ -877,8 +711,8 @@
           </div>
           <!-- Contribute -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">CONTRIBUTE</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">CONTRIBUTE</div>
               <a class="item noul" href="/docs/tutorials/add-entry">Add a New Entry</a>
               <a class="item noul" href="/docs/tutorials/edit-content">Edit an Entry</a>
               <a target="_blank" class="item noul" href="https://github.com/DIYbiosphere/sphere/issues">Jump into our Issues</a>
@@ -886,8 +720,8 @@
           </div>
           <!-- Learn More -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">LEARN MORE</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">LEARN MORE</div>
               <a class="item noul" href="/docs/guides/contributing/">Contributing Guide</a>
               <a class="item noul" href="/docs/guides/writing/">On Writing Entries</a>
               <a class="item noul" href="/docs/guides/eli5/">For the GitHub Confused</a>
@@ -895,8 +729,8 @@
           </div>
           <!-- Connect -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui inverted small header">CONNECT WITH US</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">CONNECT WITH US</div>
               <a class="item noul" href="/docs/guides/contributing/#membership-request">Become a member!</a>
               <a target="_blank" class="item noul" href="https://diybiosphere.herokuapp.com/">Join our Slack</a>
               <a target="_blank" class="item noul" href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Open Gitter Chat</a>
@@ -904,8 +738,8 @@
           </div>
           <!-- Supported by -->
           <div class="column aligned ">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">SUPPORTED BY</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">SUPPORTED BY</div>
                 <a target="_blank" class="item" href="https://diybio.org"><img class="ui image" src="/assets/img/diybio.png"></a>
                 <a target="_blank" class="item" href="http://www.unige.ch"><img class="ui image" src="/assets/img/unige.png"></a>
               </div>
@@ -918,15 +752,15 @@
       </div> <!-- close grid container -->
     </div> <!-- close row -->
 
-    <div class="ui inverted divider"></div>
+    <div class="ui divider"></div>
     <!-- Legal footer -->
     <div class="row">
       <div class="ui grid container">
         <div class="eight wide column">
-          <div class="ui small horizontal divided inverted link list">
-            <a class="item noul" href="/terms-of-use/">Terms of Use</a>
-            <a class="item noul" href="/contributor-terms/">Contributor Terms</a>
-            <a class="item noul" href="/code-of-conduct/">Code of Conduct</a>
+          <div class="ui small horizontal divided link list">
+            <a class="item noul" href="/about/terms-of-use/">Terms of Use</a>
+            <a class="item noul" href="/about/contributor-terms/">Contributor Terms</a>
+            <a class="item noul" href="/about/code-of-conduct/">Code of Conduct</a>
             <a class="item noul" href="/docs/help/faq/">FAQ</a>
             <a class="item noul" href="/about/contact/">Contact</a>
           </div>
@@ -979,18 +813,15 @@
             <!--  <div class="ui small horizontal inverted link list">
                 <a class="item noul" rel="license" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/"><i class="cc cc-cc"></i><i class="cc cc-zero"></i></a>
               </div> -->
-              <div class="ui small horizontal inverted link list">
+              <div class="ui small horizontal link list">
                 <a class="fitted item noul" href="/docs/tutorials/noting-copyright/">Except where otherwise noted, </a>
-              </div>
-              <div class="ui small horizontal inverted link list">
                 <a class="fitted item noul" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/">content on this site is dedicated to the public domain</a>
               </div>
             </div>
             <div class="eight wide right aligned column">
-              <div class="ui small horizontal inverted link list">
+              <div class="ui small horizontal link list">
                 <a class="item fitted noul" href="https://github.com/">Hosted by GitHub</a>
                 <a class="item fitted noul" href="https://www.algolia.com/">Search by Algolia</a>
-                <a class="item fitted noul" href="https://maps.google.com/">Map by Google</a>
               </div>
             </div>
 
@@ -1011,7 +842,8 @@
 
     <!-- JQuery & Semantic UI -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script src="/semantic/dist/semantic.min.js"></script>
+    <script src="/assets/semantic/dist/semantic.min.js"></script>
+
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 

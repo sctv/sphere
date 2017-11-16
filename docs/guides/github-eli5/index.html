@@ -3,6 +3,7 @@
 
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@
   <link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
 
   <!-- Semantic UI -->
-  <link rel="stylesheet" type="text/css" href="/semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
 
   <!-- FONTS -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css">
@@ -71,6 +72,15 @@
     ga('send', 'pageview');
   </script>
 
+  <opensearchdescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <shortname>DIYbiosphere</shortname>
+  <description>Open source project to collect DIYbio initiative</description>
+  <url type="text/html" method="get" template="http://sphere.diybio.org?q={searchTerms}"></url>
+  <inputencoding>UTF-8</inputencoding>
+  <image height="32" width="32" type="image/png">/assets/img/diybiosphere-icon.png</image>
+  <link rel="search" href="/opensearch.xml" type="application/opensearchdescription+xml" title="DIYbiosphere">
+</opensearchdescription>
+
 </head>
 
 
@@ -78,67 +88,61 @@
 
     <header>
   <nav>
-    <div class="ui huge fixed borderless menu">
-      <!-- logo -->
+    <div class="ui large fixed borderless menu">
+      <!-- LOGO & LINK TO LANDING PAGE -->
       <div class="item">
         <a href="/">
         <img class="ui image" src="/assets/img/sphere-logo-alpha.png"></a>
       </div>
-
+      <div class="ui dropdown item">
+        ABOUT
+        <i class="angle down icon"></i>
+        <div class="menu">
+          <a class="item" href="/about/diybiosphere/"><i class="far fa-info icon"></i>DIYbiosphere</a>
+          <a class="item" href="/about/community/"><i class="far fa-heart icon"></i>Our Community</a>
+          <a class="item" href="/about/philosophy/"><i class="far fa-compass icon"></i>Philosophy</a>
+          <a class="item" href="/about/contact/"><i class="far fa-paper-plane icon"></i>Contact</a>
+        </div>
+      </div>
+      <!-- CONTRIBUTE NAV -->
+      <div class="ui dropdown item">
+        CONTRIBUTE
+        <i class="angle down icon"></i>
+        <div class="menu">
+          <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square icon"></i>Add Entry</a>
+          <a class="item" href="docs/tutorials/edit-content"><i class="far fa-pen-square icon"></i>Edit Content</a>
+          <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
+          <a class="item" href="/docs/"><i class="far fa-book icon"></i>Learn More (docs)</a>
+          <a class="item" href="/about/support-us/"><i class="far fa-thumbs-up icon"></i>Support Us</a>
+        </div>
+      </div>
       <!-- search -->
       <div class="item">
-        <div class="ui small left action fluid input" id="aa-input-container">
-            <a class="noelink noul" href="/entries/">
-              <button class="ui labeled icon black button" data-tooltip="Or do an Advanced Search" data-inverted="" data-position="bottom center" data-variation="tiny">
-                <i class="options icon"></i>
-                Browse
-              </button>
-            </a>
-            <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search (name/location)" name="search" autocomplete="on">
-          </div>
+        <div class="ui left action input">
+          <a class="ui primary button" href="/entries/" data-tooltip="with advanced filters" data-position="bottom center" data-variation="mini">
+            <i class="fa fa-search icon"></i> Browse or
+          </a>
+          <input type="search" id="aa-search-input" class="aa-input-search" placeholder="Quick search by name or location" name="search" autocomplete="on">
+        </div>
       </div>
       <!-- right menu -->
       <div class="right menu">
-        <!-- about -->
-        <div class="ui dropdown item">
-          About
-          <i class="angle down icon"></i>
-          <div class="menu">
-            <a class="item" href="/diybiosphere"><i class="far fa-info icon"></i>DIYbiosphere</a>
-            <a class="item" href="/community"><i class="far fa-heart icon"></i>Our Community</a>
-            <a class="item" href="/philosophy"><i class="far fa-compass icon"></i>Philosophy</a>
-            <a class="item" href="/contact"><i class="far fa-paper-plane icon"></i>Contact</a>
-          </div>
-        </div>
-        <!-- contribute -->
-        <div class="ui dropdown item">
-          Contribute
-          <i class="angle down icon"></i>
-          <div class="menu">
-            <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square icon"></i>Add Entry</a>
-            <a class="item" href="/docs/tutorials/edit-content"><i class="far fa-pen-square icon"></i>Edit Content</a>
-            <a target="_blank" class="item" href="https://github.com/DIYbiosphere/sphere"><i class="github icon"></i>Github (repo)</a>
-            <a class="item" href="/docs/"><i class="far fa-book icon"></i>Learn More (docs)</a>
-            <a class="item" href="/support-us/"><i class="far fa-thumbs-up icon"></i>Support Us</a>
-          </div>
-        </div>
+
         <a target="_blank" class="item" href="https://diybio.org">
           <img class="ui image tiny" src="https://diybiology.files.wordpress.com/2011/10/diybio-logo-black-90x60px.png">
         </a>
+
       </div> <!-- close  menu-->
     </div> <!-- end menu -->
+
   </nav>
 </header>
 
-      <main class="xo margin top fivefold">
+      <main class="xo margin top threefold">
         <div class="xo padding top">
           <div class="ui container xo top padding">
-
-
-  <div class="ui segment">
     <div class="ui divided padded relaxed grid">
-
-      <div class="streched row">
+      <div class="streched row xo padding top twofold">
         <div class="four wide column">
             <aside>
                   <!-- DocSearch Input -->
@@ -182,7 +186,7 @@
 
         <div class="twelve wide column">
             <article>
-              <div class="ui secondary pointing mini tabular menu">
+              <div class="ui secondary pointing mini tabular grey menu">
   <a class="active item" data-tab="overview">Main</a>
 
   
@@ -213,12 +217,12 @@
 
   
 
-  <div class="right tabular menu">
+  <div class="right menu">
       <a class="ui item">
-        </a><a class="item" data-tab="issues"><i class="far fa-edit icon"></i> Last edit 15-Nov-17 </a>
+        </a><a class="grey item" data-tab="issues"><i class="far fa-edit icon"></i> Last edit 15-Nov-17 </a>
       
   </div>
-  </div>
+</div>
 
 
               <div class="ui tab active basic segment" data-tab="overview">
@@ -352,23 +356,23 @@ http://rogerdudler.github.io/git-guide/</p>
 </div>
 
 <div class="ui tab basic segment" data-tab="issues">
-  <h1 class="ui header">
+  <h3 class="ui grey header">
     Editing Discussion
-        <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/blob/master/docs/guides/ELI5.md" target="_blank">
-      <div class="ui animated mini right floated grey button" tabindex="0">
-        <div class="visible content">
+    <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/blob/master/docs/guides/ELI5.md" target="_blank">
+  <div class="ui animated mini right floated basic button" tabindex="0">
+    <div class="visible content">
 <i class="far fa-pencil"></i>
-          	  Edit Page</div>
-        <div class="hidden content">
-          on GitHub
-        </div>
-      </div>
-    </a>
+          Edit Page</div>
+    <div class="hidden content">
+      on GitHub
+    </div>
+  </div>
+</a>
 
       <div class="sub header">
         <em>for "GitHub, Explain Like I'm 5 (ELI5)" page</em>
       </div>
-    </h1>
+    </h3>
     
     
 
@@ -401,14 +405,14 @@ http://rogerdudler.github.io/git-guide/</p>
         </div>
       </div>
     </div> <!-- close grid -->
-  </div> <!-- close segment -->
+
 </div> <!-- close container -->
 
         </div>
       </main>
 
-  <footer class="xo top margin fourfold">
-  <div class="ui grid xo top padding twofold" style="background-color: black;">
+  <footer class="xo top margin fourfold" style="background-color: #F3F3F3;">
+  <div class="ui grid xo top padding twofold border-footer">
 
     <!-- Useful links -->
     <div class="row">
@@ -416,8 +420,8 @@ http://rogerdudler.github.io/git-guide/</p>
         <div class="doubling six column row">
           <!-- DIYbiosphere -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">DIYBIOSPHERE</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">DIYBIOSPHERE</div>
               <a class="item noul" href="/about/DIYbiosphere/">Project</a>
               <a class="item noul" href="/about/community/">Community</a>
               <a class="item noul" href="/about/philosophy/">Philosophy</a>
@@ -425,8 +429,8 @@ http://rogerdudler.github.io/git-guide/</p>
           </div>
           <!-- Contribute -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">CONTRIBUTE</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">CONTRIBUTE</div>
               <a class="item noul" href="/docs/tutorials/add-entry">Add a New Entry</a>
               <a class="item noul" href="/docs/tutorials/edit-content">Edit an Entry</a>
               <a target="_blank" class="item noul" href="https://github.com/DIYbiosphere/sphere/issues">Jump into our Issues</a>
@@ -434,8 +438,8 @@ http://rogerdudler.github.io/git-guide/</p>
           </div>
           <!-- Learn More -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">LEARN MORE</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">LEARN MORE</div>
               <a class="item noul" href="/docs/guides/contributing/">Contributing Guide</a>
               <a class="item noul" href="/docs/guides/writing/">On Writing Entries</a>
               <a class="item noul" href="/docs/guides/eli5/">For the GitHub Confused</a>
@@ -443,8 +447,8 @@ http://rogerdudler.github.io/git-guide/</p>
           </div>
           <!-- Connect -->
           <div class="column">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui inverted small header">CONNECT WITH US</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">CONNECT WITH US</div>
               <a class="item noul" href="/docs/guides/contributing/#membership-request">Become a member!</a>
               <a target="_blank" class="item noul" href="https://diybiosphere.herokuapp.com/">Join our Slack</a>
               <a target="_blank" class="item noul" href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Open Gitter Chat</a>
@@ -452,8 +456,8 @@ http://rogerdudler.github.io/git-guide/</p>
           </div>
           <!-- Supported by -->
           <div class="column aligned ">
-            <div class="ui small vertical inverted relaxed link list">
-              <div class="ui small inverted header">SUPPORTED BY</div>
+            <div class="ui small vertical relaxed link list">
+              <div class="ui small grey header">SUPPORTED BY</div>
                 <a target="_blank" class="item" href="https://diybio.org"><img class="ui image" src="/assets/img/diybio.png"></a>
                 <a target="_blank" class="item" href="http://www.unige.ch"><img class="ui image" src="/assets/img/unige.png"></a>
               </div>
@@ -466,15 +470,15 @@ http://rogerdudler.github.io/git-guide/</p>
       </div> <!-- close grid container -->
     </div> <!-- close row -->
 
-    <div class="ui inverted divider"></div>
+    <div class="ui divider"></div>
     <!-- Legal footer -->
     <div class="row">
       <div class="ui grid container">
         <div class="eight wide column">
-          <div class="ui small horizontal divided inverted link list">
-            <a class="item noul" href="/terms-of-use/">Terms of Use</a>
-            <a class="item noul" href="/contributor-terms/">Contributor Terms</a>
-            <a class="item noul" href="/code-of-conduct/">Code of Conduct</a>
+          <div class="ui small horizontal divided link list">
+            <a class="item noul" href="/about/terms-of-use/">Terms of Use</a>
+            <a class="item noul" href="/about/contributor-terms/">Contributor Terms</a>
+            <a class="item noul" href="/about/code-of-conduct/">Code of Conduct</a>
             <a class="item noul" href="/docs/help/faq/">FAQ</a>
             <a class="item noul" href="/about/contact/">Contact</a>
           </div>
@@ -527,18 +531,15 @@ http://rogerdudler.github.io/git-guide/</p>
             <!--  <div class="ui small horizontal inverted link list">
                 <a class="item noul" rel="license" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/"><i class="cc cc-cc"></i><i class="cc cc-zero"></i></a>
               </div> -->
-              <div class="ui small horizontal inverted link list">
+              <div class="ui small horizontal link list">
                 <a class="fitted item noul" href="/docs/tutorials/noting-copyright/">Except where otherwise noted, </a>
-              </div>
-              <div class="ui small horizontal inverted link list">
                 <a class="fitted item noul" target="_blank" href="http://creativecommons.org/publicdomain/zero/1.0/">content on this site is dedicated to the public domain</a>
               </div>
             </div>
             <div class="eight wide right aligned column">
-              <div class="ui small horizontal inverted link list">
+              <div class="ui small horizontal link list">
                 <a class="item fitted noul" href="https://github.com/">Hosted by GitHub</a>
                 <a class="item fitted noul" href="https://www.algolia.com/">Search by Algolia</a>
-                <a class="item fitted noul" href="https://maps.google.com/">Map by Google</a>
               </div>
             </div>
 
@@ -559,7 +560,8 @@ http://rogerdudler.github.io/git-guide/</p>
 
     <!-- JQuery & Semantic UI -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script src="/semantic/dist/semantic.min.js"></script>
+    <script src="/assets/semantic/dist/semantic.min.js"></script>
+
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
 
