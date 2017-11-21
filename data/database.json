@@ -75,14 +75,14 @@
         "url": "/projects/OpenInsulin/OpenInsulin",
         "title": "Open Insulin",
         "start-date": "2015",
-        "type-org": "Community",
+        "type-org": "community",
         "city": "Oakland",
-        "state": "California",
+        "state": "",
         "country": "United States",
         "host": null,
         "region": "",
         "collection": "projects",
-        "tags": "citizen science, biohacking, and bioart"
+        "tags": "medicine and synbio"
       },
     
       {
