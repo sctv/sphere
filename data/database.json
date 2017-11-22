@@ -1252,21 +1252,7 @@
     
     
       {
-        "url": "/startups/BrightWorkCoResearch",
-        "title": "Brightworkcoresearch",
-        "start-date": "",
-        "type-org": "",
-        "city": "",
-        "state": "",
-        "country": "",
-        "host": null,
-        "region": "",
-        "collection": "startups",
-        "tags": ""
-      },
-    
-      {
-        "url": "/startups/OpenTrons",
+        "url": "/startups/OpenTrons/OpenTrons",
         "title": "Open Trons",
         "start-date": "",
         "type-org": "",
@@ -1280,7 +1266,7 @@
       },
     
       {
-        "url": "/startups/RotterZwam",
+        "url": "/startups/RotterZwam/RotterZwam",
         "title": "Rotter Zwam",
         "start-date": "2017",
         "type-org": "",
