@@ -1252,6 +1252,20 @@
     
     
       {
+        "url": "/startups/ChaiBio/ChaiBio",
+        "title": "Chai Bio",
+        "start-date": "2016",
+        "type-org": "company",
+        "city": "Santa Clara",
+        "state": "",
+        "country": "United States",
+        "host": null,
+        "region": "",
+        "collection": "startups",
+        "tags": "hardware"
+      },
+    
+      {
         "url": "/startups/OpenTrons/OpenTrons",
         "title": "Open Trons",
         "start-date": "2014",
