@@ -47,14 +47,14 @@
         "url": "/projects/OYEP/OYEP",
         "title": "OYEP: Open Yeast Engineering Project",
         "start-date": "2017",
-        "type-org": "Community",
+        "type-org": "community",
         "city": "Boston",
-        "state": "Massachussets",
+        "state": "",
         "country": "United States",
         "host": null,
         "region": "",
         "collection": "projects",
-        "tags": ""
+        "tags": "synbio"
       },
     
       {
