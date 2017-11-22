@@ -86,6 +86,20 @@
       },
     
       {
+        "url": "/projects/OpenPcr/OpenPcr",
+        "title": "OpenPCR",
+        "start-date": "2010",
+        "type-org": "",
+        "city": "Santa Clara",
+        "state": "",
+        "country": "United States",
+        "host": null,
+        "region": "",
+        "collection": "projects",
+        "tags": "hardware"
+      },
+    
+      {
         "url": "/projects/RealVeganCheese/RealVeganCheese",
         "title": "Real Vegan Cheese",
         "start-date": "2014",
