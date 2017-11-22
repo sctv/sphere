@@ -47,7 +47,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@DIYbiosphere">
 <script type="application/ld+json">
-{"name":null,"description":"A collaborative library of Do-it-Yourself Biology initiatives","author":null,"@type":"WebPage","url":"sphere.diybio.org/docs/tutorials/edit-entry/members","image":null,"publisher":null,"headline":"Editing Entries","dateModified":"2017-11-22T12:03:32+00:00","datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
+{"name":null,"description":"A collaborative library of Do-it-Yourself Biology initiatives","author":null,"@type":"WebPage","url":"sphere.diybio.org/docs/tutorials/edit-entry/members","image":null,"publisher":null,"headline":"Editing Entries","dateModified":"2017-11-22T19:46:10+00:00","datePublished":null,"sameAs":null,"mainEntityOfPage":null,"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -320,8 +320,23 @@
 
 <ol start="3">
   <li>
-<strong>Propose file change</strong> When you are finished editing, at the bottom of the page, leave the proposed tile, but add a description of your changes. Then click <code class="highlighter-rouge">Propose new file</code>
-</li>
+<strong>Propose file change</strong> When you are finished editing, at the bottom of the page, leave the proposed title, but add a description of your changes. Then click <code class="highlighter-rouge">Propose file change</code>.</li>
+</ol>
+
+<div class="ui small icon red message">
+  <div class="content">
+    <div class="header">
+      <i class="far fa-exclamation-triangle icon"></i>
+      Use another branch other than 'master' branch
+    </div>
+    <p></p>
+<p>We recommend proposing changes to your own branch or the <em>writing-entries</em> branch. This way, you can make changes to different files and merge them all at once with a PR</p>
+
+
+  </div>
+</div>
+
+<ol start="4">
   <li>
 <strong>Watch Travis Build</strong> Travis has to build the changes in the <code class="highlighter-rouge">master</code> branch and then push the rendered <code class="highlighter-rouge">_site</code> to the <code class="highlighter-rouge">github-pages</code> branch. Make sure it passes through. This might take some minutes so be patient</li>
 </ol>
