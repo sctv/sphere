@@ -1254,15 +1254,15 @@
       {
         "url": "/startups/OpenTrons/OpenTrons",
         "title": "Open Trons",
-        "start-date": "2014",
-        "type-org": "company",
-        "city": "NYC",
+        "start-date": "",
+        "type-org": "",
+        "city": "",
         "state": "",
         "country": "United States",
         "host": null,
         "region": "",
         "collection": "startups",
-        "tags": "hardware"
+        "tags": ""
       },
     
       {
