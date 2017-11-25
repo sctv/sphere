@@ -1198,14 +1198,14 @@
         "url": "/networks/DIYbio.org/DIYbio.org",
         "title": "DIYbio.org",
         "start-date": "2008",
-        "type-org": "Non-profit",
+        "type-org": "non-profit (501c3)",
         "city": "Boston",
-        "state": "Massachussets",
+        "state": "",
         "country": "United States",
         "host": null,
         "region": "",
         "collection": "networks",
-        "tags": ""
+        "tags": "diybio"
       },
     
       {
