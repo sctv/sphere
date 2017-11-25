@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>sphere.diybio.org/events/BioDesignChallenge/BioDesignChallenge</loc>
+<lastmod>2017-11-22T21:40:37+00:00</lastmod>
+</url>
+<url>
 <loc>sphere.diybio.org/events/BioFabbing/BioFabbing</loc>
 <lastmod>2017-11-15T20:47:25+00:00</lastmod>
 </url>
@@ -11,6 +15,10 @@
 <url>
 <loc>sphere.diybio.org/events/GlobalCommunityBioSummit/GlobalCommunityBioSummit</loc>
 <lastmod>2017-11-22T19:30:24+00:00</lastmod>
+</url>
+<url>
+<loc>sphere.diybio.org/events/Igem/Igem</loc>
+<lastmod>2017-11-22T21:40:37+00:00</lastmod>
 </url>
 <url>
 <loc>sphere.diybio.org/groups/BeInToBiohacking/BeInToBiohacking</loc>
@@ -362,7 +370,7 @@
 </url>
 <url>
 <loc>sphere.diybio.org/projects/DIYbiosphere/DIYbiosphere</loc>
-<lastmod>2017-11-20T16:31:08+00:00</lastmod>
+<lastmod>2017-11-22T20:43:08+00:00</lastmod>
 </url>
 <url>
 <loc>sphere.diybio.org/projects/Metafluidics/Metafluidics</loc>
@@ -562,7 +570,7 @@
 </url>
 <url>
 <loc>sphere.diybio.org/about/terms-of-use</loc>
-<lastmod>2017-11-22T19:46:10+00:00</lastmod>
+<lastmod>2017-11-25T16:07:17+00:00</lastmod>
 </url>
 <url>
 <loc>sphere.diybio.org/docs/tutorials/</loc>
