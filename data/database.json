@@ -30,6 +30,20 @@
       },
     
       {
+        "url": "/projects/KombuchaGenomics/KombuchaGenomics",
+        "title": "Kombucha Genomics",
+        "start-date": "November 14, 2017",
+        "type-org": "community",
+        "city": "Oakland",
+        "state": "",
+        "country": "United States",
+        "host": null,
+        "region": "",
+        "collection": "projects",
+        "tags": "metagenomics, food, and global"
+      },
+    
+      {
         "url": "/projects/Metafluidics/Metafluidics",
         "title": "Metafluidics",
         "start-date": "2017",
