@@ -1266,6 +1266,20 @@
     
     
       {
+        "url": "/startups/AminoLabs/AminoLabs",
+        "title": "Amino Labs",
+        "start-date": "2015",
+        "type-org": "company",
+        "city": "Alberta",
+        "state": "",
+        "country": "Canada",
+        "host": null,
+        "region": "",
+        "collection": "startups",
+        "tags": "hardware, education, and kits"
+      },
+    
+      {
         "url": "/startups/ChaiBio/ChaiBio",
         "title": "Chai Bio",
         "start-date": "2016",
