@@ -541,7 +541,7 @@
         "start-date": "2014",
         "type-org": "",
         "city": "Lima",
-        "state": "Lima",
+        "state": "",
         "country": "Peru",
         "host": null,
         "region": "",
@@ -1393,17 +1393,31 @@
       },
     
       {
-        "url": "/incubators/IndieBio/IndieBio",
-        "title": "IndieBio",
-        "start-date": "2010",
-        "type-org": "",
-        "city": "San Francisco",
-        "state": "California",
-        "country": "United States",
+        "url": "/incubators/Hax/Hax",
+        "title": "Hax Accelerator",
+        "start-date": "",
+        "type-org": "investor",
+        "city": "Shenzhen",
+        "state": "",
+        "country": "China",
         "host": null,
         "region": "",
         "collection": "incubators",
-        "tags": ""
+        "tags": "funding"
+      },
+    
+      {
+        "url": "/incubators/IndieBio/IndieBio",
+        "title": "IndieBio",
+        "start-date": "2010",
+        "type-org": "investor",
+        "city": "San Francisco",
+        "state": "",
+        "country": "USA",
+        "host": null,
+        "region": "",
+        "collection": "incubators",
+        "tags": "investor"
       },
     
       {
@@ -1417,7 +1431,7 @@
         "host": null,
         "region": "",
         "collection": "incubators",
-        "tags": ""
+        "tags": "funding"
       }
     
   ]
