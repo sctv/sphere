@@ -1279,6 +1279,20 @@
       },
     
       {
+        "url": "/networks/OpenBioMedicalInitiative/OpenBioMedicalInitiative",
+        "title": "Open BioMedical Initiative",
+        "start-date": "2014",
+        "type-org": "Non-profit",
+        "city": "",
+        "state": "",
+        "country": "",
+        "host": null,
+        "region": "",
+        "collection": "networks",
+        "tags": "medical and open-source"
+      },
+    
+      {
         "url": "/networks/SyntechBio/SyntechBio",
         "title": "SynTechBio Network",
         "start-date": "",
