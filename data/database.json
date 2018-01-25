@@ -465,6 +465,20 @@
       },
     
       {
+        "url": "/groups/MikroBiomik/MikroBiomik",
+        "title": "MikroBiomik",
+        "start-date": "2017",
+        "type-org": "Grassroots",
+        "city": "Munich",
+        "state": "",
+        "country": "Germany",
+        "host": null,
+        "region": "",
+        "collection": "groups",
+        "tags": "microbiology, microbiome, and ecology"
+      },
+    
+      {
         "url": "/groups/TriDIYbio/TriDIYbio",
         "title": "Triangle DIY Biology",
         "start-date": "2015",
