@@ -1322,6 +1322,20 @@
       },
     
       {
+        "url": "/startups/OpenBionics/OpenBionics",
+        "title": "OpenBionics",
+        "start-date": "2014",
+        "type-org": "Company",
+        "city": "Bristol",
+        "state": "",
+        "country": "United Kingdom",
+        "host": null,
+        "region": "",
+        "collection": "startups",
+        "tags": "hardware, open-source, medicine, and prosthetics"
+      },
+    
+      {
         "url": "/startups/OpenTrons/OpenTrons",
         "title": "Open Trons",
         "start-date": "2014",
