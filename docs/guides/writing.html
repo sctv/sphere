@@ -6,57 +6,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A collaborative library of Do-it-Yourself Biology initiatives">
+  <meta name="description" content="An open source project to connect DIYBio Initiatives from all over the world">
   <meta http-equiv="Content-Language" content="">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>Writing Entries</title>
   <link rel="canonical" href="sphere.diybio.org/docs/guides/writing">
   <link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
 
-  <!-- Semantic UI -->
+  <link type="text/css" rel="stylesheet" href="/assets/css/main.css"> <!-- CSS and fonts-->
   <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
-
-  <!-- FONTS -->
-  <script type="text/javascript" src="/assets/js/vendor/fontawesome-all.js"></script>
-  <script type="text/javascript" src="/assets/js/githubComments.js"></script>
-
-  <link type="text/css" rel="stylesheet" href="/assets/css/main.css">
-  <!-- OWL Carousel -->
-
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css">
-  
+  <script type="text/javascript" src="/assets/js/vendor/fontawesome-all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
 
-
-  <!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>Writing Entries | DIYbiosphere</title>
-<meta name="generator" content="Jekyll v3.7.2">
-<meta property="og:title" content="Writing Entries">
-<meta property="og:locale" content="en_US">
-<meta name="description" content="A collaborative library of Do-it-Yourself Biology initiatives">
-<meta property="og:description" content="A collaborative library of Do-it-Yourself Biology initiatives">
-<link rel="canonical" href="sphere.diybio.org/docs/guides/writing">
-<meta property="og:url" content="sphere.diybio.org/docs/guides/writing">
-<meta property="og:site_name" content="DIYbiosphere">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@DIYbiosphere">
-<script type="application/ld+json">
-{"description":"A collaborative library of Do-it-Yourself Biology initiatives","@type":"WebPage","url":"sphere.diybio.org/docs/guides/writing","headline":"Writing Entries","dateModified":"2017-11-22T20:28:56+00:00","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-<!-- ALGOLIA -->
-
-  <!-- Algolia InstantSearch -->
-  
-
-  <!-- Algolia DocSearch -->
-  
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css">
-  
-
-  <!-- Google analytics tracking code -->
-  <script>
+  <script> <!-- Google analytics -->
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -66,17 +30,15 @@
     ga('send', 'pageview');
   </script>
 
-
 </head>
 
   <body>
     <header>
   <nav>
     <div class="ui grid container">
-      <!-- Computer Nav -->
-      <div class="computer only row">
+
+      <div class="computer only row"> <!-- Layout for computers only -->
         <div class="ui fluid large borderless blue menu">
-          <!-- LOGO & LINK TO LANDING PAGE -->
           <div class="fitted item">
   <a href="/">
   <img class="ui small image logo" src="/assets/img/sphere-short@1x.png"></a>
@@ -86,27 +48,25 @@
   <b>BROWSE</b>
   <i class="angle down icon"></i>
   <div class="menu">
-    <a class="item" href="/entries/"><i class="far fa-globe icon"></i>Everything</a>
+    <a class="item" href="/browse/"><i class="far fa-globe icon"></i>Everything</a>
     <div class="divider"></div>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
   </div>
 </div>
 
-          <!-- search -->
           <div class="item">
-            <div class="ui fluid transparent icon input">
+            <div class="ui fluid transparent icon input"> <!-- Algolia autocomplete search for computer. Settings at `assets/hs/autocomplete.es6` -->
               <input type="text" id="aa-search-input" class="aa-input-search" placeholder="Search DIYbio initiatives" autocomplete="on">
               <i class="search icon"></i>
             </div>
           </div>
-
           <div class="right menu">
             <div class="ui dropdown item">
               <b>ABOUT</b>
@@ -120,13 +80,12 @@
 
               </div>
             </div>
-            <!-- CONTRIBUTE NAV -->
             <div class="ui dropdown item">
               <b>CONTRIBUTE</b>
               <i class="angle down icon"></i>
               <div class="menu">
                 
-  <a class="item" href="/docs/tutorials/add-entry/users"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+  <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
   <a class="item" href="/docs/tutorials/edit-entry/users"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
   <a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
   <a class="item" href="/docs/welcome"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
@@ -134,13 +93,12 @@
 
               </div>
             </div>
-          </div> <!-- close  menu-->
-        </div> <!-- end menu -->
-      </div> <!-- end computer menu -->
+          </div>
+        </div>
+      </div>
 
-      <div class="tablet only row">
+      <div class="tablet only row"> <!-- Layout for tablets only -->
         <div class="ui fluid large borderless blue menu">
-          <!-- LOGO & LINK TO LANDING PAGE -->
           <div class="fitted item">
   <a href="/">
   <img class="ui small image logo" src="/assets/img/sphere-short@1x.png"></a>
@@ -150,22 +108,21 @@
   <b>BROWSE</b>
   <i class="angle down icon"></i>
   <div class="menu">
-    <a class="item" href="/entries/"><i class="far fa-globe icon"></i>Everything</a>
+    <a class="item" href="/browse/"><i class="far fa-globe icon"></i>Everything</a>
     <div class="divider"></div>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
   </div>
 </div>
 
-          <!-- search -->
           <div class="item">
-            <div class="ui fluid transparent icon input">
+            <div class="ui fluid transparent icon input"> <!-- Algolia autocomplete search for tablet. Settings at `assets/hs/autocomplete.es6` -->
               <input type="search" id="aa-search-input-tablet" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on">
               <i class="search icon"></i>
             </div>
@@ -188,7 +145,7 @@
          Contribute
       </div>
          
-  <a class="item" href="/docs/tutorials/add-entry/users"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+  <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
   <a class="item" href="/docs/tutorials/edit-entry/users"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
   <a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
   <a class="item" href="/docs/welcome"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
@@ -198,10 +155,10 @@
   </div>
 </div>
 
-        </div> <!-- end menu -->
+        </div>
       </div>
 
-      <div class="mobile only row">
+      <div class="mobile only row"> <!-- Layout for mobiles only -->
         <div class="ui fluid borderless blue menu xo marginless">
           <div class="fitted item">
   <a href="/">
@@ -212,16 +169,16 @@
   <b>BROWSE</b>
   <i class="angle down icon"></i>
   <div class="menu">
-    <a class="item" href="/entries/"><i class="far fa-globe icon"></i>Everything</a>
+    <a class="item" href="/browse/"><i class="far fa-globe icon"></i>Everything</a>
     <div class="divider"></div>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
-    <a class="item" href="/entries/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
+    <a class="item" href="/browse/?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
   </div>
 </div>
 
@@ -243,7 +200,7 @@
          Contribute
       </div>
          
-  <a class="item" href="/docs/tutorials/add-entry/users"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+  <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
   <a class="item" href="/docs/tutorials/edit-entry/users"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
   <a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
   <a class="item" href="/docs/welcome"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
@@ -256,21 +213,20 @@
         </div>
         <div class="ui fluid borderless menu xo marginless center aligned">
           <div class="item">
-            <div class="ui fluid transparent icon input">
+            <div class="ui fluid transparent icon input">  <!-- Algolia autocomplete search for mobile. Settings at `assets/hs/autocomplete.es6` -->
               <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on">
               <i class="search icon"></i>
             </div>
           </div>
         </div>
-      </div> <!-- close mobile row -->
+      </div>
 
-    </div> <!-- close grid -->
+    </div>
   </nav>
 </header>
 
       <main>
         <div class="ui grid container xo top padding">
-
     
 <div class="sixteen wide column xo padding twofold">
   <div class="ui icon blue small message">
@@ -290,294 +246,307 @@
 </div>
 
 
-    <div class="tablet computer only row">
-  <div class="ui fluid text blue menu">
-    <a class="item " href="/docs/welcome">
-      <i class="far fa-book icon"></i> <b>DOCUMENTATION</b>
-    </a>
-    <div class="item">
-      <div class="ui transparent input" role="search">
-        <input id="docsearch" type="search" placeholder="Search docs">
-      </div>
-    </div>
-
-    <div class="item">
-      <div class="ui dropdown item ">
-        Introduction
-        <i class="angle down icon"></i>
-        <div class="menu">
-  <a class="item " href="/docs/introduction/overview">Overview</a>
-  <a class="item " href="/docs/introduction/getting-started">Getting Started</a>
-</div>
-
-      </div>
-    </div>
-    <div class="item">
-      <div class="ui dropdown item ">
-        Basics
-        <i class="angle down icon"></i>
-        <div class="menu">
-  <a class="item " href="/docs/basics/entries">Entries</a>
-  <a class="item " href="/docs/basics/software">Software</a>
-  <a class="item " href="/docs/basics/documentation">Documentation</a>
-  <a class="item " href="/docs/design/software">Design</a>
-</div>
-
-      </div>
-    </div>
-    <div class="item">
-      <div class="ui dropdown item active-menu">
-        Guides
-        <i class="angle down icon"></i>
-        <div class="menu">
-  <a class="item " href="/docs/guides/contributing">Contributing Guide</a>
-  <a class="item active-menu" href="/docs/guides/writing">Writing Entries</a>
-  <a class="item " href="/docs/guides/workflow">Ticket Workflow</a>
-  <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
-</div>
-
-      </div>
-    </div>
-    <div class="item">
-      <div class="ui dropdown item ">
-        Tutorials
-        <i class="angle down icon"></i>
-        <div class="menu">
-  <a class="item " href="/docs/tutorials/add-entry/users">Adding Entries</a>
-  <a class="item " href="/docs/tutorials/edit-entry/users">Editing Entries</a>
-  <a class="item " href="/docs/tutorials/local-install/macos">Installing Locally</a>
-</div>
-
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="mobile only row">
-  <div class="ui fluid text blue menu">
-    <a class="item " href="/docs/welcome">
-      <i class="far fa-book icon"></i> 
-    </a>
-    <div class="item">
-      <div class="ui transparent input" role="search">
-        <input id="docsearch-mobile" type="search" placeholder="Search docs">
-      </div>
-    </div>
-      <div class="ui icon right dropdown item">
-        <span><i class="far fa-ellipsis-h fa-lg"></i></span>
-        <div class="menu">
-          <div class="item">
-            <i class="dropdown icon"></i>
-            <span class="text">Introduction</span>
-            <div class="menu">
-  <a class="item " href="/docs/introduction/overview">Overview</a>
-  <a class="item " href="/docs/introduction/getting-started">Getting Started</a>
-</div>
-
-          </div>
-          <div class="item">
-            <i class="dropdown icon"></i>
-            <span class="text">Basics</span>
-            <div class="menu">
-  <a class="item " href="/docs/basics/entries">Entries</a>
-  <a class="item " href="/docs/basics/software">Software</a>
-  <a class="item " href="/docs/basics/documentation">Documentation</a>
-  <a class="item " href="/docs/design/software">Design</a>
-</div>
-
-          </div>
-          <div class="item">
-            <i class="dropdown icon"></i>
-            <span class="text">Guides</span>
-            <div class="menu">
-  <a class="item " href="/docs/guides/contributing">Contributing Guide</a>
-  <a class="item active-menu" href="/docs/guides/writing">Writing Entries</a>
-  <a class="item " href="/docs/guides/workflow">Ticket Workflow</a>
-  <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
-</div>
-
-          </div>
-          <div class="item">
-            <i class="dropdown icon"></i>
-            <span class="text">Tutorials</span>
-            <div class="menu">
-  <a class="item " href="/docs/tutorials/add-entry/users">Adding Entries</a>
-  <a class="item " href="/docs/tutorials/edit-entry/users">Editing Entries</a>
-  <a class="item " href="/docs/tutorials/local-install/macos">Installing Locally</a>
-</div>
-
-          </div>
+      <div class="tablet computer only row">
+    <div class="ui fluid text blue menu">
+      <a class="item " href="/docs/welcome">
+        <i class="far fa-book icon"></i> <b>DOCUMENTATION</b>
+      </a>
+      <div class="item">
+        <div class="ui transparent input" role="search">
+          <input id="docsearch" type="search" placeholder="Search docs">
         </div>
       </div>
-  </div>
+
+      <div class="item">
+        <div class="ui dropdown item ">
+          Introduction
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/introduction/overview">Overview</a>
+  <a class="item " href="/docs/introduction/getting-started">Getting Started</a>
 </div>
 
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui dropdown item ">
+          Basics
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/basics/entries">Entries</a>
+  <a class="item " href="/docs/basics/software">Software</a>
+  <a class="item " href="/docs/basics/documentation">Documentation</a>
+  <a class="item " href="/docs/design/software">Design</a>
+</div>
 
-    <article>
-      <div class="ui mini horizontal divided link list">
-  <!-- Display last edited date of the page -->
-  <div class=" disabled item">
-     Last edit: 22-Nov-17
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui dropdown item active-menu">
+          Guides
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/guides/contributing">Contributing Guide</a>
+  <a class="item active-menu" href="/docs/guides/writing">Writing Entries</a>
+  <a class="item " href="/docs/guides/workflow">Ticket Workflow</a>
+  <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
+</div>
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui dropdown item ">
+          Tutorials
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/tutorials/add-entry">Adding Entries</a>
+  <a class="item " href="/docs/tutorials/edit-entry/users">Editing Entries</a>
+  <a class="item " href="/docs/tutorials/local-install/macos">Installing Locally</a>
+</div>
+
+        </div>
+      </div>
+    </div>
+
   </div>
 
-  <!-- Link to the page in the Github Repository -->
-  <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/edit/master/docs/guides/writing.md" target="_blank">
-    <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
-      <i class="far fa-edit" data-fa-transform="grow-6 right-6"></i>
-    </span>
-  </a>
-
-  <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-
-      
-      
-      <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/26#new_comment_field" target="_blank">
-        <span data-tooltip="Add to GitHub Issue" data-variation="mini" data-inverted="">
-          <i class="far fa-bug" data-fa-transform="grow-6 right-6"></i>
-        </span>
+  <div class="mobile only row">
+    <div class="ui fluid text blue menu">
+      <a class="item " href="/docs/welcome">
+        <i class="far fa-book icon"></i> 
       </a>
-      
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-
-  <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-      
-      
-      <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/25#new_comment_field" target="_blank">
-        <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
-          <i class="far fa-comment" data-fa-transform="grow-6 right-6"></i>
-        </span>
-      </a>
-
-      <script type="text/javascript">DoGithubComments ("diybiosphere/talk" ,"25");</script>
-
-      
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-    
-  
-
-  
-
-
-
+      <div class="item">
+        <div class="ui transparent input" role="search">
+          <input id="docsearch-mobile" type="search" placeholder="Search docs">
+        </div>
+      </div>
+        <div class="ui icon right dropdown item">
+          <span><i class="far fa-ellipsis-h fa-lg"></i></span>
+          <div class="menu">
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Introduction</span>
+              <div class="menu">
+  <a class="item " href="/docs/introduction/overview">Overview</a>
+  <a class="item " href="/docs/introduction/getting-started">Getting Started</a>
 </div>
 
-<h1 class="ui header xo margin top without">Writing Entries
+            </div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Basics</span>
+              <div class="menu">
+  <a class="item " href="/docs/basics/entries">Entries</a>
+  <a class="item " href="/docs/basics/software">Software</a>
+  <a class="item " href="/docs/basics/documentation">Documentation</a>
+  <a class="item " href="/docs/design/software">Design</a>
+</div>
 
-</h1>
+            </div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Guides</span>
+              <div class="menu">
+  <a class="item " href="/docs/guides/contributing">Contributing Guide</a>
+  <a class="item active-menu" href="/docs/guides/writing">Writing Entries</a>
+  <a class="item " href="/docs/guides/workflow">Ticket Workflow</a>
+  <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
+</div>
 
-<p>To write entries all you need is a GitHub account.
-Entries are written in a basic text file with two sections. The first, the <strong>front matter</strong> is between two lines of three consecutive dashes <code class="highlighter-rouge">---</code> represents datasets in simple <code class="highlighter-rouge">key: value</code> pairs written in in <em>YAML</em>. The second part is the <strong>markdown text</strong>  written in <em>Markdown Syntax</em>. An entry can have several components rendered from the data in the front matter and the text in markdown. The elements of an entry page are as follows (hover over the image to remove labels):</p>
+            </div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Tutorials</span>
+              <div class="menu">
+  <a class="item " href="/docs/tutorials/add-entry">Adding Entries</a>
+  <a class="item " href="/docs/tutorials/edit-entry/users">Editing Entries</a>
+  <a class="item " href="/docs/tutorials/local-install/macos">Installing Locally</a>
+</div>
 
-<div class="ui fade reveal">
-  <div class="visible content">
-    <img src="/docs/tutorials/AvocadoLab/EntryExampleAnatomy.png" class="ui fluid image">
+            </div>
+          </div>
+        </div>
+    </div>
   </div>
-  <div class="hidden content">
-    <img src="/docs/tutorials/AvocadoLab/EntryExample.png" class="ui fluid image">
+
+    <div>
+  <div class="ui mini horizontal divided link list">
+    <!-- Display last edited date of the page -->
+    <div class=" disabled item">
+       Last edit: 01-Feb-18
+    </div>
+
+    <!-- Link to the page in the Github Repository -->
+    <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/blob/master/docs/guides/writing.md" target="_blank">
+      <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
+        <i class="fal fa-edit" data-fa-transform="grow-6 right-6"></i>
+      </span>
+    </a>
+
+    <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+
+        
+        
+        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/26#new_comment_field" target="_blank">
+          <span data-tooltip="Add to GitHub Issue" data-variation="mini" data-inverted="">
+            <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
+          </span>
+        </a>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+
+    <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+        
+        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/25#new_comment_field" target="_blank">
+          <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
+            <i class="far fa-comment" data-fa-transform="grow-6 right-6"></i>
+          </span>
+        </a>
+
+        <script type="text/javascript">DoGithubComments ("diybiosphere/talk" ,"25");</script>
+
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+
+    
+
+
+
   </div>
 </div>
 
-<p>It is important to note that the rest of the elements come from the <em>front matter</em>.</p>
+<article>
+  <h1 class="ui header xo margin top without">Writing Entries
+  
+  </h1>
+  <p>8</p>
 
-<h2 id="text">Text</h2>
-<p>The <strong>text</strong> comes directly and only from the second part of the file, the <em>markdown text</em>. Markdown is pretty simple, see <a href="https://learnxinyminutes.com/docs/markdown/">this guide</a> from <em>Learn X in Y Minutes</em>. Below is a small snippet:</p>
+<h2 id="anatomy-of-an-entry-file">Anatomy of an Entry File</h2>
+<p>Entries are text files that are rendered into a webpage in HTML. The files have two sections:</p>
 
-<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Heading one</span>
-Writing with _italics_ and with <span class="gs">**bold**</span> syntax. Create links by enclosing the word in <span class="p">[</span><span class="nv">brackets</span><span class="p">](</span><span class="sx">http://linksomewhere.com</span><span class="p">)</span> followed by the link enclosed in parenthesis. Write in <span class="sb">`code`</span>.
+<ul>
+  <li>the <strong>front matter</strong> is between two lines of three dashes <code class="highlighter-rouge">---</code> representing datasets in simple <code class="highlighter-rouge">key:value</code> pairs written in <a href="https://learnxinyminutes.com/docs/yaml/">YAML</a>).</li>
+  <li>the <strong>markdown text</strong> contains the description, photos and other content of the entry written in simple <a href="https://learnxinyminutes.com/docs/markdown/">Markdown</a>
+</li>
+</ul>
 
-<span class="gu">## Heading two</span>
-Write a list:
-<span class="p">  -</span> one item
-<span class="p">  -</span> two item
-<span class="p">    -</span> subitem
+<p>It looks something like this:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s">Avocado Lab</span> <span class="c1"># simple key: value pair. there should be a space after the colon ': '</span>
+<span class="na">subtitle</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Doing</span><span class="nv"> </span><span class="s">everything</span><span class="nv"> </span><span class="s">with:</span><span class="nv"> </span><span class="s">avocados"</span> <span class="c1"># use quotation marks if using a colon and space</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="c1"># for lists/arrays</span>
+  <span class="pi">-</span> <span class="s">food lab</span>
+  <span class="pi">-</span> <span class="s">citizen science</span>
+<span class="na">hosts</span><span class="pi">:</span> <span class="s1">'</span><span class="s">[Tree</span><span class="nv"> </span><span class="s">Labs](http://treelabs.org)'</span> <span class="c1"># to render in markdown, put between quotation marks</span>
+<span class="na">partners</span><span class="pi">:</span> <span class="c1"># a list inside a list or also called a hash</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Fruit Network</span>
+    <span class="na">website</span><span class="pi">:</span> <span class="s">http://fruitnetwork.net</span>
+  <span class="pi">-</span> <span class="na">title</span><span class="pi">:</span> <span class="s">Green Foods</span>
+    <span class="na">website</span><span class="pi">:</span> <span class="s">http://greenfoods.com</span>    
+<span class="nn">---</span>
+
+<span class="c1"># Heading 1</span>
+<span class="s">Writing with _italics_ and with **bold** syntax. Create links by enclosing the word in [brackets](http://linksomewhere.com) followed by the link enclosed in parenthesis. Write in `code`.</span>
+
+<span class="c1">## Heading</span>
+<span class="na">Write a list</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">one item</span>
+  <span class="pi">-</span> <span class="s">two item</span>
+    <span class="s">- subitem</span>
 
 </code></pre></div></div>
 
+<p>Check <code class="highlighter-rouge">The Avocado Lab</code> entry as an example. See the <a href="https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md">raw file</a> and the <a href="/docs/tutorials/AvocadoLab/AvocadoLab">here</a>.</p>
+
 <h3 id="adding-images">Adding images</h3>
-<p>In case you need to format an image, table, or something else, you can add add <code class="highlighter-rouge">{: .class .another}</code> after the element. We use the Semantic-UI framework, e.g. for <a href="https://semantic-ui.com/elements/image.html">images</a>:</p>
+<p>Adding images in
+In case you need to format an image, table, or something else, you can add add <code class="highlighter-rouge">{: .class .another}</code> after the element. We use the Semantic-UI framework, e.g. for <a href="https://semantic-ui.com/elements/image.html">images</a>:</p>
 
 <p><img src="/docs/tutorials/AvocadoLab/image-example.jpg" alt="" class="ui image fluid">
 <code class="highlighter-rouge">![](/docs/tutorials/AvocadoLab/image-example.jpg){: .ui .fluid .image}</code></p>
@@ -601,17 +570,17 @@ Write a list:
 
 <p>For <code class="highlighter-rouge">size=</code> specify: <em>mini</em> (35px), <em>tiny</em> (80px), <em>small</em> (150px), <em>medium</em> (300px), <em>large</em> (450px), <em>big</em> (600px), <em>huge</em> (800px), or <em>massive</em> (960px).</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> {% include cc-image.html position="right floated" size="medium" sourceURL="https://c2.staticflickr.com/8/7275/7770621142_a9d945f825_b.jpg" license="by-nc-nd" workTitle="Up Close and Personal" attributeURL="https://flic.kr/p/cQEsWA" attributeTo="Servando Miramontes" %}
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% include cc-image.html position="right floated" size="medium" sourceURL="https://c2.staticflickr.com/8/7275/7770621142_a9d945f825_b.jpg" license="by-nc-nd" workTitle="Up Close and Personal" attributeURL="https://flic.kr/p/cQEsWA" attributeTo="Servando Miramontes" %}
 </code></pre></div></div>
 
 <h2 id="title-and-subtitle">Title and subtitle</h2>
 <p>The <strong>title:</strong> should be the name of your entry. It should be short and easy if possible. The <strong>subtitle:</strong> is optional and is a short description of the entry.</p>
 
 <h2 id="menu">Menu</h2>
-<p>The menu is set automatically. The only way to add additional items is to edit other entry pages and specify <code class="highlighter-rouge">host-org:</code> exactly as the  <code class="highlighter-rouge">title:</code> of this entry. For example, if ‘Avocado Lab’ wants to list <em>Projects</em>, an entry for the Project <em>Guacamole</em> should be created and specify <code class="highlighter-rouge">host-org: Avocado Lab</code>.</p>
+<p>The menu is set automatically. The only way to add additional items is to edit other entry pages and specify <code class="highlighter-rouge">hosts:</code> exactly as the  <code class="highlighter-rouge">title:</code> of this entry. For example, if ‘Avocado Lab’ wants to list <em>Projects</em>, an entry for the Project <em>Guacamole</em> should be created and specify <code class="highlighter-rouge">hosts: Avocado Lab</code>.</p>
 
 <h2 id="header-and-logo">Header and logo</h2>
-<p>To display a <strong>header</strong> image at the top of your entry, you can either save an image in the folder of your initiative with the name ‘header’ in <code class="highlighter-rouge">.png</code> or <code class="highlighter-rouge">.jpg</code> format, or add the ‘header’ key in the front matter with a link to the image, e.g. <code class="highlighter-rouge">header: http://linktoheaderimage.jpg</code></p>
+<p>To display a <strong>header</strong> image at the top of your entry, you can either save an image in the folder of your initiative with the name ‘header’ in <code class="highlighter-rouge">.png</code>, <code class="highlighter-rouge">.jpg</code> or <code class="highlighter-rouge">.svg</code> format, or add the <code class="highlighter-rouge">header: </code> key in the front matter with a link to the image, e.g. <code class="highlighter-rouge">header: http://linktoheaderimage.jpg</code></p>
 
 <p>The same goes for the <strong>logo</strong>, which is displayed inside the infobox and when clicked links to the entry’s website.</p>
 
@@ -619,112 +588,6 @@ Write a list:
 
 <h2 id="infobox">Infobox</h2>
 <p>The <em>infobox</em> is the box on the left hand side of the entry. It can show several data, the following table shows the key, description, and an example in order of how they would appear. The green rows represent mandatory keys, while the brown rows are mandatory for some collections.</p>
-
-<table class="ui small celled table">
-      <thead>
-        <tr>
-          <th>Key</th>
-          <th>Description</th>
-          <th>Example</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>predecessor: </td>
-          <td>
-<b>Predecessor</b> is the previous name of the initiative. Sometimes initiatives change names, Groups evolve into Labs, Events can have past conferences, etc.</td>
-          <td><code>predecessor: Avocado Group</code></td>
-        </tr>
-        <tr>
-          <td>succesor: </td>
-          <td>
-<b>Successor</b> is the next, or upcoming initiative. </td>
-          <td><code>successor: Avocado Empire </code></td>
-        </tr>
-        <tr>
-          <td>status: </td>
-          <td>
-<b>Status</b> is automatically 'active' and will not be shown. Other options are: 'closed', 'planning', 'building', 'reformatting' </td>
-          <td><code>status: Planning</code></td>
-        </tr>
-        <tr class="positive">
-          <td>start-date:</td>
-          <td>
-<b>Start Date</b> should be a year, or can also include month and day. It should follow the ISO format of 'YYYY-MM-DD'</td>
-          <td><code>start-date: 2008-04-26</code></td>
-        </tr>
-        <tr class="warning">
-          <td>end-date:</td>
-          <td>
-<b>End Date</b> only applicable to 'closed' initiatives, and is mandatory for events</td>
-          <td><code>end-date: 2017</code></td>
-        </tr>
-        <tr class="warning">
-          <td>host-org: </td>
-          <td>
-<b>Host</b> is the organization, community or space that runs or organizes the initiative. A Lab hosted by a hackerspace, a Project hosted by a Lab, or a Startup hosted by an Incubator, etc.  </td>
-          <td><code>host-org: '[Tree Labs](http://treelabs.com)'</code></td>
-        </tr>
-        <tr class="positive">
-          <td>type-org: </td>
-          <td>
-<b>Type</b>Defines the organization, purpose, or sponsor behind the initiative.
-          There are eight to choose from: <em>Community</em> (grassroots), <em>School</em> (primary and secondary), <em>University</em> (higher education), <em>Non-Profit</em> (or NGO's), <em>For-Profit</em>, <em>Museum</em>, <em>Government</em>,or <em>Other</em>
-</td>
-          <td><code>type-org: Community</code></td>
-        </tr>
-        <tr>
-          <td>affilliations: </td>
-          <td>
-<b>Affiliations</b> can be partners, networks, sponsors, or anyone you wish to acknowledge or be linked to your entry. Try to add them as markdown links in between quotation marks </td>
-          <td><pre><code>affilliations:
-  - '[Trees of the World](http://worldtrees.net)'
-  - '[Yummy fruits](http://yummyfruits.org)'
-</code></pre></td>
-        </tr>
-        <tr>
-          <td>area: </td>
-          <td>
-<b>Area</b> is useful to </td>
-          <td><code>area: 30 m<sup>2</sup></code></td>
-        </tr>
-        <tr>
-          <td>size: </td>
-          <td>Selected</td>
-          <td><code>size: 4 members</code></td>
-        </tr>
-        <tr class="warning">
-          <td>address:</td>
-          <td>Address is the street and number of the physical location, rendered under <b>Location</b>
-</td>
-          <td><code>address: Tropical Av.</code></td>
-        </tr>
-        <tr>
-          <td>directions:</td>
-          <td>Directions are additional location pointers to arrive, rendered under <b>Location</b>
-</td>
-          <td><code>directions: 2nd floor, green door</code></td>
-        </tr>
-        <tr class="positive">
-          <td>city:</td>
-          <td>City is the city in english, rendered under <b>Location</b>
-</td>
-          <td><code>city: Morelia</code></td>
-        </tr>
-        <tr class="warning">
-          <td>state:</td>
-          <td>State, province, canton, region in english, rendered under <b>Location</b>
-</td>
-          <td><code>state: Michoacan</code></td>
-        </tr>
-        <tr class="positive">
-          <td>country: </td>
-          <td>Country is the country in english, , rendered under <b>Location</b>
-</td>
-          <td><code>country: Mexico</code></td>
-        </tr>
-      </tbody>
-    </table>
 
 <h2 id="social-icons">Social Icons</h2>
 <p>Links to any kind of website, social media, or contact information can be presented here.</p>
@@ -753,7 +616,7 @@ Write a list:
 <div class="ui small icon purple message">
   <div class="content">
     <div class="header">
-        <i class="fas fa-star-hexagon ui icon"></i>
+        <i class="fas fa-star-exclamation ui icon"></i>
       Get your promotion in the landing page!
     </div>
     <p></p>
@@ -764,13 +627,25 @@ Write a list:
 </div>
 
 <h2 id="comments">Comments</h2>
-<p><strong>Comments</strong> on the entry are rendered from comments of a GitHub Issue. I</p>
+<p><strong>Comments</strong> on the entry are rendered from comments of a GitHub Issue in the DIYbiosphere/talk repository.</p>
 
 
 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
 <div class="xo top bottom padding twofold">
-
-<div>
     <div id="gh-comments-list"></div>
 </div>
 
@@ -778,11 +653,8 @@ Write a list:
 
 <script src="/assets/js/githubComments.js"> </script>
 
+
 </div>
-
-    </article>
-  </div>
-
 
       </main>
     <footer class="xo top margin sixfold">
@@ -833,7 +705,7 @@ Write a list:
         </svg>
       </div>
     </a>
-    <a class="item">
+    <a class="disabled item">
     Except where otherwise noted, content on this site is dedicated to the public domain
   </a>
 </div>
@@ -845,45 +717,55 @@ Write a list:
 
 
 
-    <!-- Google Analytics -->
+
+      <button class="js-gitter-toggle-chat-button ui button">
+          <div class="fa-4x">
+          <span class="fa-layers fa-fw" data-tooltip="Open Gitter Chat" data-variation="mini" data-inverted="">
+            <i class="fas fa-circle" style="color:mediumorchid"></i>
+            <i class="fa-inverse fab fa-gitter" data-fa-transform="shrink-8"></i>
+          </span>
+      
+
+
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'diybiosphere/sphere',
+        activationElement: false
+      };
+    </script>
+
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+    <script type="text/javascript">$('.js-gitter-toggle-chat-button').popup({ target   : '.js-gitter-toggle-chat-button', content    : 'My favorite dog', inline: true});</script>
+
+
+
+      <!-- Google Analytics -->
     <script src="https://www.google.com/jsapi"></script>
 
-    <!-- JQuery & Semantic UI -->
+      <!-- JQuery & Semantic UI -->
     <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
-    <script src="/assets/js/vendor/jquery.scrollNav.min.js"></script>
     <script src="/assets/semantic/dist/semantic.min.js"></script>
     <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
     <script type="text/javascript">$('.tabular.menu .item').tab();</script>
-
-    <!-- Clipboard.js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
-    <!-- Include AlgoliaSearch JS Client and autocomplete.js library -->
-    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
-    <script type="text/javascript" src="/assets/js/autocomplete.js"></script>
-
-    <!-- Owl Carousel for index/landing page -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="/assets/js/carousel.js"></script>
     <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
-    <script type="text/javascript" src="/assets/js/nav-question.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script type="text/javascript" src="/assets/js/autocomplete.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
+    <script type="text/javascript" src="/assets/js/githubComments.js"></script>
+
+    
 
     
 
-    
-
-    
-
-
-    
+     <!-- Documentation search from algolia -->
       <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
-      <script type="text/javascript">$('.menu .item').tab();</script>
       <script type="text/javascript" src="/assets/js/docs.js"></script>
     
 
-
-  </body>
+  </div></button>
+</body>
 </html>
