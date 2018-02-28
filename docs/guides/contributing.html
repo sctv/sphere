@@ -15,10 +15,19 @@
 
   <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> <!-- CSS and fonts-->
   <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/vendor/syntax.css">
+  
+       <!-- Owl Carousel for index/landing page -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+  
+  
+
   <script src="/assets/js/vendor/fontawesome-all.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
+
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
 
   <script> <!-- Google analytics -->
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -58,6 +67,7 @@
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <!-- <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>NEW_COLLECTION</a> -->
   </div>
 </div>
 
@@ -72,11 +82,10 @@
               <b>ABOUT</b>
               <i class="angle down icon"></i>
               <div class="menu">
-                
-  <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
-  <a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
-  <a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
-  <a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
+                <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
+<a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
+<a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
+<a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
 
               </div>
             </div>
@@ -84,12 +93,11 @@
               <b>CONTRIBUTE</b>
               <i class="angle down icon"></i>
               <div class="menu">
-                
-  <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
-  <a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
-  <a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
-  <a class="item" href="/docs/welcome"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
-  <a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
+                <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+<a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
+<a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
+<a class="item" href="/docs/"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
+<a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
 
               </div>
             </div>
@@ -118,6 +126,7 @@
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <!-- <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>NEW_COLLECTION</a> -->
   </div>
 </div>
 
@@ -134,22 +143,20 @@
        <div class="header">
          About
       </div>
-         
-  <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
-  <a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
-  <a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
-  <a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
+         <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
+<a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
+<a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
+<a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
 
       <div class="divider"></div>
       <div class="header">
          Contribute
       </div>
-         
-  <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
-  <a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
-  <a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
-  <a class="item" href="/docs/welcome"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
-  <a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
+         <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+<a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
+<a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
+<a class="item" href="/docs/"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
+<a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
 
      </div>
   </div>
@@ -179,6 +186,7 @@
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
     <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <!-- <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>NEW_COLLECTION</a> -->
   </div>
 </div>
 
@@ -189,22 +197,20 @@
        <div class="header">
          About
       </div>
-         
-  <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
-  <a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
-  <a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
-  <a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
+         <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
+<a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
+<a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
+<a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
 
       <div class="divider"></div>
       <div class="header">
          Contribute
       </div>
-         
-  <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
-  <a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
-  <a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
-  <a class="item" href="/docs/welcome"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
-  <a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
+         <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+<a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
+<a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
+<a class="item" href="/docs/"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
+<a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
 
      </div>
   </div>
@@ -227,28 +233,9 @@
 
       <main>
         <div class="ui grid container xo top padding">
-    
-<div class="sixteen wide column xo padding twofold">
-  <div class="ui icon blue small message">
-    <i class="close icon"></i>
-    <i class="fas fa-exclamation ui icon"></i>
-    <div class="content">
-      <div class="header">
-        This page is still a draft, please consider editing this webpage
-      </div>
-    <p>
-      All you need is a GitHub account. Click <a class="noul elink" href="https://github.com/DIYbiosphere/sphere/edit/master/CONTRIBUTING.md"><u>this link</u></a> to directly edit the file on GitHub
-      <br>
-      New to Github? Follow our <a href="/docs/tutorials/edit-entry/"><u>editing tutorial</u></a> to upload your changes!
-    </p>
-    </div>
-  </div>
-</div>
-
-
       <div class="tablet computer only row">
     <div class="ui fluid text blue menu">
-      <a class="item " href="/docs/welcome">
+      <a class="item " href="/docs/">
         <i class="far fa-book icon"></i> <b>DOCUMENTATION</b>
       </a>
       <div class="item">
@@ -259,7 +246,7 @@
 
       <div class="item">
         <div class="ui dropdown item ">
-          Introduction
+          <b>INTRODUCTION</b>
           <i class="angle down icon"></i>
           <div class="menu">
   <a class="item " href="/docs/introduction/overview">Overview</a>
@@ -270,25 +257,25 @@
       </div>
       <div class="item">
         <div class="ui dropdown item ">
-          Basics
+          <b>BASICS</b>
           <i class="angle down icon"></i>
           <div class="menu">
   <a class="item " href="/docs/basics/entries">Entries</a>
   <a class="item " href="/docs/basics/software">Software</a>
-  <a class="item " href="/docs/basics/documentation">Documentation</a>
-  <a class="item " href="/docs/design/software">Design</a>
+<!--  <a class="item " href="/docs/basics/documentation">Documentation</a>-->
+  <a class="item " href="/docs/basics/design">Design</a>
 </div>
 
         </div>
       </div>
       <div class="item">
         <div class="ui dropdown item active-menu">
-          Guides
+          <b>GUIDES</b>
           <i class="angle down icon"></i>
           <div class="menu">
   <a class="item active-menu" href="/docs/guides/contributing">Contributing Guide</a>
   <a class="item " href="/docs/guides/writing">Writing Entries</a>
-  <a class="item " href="/docs/guides/workflow">Ticket Workflow</a>
+  <a class="item " href="/docs/guides/workflow">Development Workflow</a>
   <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
 </div>
 
@@ -296,12 +283,12 @@
       </div>
       <div class="item">
         <div class="ui dropdown item ">
-          Tutorials
+          <b>TUTORIALS</b>
           <i class="angle down icon"></i>
           <div class="menu">
   <a class="item " href="/docs/tutorials/add-entry">Adding Entries</a>
   <a class="item " href="/docs/tutorials/edit-entry">Editing Entries</a>
-  <a class="item " href="/docs/tutorials/local-install/macos">Installing Locally</a>
+  <a class="item " href="/docs/tutorials/install-locally">Installing Locally</a>
 </div>
 
         </div>
@@ -312,7 +299,7 @@
 
   <div class="mobile only row">
     <div class="ui fluid text blue menu">
-      <a class="item " href="/docs/welcome">
+      <a class="item " href="/docs/">
         <i class="far fa-book icon"></i> 
       </a>
       <div class="item">
@@ -338,8 +325,8 @@
               <div class="menu">
   <a class="item " href="/docs/basics/entries">Entries</a>
   <a class="item " href="/docs/basics/software">Software</a>
-  <a class="item " href="/docs/basics/documentation">Documentation</a>
-  <a class="item " href="/docs/design/software">Design</a>
+<!--  <a class="item " href="/docs/basics/documentation">Documentation</a>-->
+  <a class="item " href="/docs/basics/design">Design</a>
 </div>
 
             </div>
@@ -349,7 +336,7 @@
               <div class="menu">
   <a class="item active-menu" href="/docs/guides/contributing">Contributing Guide</a>
   <a class="item " href="/docs/guides/writing">Writing Entries</a>
-  <a class="item " href="/docs/guides/workflow">Ticket Workflow</a>
+  <a class="item " href="/docs/guides/workflow">Development Workflow</a>
   <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
 </div>
 
@@ -360,7 +347,7 @@
               <div class="menu">
   <a class="item " href="/docs/tutorials/add-entry">Adding Entries</a>
   <a class="item " href="/docs/tutorials/edit-entry">Editing Entries</a>
-  <a class="item " href="/docs/tutorials/local-install/macos">Installing Locally</a>
+  <a class="item " href="/docs/tutorials/install-locally">Installing Locally</a>
 </div>
 
             </div>
@@ -369,55 +356,23 @@
     </div>
   </div>
 
-    <div>
+    
+
+<div class="xo padding top bottom">
   <div class="ui mini horizontal divided link list">
     <!-- Display last edited date of the page -->
     <div class=" disabled item">
-       Last edit: 02-Feb-18
+       Last edit: 26-Feb-18
     </div>
 
     <!-- Link to the page in the Github Repository -->
-    <a class="item noelink noul" href="https://github.com/DIYbiosphere/sphere/blob/master/CONTRIBUTING.md" target="_blank">
+    <a class="item noelink noul" href="https://github.com/diybiosphere/sphere/blob/master/CONTRIBUTING.md" target="_blank">
       <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
         <i class="fal fa-edit" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
 
-    <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
+    <!-- How it works: check in `_data/entry_issues/yml` for an instance where page_title is equal to the title of the current page -->
     
       
     
@@ -427,48 +382,13 @@
     
 
     
-    <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
+    <a class="item noelink noul" href="https://github.com/diybiosphere/sphere/issues/new" target="_blank">
       <span data-tooltip="Open GitHub Issue" data-variation="mini" data-inverted="">
         <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
     
-
-    <!-- How it works: check in `_data/talk_repo/yml` for an instance where doc_name is equal to the title of the current page -->
     
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
     
       
     
@@ -479,26 +399,44 @@
 
     
     <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
-      <span data-tooltip="Open Discussion in GitHub" data-variation="mini" data-inverted="">
+      <span data-tooltip="Open Comments Issue in GitHub" data-variation="mini" data-inverted="">
         <i class="fal fa-comments" data-fa-transform="grow-6 right-6"></i>
       </span>
     </a>
     
-
-
-
+    
   </div>
 </div>
 
 <article>
-  <h1 class="ui header xo margin top without">Contributing Guide
   
+  <h1 class="ui header xo margin top without">
+    <div class="ui medium header">Contributing Guide
+    
+    </div>
   </h1>
-  <p>Thank you for considering contributing to DIYbiosphere! The project depends on the participation of the DIYbio community.</p>
+  
+  <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#ground-rules">Ground Rules</a></li>
+<li class="toc-entry toc-h1"><a href="#getting-started">Getting Started</a></li>
+<li class="toc-entry toc-h1"><a href="#your-first-contribution">Your First Contribution</a></li>
+<li class="toc-entry toc-h1"><a href="#contributing-like-a-pro">Contributing Like a Pro</a></li>
+<li class="toc-entry toc-h1"><a href="#submitting-issues-and-pull-requests">Submitting Issues and Pull Requests</a></li>
+<li class="toc-entry toc-h1">
+<a href="#code-review-process">Code Review Process</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#merging">Merging</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h1"><a href="#push-to-website">Push to Website</a></li>
+<li class="toc-entry toc-h1"><a href="#conventions-on-commit-messages">Conventions on Commit Messages</a></li>
+</ul>
+<p>Thank you for considering contributing to DIYbiosphere! The project depends on the participation of the DIYbio community.</p>
 
-<p>There are many ways you can contribute, from adding and editing entries, writing tutorials, improving the documentation, submitting bug and broken link reports, feature requests or writing code to better the website. You <em>can</em> submit questions as issues, but please consider first posing your question in <a href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Gitter</a> or <a href="https://diybiosphere.slack.com">Slack</a> (<a href="https://diybiosphere.herokuapp.com">request invite</a>), where you can also directly message other contributors.</p>
+<p>There are many ways you can contribute, from adding and editing entries, writing tutorials, improving the documentation, submitting bug and broken link reports, feature requests or writing code to better the website. You <em>can</em> submit questions as issues, but please consider first posing your question in <a href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link">Gitter</a> or <a href="https://diybiosphere.slack.com">Slack</a>, where you can also directly message other contributors.</p>
 
-<h2 id="ground-rules">Ground Rules</h2>
+<h1 id="ground-rules">
+<a id="ground-rules" class="anchor" href="#ground-rules" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ground Rules</h1>
 <p>By contributing, you agree to abide to our <a href="http://sphere.diybio.org/about/code-of-conduct">Code of Conduct</a> (COC) and consent to our <a href="http://sphere.diybio.org/about/contributor-terms">Contributor Terms</a> (CT) set by our <a href="http://sphere.diybio.org/about/terms-of-use">Terms of Use</a> (<em>aka</em> Copyright).</p>
 
 <blockquote>
@@ -509,38 +447,46 @@
   </ul>
 </blockquote>
 
-<h2 id="getting-started">Getting Started</h2>
+<h1 id="getting-started">
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>Getting Started</h1>
 <p>All you need is a GitHub account (<a href="https://github.com/join">sign up</a>). You also need to know some programming syntax, depending whether you contribute to the entries, documentation, or the software.</p>
 
-<h2 id="your-first-contribution">Your First Contribution</h2>
-<p>For writing entries you can just follow our tutorials for <a href="http://sphere.diybio.org/docs/tutorials/add-entry">adding</a> or <a href="http://sphere.diybio.org/docs/tutorials/edit-entry">editing</a> entries. If you are a member, you have <em>write</em> access to the ‘master’ branch and can edit directly. Ask to join by <a href="https://github.com/DIYbiosphere/sphere/issues/new">submitting an issue</a> requesting membership.</p>
+<h1 id="your-first-contribution">
+<a id="your-first-contribution" class="anchor" href="#your-first-contribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Your First Contribution</h1>
+<p>For writing entries you can just follow our tutorials for <a href="http://sphere.diybio.org/docs/tutorials/add-entry">adding</a> or <a href="http://sphere.diybio.org/docs/tutorials/edit-entry">editing</a> entries. If you are a member, you have <em>write</em> access to the <code class="highlighter-rouge">master</code> branch and can edit directly. Ask to <a href="/about/community/#how-to-join">join</a> by <a href="https://github.com/DIYbiosphere/sphere/issues/new">submitting an issue</a> requesting membership.</p>
 
-<p>If you are planning on making many changes to different files consider doing them all at once in your own <em>fork</em>, <em>branch</em> or in the ‘writing-entries’ branch before submitting a pull request. Alternatively, look at how you can <a href="#contribute-like-a-pro">contribute like a pro</a> by working locally in your computer.</p>
+<p>If you are planning on making many changes to different files consider doing them all at once in your own <em>fork</em>, <em>branch</em> before submitting a pull request. Alternatively, look at how you can <strong>contribute like a pro</strong> by working locally in your computer.</p>
 
-<h2 id="contributing-like-a-pro">Contributing Like a Pro</h2>
-<p>Although you can make changes to files in GitHub, it is much more easy, convenient, and powerful to do work on your computer locally. Follow our <a href="http://sphere.diybio.org/docs/tutorials/local-install/macos">tutorial for installing</a> everything you need.</p>
+<h1 id="contributing-like-a-pro">
+<a id="contributing-like-a-pro" class="anchor" href="#contributing-like-a-pro" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing Like a Pro</h1>
+<p>Although you can make changes to files in GitHub, it is much more easy, convenient, and powerful to do work on your computer locally. Follow our <a href="http://sphere.diybio.org/docs/tutorials/install-locally">tutorial for installing</a> everything you need.</p>
 
-<h2 id="submitting-issues-and-pull-requests">Submitting Issues and Pull Requests</h2>
+<h1 id="submitting-issues-and-pull-requests">
+<a id="submitting-issues-and-pull-requests" class="anchor" href="#submitting-issues-and-pull-requests" aria-hidden="true"><span class="octicon octicon-link"></span></a>Submitting Issues and Pull Requests</h1>
 <p>If you are submitting an issue or a pull request a template will automatically appear in the description text. Read it and follow the instructions there before deleting the text in the template and adding your own text.</p>
 
-<h2 id="code-review-process">Code Review Process</h2>
-<p>Members of the DIYbiophere organization have permission to merge all pull requests and directly write into the ‘master’ branch. All code has to pass Travis build process (check it here).</p>
+<h1 id="code-review-process">
+<a id="code-review-process" class="anchor" href="#code-review-process" aria-hidden="true"><span class="octicon octicon-link"></span></a>Code Review Process</h1>
+<p>Members of the DIYbiophere organization have permission to merge all <em>pull requests</em> and directly write into the <code class="highlighter-rouge">master</code> branch.</p>
 
-<h3 id="merging">Merging</h3>
-<p>All PRs must pass the Travis check or else merging is not possible (admins can force a merge). Check the Travis log to check for any errors on the build. Make changes, and commit them to your PR until the check passes. If you are unsure what the problem is, don’t hesitate to ask the community for help!</p>
+<h2 id="merging">
+<a id="merging" class="anchor" href="#merging" aria-hidden="true"><span class="octicon octicon-link"></span></a>Merging</h2>
+<p>All PRs must pass the <em>Travis</em> check or else merging is not possible (admins can force a merge). Check the <a href="https://travis-ci.org/DIYbiosphere/sphere">Travis log</a> to check for any errors on the build. Make changes, and commit them to your PR until the check passes. If you are unsure what the problem is, don’t hesitate to ask the community for help!</p>
 
-<h2 id="push-to-website">Push to Website</h2>
-<p>The website is rendered from the ‘gh-pages’ branch. Commits to the ‘master’ branch will trigger Travis to:</p>
+<h1 id="push-to-website">
+<a id="push-to-website" class="anchor" href="#push-to-website" aria-hidden="true"><span class="octicon octicon-link"></span></a>Push to Website</h1>
+<p>The website is rendered from the <code class="highlighter-rouge">gh-pages</code> branch. Commits to the <code class="highlighter-rouge">master</code> branch will trigger Travis to:</p>
 <ol>
   <li>build the website using jekyll</li>
   <li>push entries to the Algolia index (the search API)</li>
-  <li>push rendered <code class="highlighter-rouge">_site</code> folder to ‘gh-pages’ branch</li>
+  <li>push rendered <code class="highlighter-rouge">_site</code> folder to <code class="highlighter-rouge">gh-pages</code> branch</li>
 </ol>
 
-<p>You can observe the builds [here]. They can take up to 10 minutes, so be patient. You won’t be able to observe changes in the website until the push to ‘gh-pages’ is successful. Even then, it might take a few minutes to show. <img class="emoji" title=":unamused:" alt=":unamused:" src="https://assets.github.com/images/icons/emoji/unicode/1f612.png" height="20" width="20" align="absmiddle"></p>
+<p>Builds can take up to 10 minutes, so be patient. You won’t be able to observe changes in the website until the push to <code class="highlighter-rouge">gh-pages</code> is successful. Even then, it might take a few minutes to show. <img class="emoji" title=":unamused:" alt=":unamused:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f612.png" height="20" width="20"></p>
 
-<h2 id="conventions-on-commit-messages">Conventions on Commit Messages</h2>
-<p>Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word ‘and’, split the commits! Please follow these guidelines for your commit messages:</p>
+<h1 id="conventions-on-commit-messages">
+<a id="conventions-on-commit-messages" class="anchor" href="#conventions-on-commit-messages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conventions on Commit Messages</h1>
+<p>Good commits speed the reviewing process and facilitate tracking past changes. If you are making many changes that are unrelated, or your commit title has the word “and”, split the commits! Please follow these guidelines for your commit messages:</p>
 
 <ol>
   <li>
@@ -550,30 +496,65 @@
 </ol>
 
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
 </article>
 
 
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 
-<script src="/assets/js/githubComments.js"> </script>
+
+
+
+
+
+
+
+
+
 
 
 </div>
+
+
+<!-- Use GitHub 4 Comments -->
+<div class="ui grid container xo top padding">
+<section class="xo margin top fourfold">
+  <h3 class="ui horizontal divider header">
+    <i class="far fa-comments"></i> Comments
+  </h3>
+  
+  <a target href="https://github.com/diybiosphere/talk/issues/new%7D">
+    <div class="ui basic submit mini button">
+        <i class="fal fa-comment"></i> Open Comments Issue in GitHub
+    </div>
+  </a>
+  
+</section>
+</div>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+<script type="text/javascript">
+function loadComments(data) {
+  for (var i=0; i<data.length; i++) {
+    var cuser = data[i].user.login;
+    var cuserlink = "https://www.github.com/" + data[i].user.login;
+    var ctype = data[i].user.type;
+    var clink = "https://github.com/diybiosphere/talk/issues/#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+    var cbody = data[i].body_html;
+    var cavatarlink = data[i].user.avatar_url;
+    var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm");
+
+    $("#comments").append("<div class='comment'><a class='avatar'>" + '<img src="' + cavatarlink + '">' + "</a><div class='content'><a class='author' target='_blank' href=\""+ cuserlink + "\">" + cuser + "</a><div class='metadata'><div class='date'>" + cdate + "</div></div><div class='text'>" + cbody + "</div></div><div class='actions'><a target='_blank' href=\"" + clink + "\" class='reply'><i class='far fa-reply'></i> Reply</a><a target='_blank' href=\"" + clink + "\" class='reply'><i class='far fa-smile'></i> React</a></div></div></div>");
+  }
+}
+
+$.ajax("https://api.github.com/repos/diybiosphere/talk/issues//comments?per_page=100", {
+  headers: {Accept: "application/vnd.github.full+json"},
+  dataType: "json",
+  success: function(msg){
+    loadComments(msg);
+ }
+});
+</script>
+
 
       </main>
     <footer class="xo top margin sixfold">

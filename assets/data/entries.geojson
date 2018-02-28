@@ -1,0 +1,149 @@
+{
+  "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.583126, 13.111525]
+          },
+          "properties": {
+            "title": "Art Science BLR",
+            "url": "/labs/artscienceblr/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.583126, 13.111525]
+          },
+          "properties": {
+            "title": "Bio Art Laboratores",
+            "url": "/labs/bioartlaboratories/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-106.320034, 35.892568]
+          },
+          "properties": {
+            "title": "Biodidact",
+            "url": "/labs/biodidact/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [151.202014, -33.904579]
+          },
+          "properties": {
+            "title": "Bio Foundry",
+            "url": "/labs/biofoundry/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.2710833, -12.2720956]
+          },
+          "properties": {
+            "title": "Biomakers Lab Peru",
+            "url": "/labs/biomakerslabperu/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [18.067712, 59.350774]
+          },
+          "properties": {
+            "title": "BioNyfiken",
+            "url": "/labs/bionyfiken/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.973031, 37.377524]
+          },
+          "properties": {
+            "title": "Biocurious",
+            "url": "/labs/biocurious/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.54552, 55.67654]
+          },
+          "properties": {
+            "title": "BiologiGaragen",
+            "url": "/labs/biologigaragen/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.290872, 36.849866]
+          },
+          "properties": {
+            "title": "Biologik Labs",
+            "url": "/labs/biologiklabs/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Counter Culture Labs",
+            "url": "/labs/counterculturelabs/",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Real Vegan Cheese",
+            "url": "/projects/realvegancheese/",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.1431577, 46.2043907]
+          },
+          "properties": {
+            "title": "DIYbiosphere",
+            "url": "/projects/diybiosphere/",
+            "collection": "projects"
+          }
+      }
+    ]
+}

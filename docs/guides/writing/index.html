@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An open source project to connect DIYBio Initiatives from all over the world">
+  <meta http-equiv="Content-Language" content="">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <title>Writing Entries</title>
+  <link rel="canonical" href="sphere.diybio.org/docs/guides/writing/">
+  <link rel="alternate" type="application/rss+xml" title="DIYbiosphere" href="sphere.diybio.org/feed.xml">
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css"> <!-- CSS and fonts-->
+  <link rel="stylesheet" type="text/css" href="/assets/semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/vendor/syntax.css">
+  
+       <!-- Owl Carousel for index/landing page -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css">
+  
+  
+
+  <script src="/assets/js/vendor/fontawesome-all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600" rel="stylesheet">
+
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <script> <!-- Google analytics -->
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-78642734-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+</head>
+
+  <body>
+    <header>
+  <nav>
+    <div class="ui grid container">
+
+      <div class="computer only row"> <!-- Layout for computers only -->
+        <div class="ui fluid large borderless blue menu">
+          <div class="fitted item">
+  <a href="/">
+  <img class="ui small image logo" src="/assets/img/sphere-short@1x.png"></a>
+</div>
+
+          <div class="ui dropdown item">
+  <b>BROWSE</b>
+  <i class="angle down icon"></i>
+  <div class="menu">
+    <a class="item" href="/browse"><i class="far fa-globe icon"></i>Everything</a>
+    <div class="divider"></div>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <!-- <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>NEW_COLLECTION</a> -->
+  </div>
+</div>
+
+          <div class="item">
+            <div class="ui fluid transparent icon input"> <!-- Algolia autocomplete search for computer. Settings at `assets/hs/autocomplete.es6` -->
+              <input type="text" id="aa-search-input" class="aa-input-search" placeholder="Search DIYbio initiatives" autocomplete="on">
+              <i class="search icon"></i>
+            </div>
+          </div>
+          <div class="right menu">
+            <div class="ui dropdown item">
+              <b>ABOUT</b>
+              <i class="angle down icon"></i>
+              <div class="menu">
+                <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
+<a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
+<a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
+<a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
+
+              </div>
+            </div>
+            <div class="ui dropdown item">
+              <b>CONTRIBUTE</b>
+              <i class="angle down icon"></i>
+              <div class="menu">
+                <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+<a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
+<a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
+<a class="item" href="/docs/"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
+<a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tablet only row"> <!-- Layout for tablets only -->
+        <div class="ui fluid large borderless blue menu">
+          <div class="fitted item">
+  <a href="/">
+  <img class="ui small image logo" src="/assets/img/sphere-short@1x.png"></a>
+</div>
+
+          <div class="ui dropdown item">
+  <b>BROWSE</b>
+  <i class="angle down icon"></i>
+  <div class="menu">
+    <a class="item" href="/browse"><i class="far fa-globe icon"></i>Everything</a>
+    <div class="divider"></div>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <!-- <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>NEW_COLLECTION</a> -->
+  </div>
+</div>
+
+          <div class="item">
+            <div class="ui fluid transparent icon input"> <!-- Algolia autocomplete search for tablet. Settings at `assets/hs/autocomplete.es6` -->
+              <input type="search" id="aa-search-input-tablet" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on">
+              <i class="search icon"></i>
+            </div>
+          </div>
+          <div class="right menu">
+  <div class="ui right dropdown icon item">
+    <i class="sidebar icon"></i>
+     <div class="menu">
+       <div class="header">
+         About
+      </div>
+         <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
+<a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
+<a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
+<a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
+
+      <div class="divider"></div>
+      <div class="header">
+         Contribute
+      </div>
+         <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+<a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
+<a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
+<a class="item" href="/docs/"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
+<a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
+
+     </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+
+      <div class="mobile only row"> <!-- Layout for mobiles only -->
+        <div class="ui fluid borderless blue menu xo marginless">
+          <div class="fitted item">
+  <a href="/">
+  <img class="ui small image logo" src="/assets/img/sphere-short@1x.png"></a>
+</div>
+
+          <div class="ui dropdown item">
+  <b>BROWSE</b>
+  <i class="angle down icon"></i>
+  <div class="menu">
+    <a class="item" href="/browse"><i class="far fa-globe icon"></i>Everything</a>
+    <div class="divider"></div>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=projects"><i class="far fa-briefcase icon"></i>Projects</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=startups"><i class="far fa-rocket icon"></i>Startups</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=labs"><i class="far fa-flask icon"></i>Labs</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=incubators"><i class="far fa-leaf icon"></i>Incubators</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=groups"><i class="far fa-users icon"></i>Groups</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=networks"><i class="far fa-share-alt icon"></i>Networks</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=events"><i class="far fa-calendar-alt icon"></i>Events</a>
+    <a class="item" href="/browse?q=&amp;idx=diybiosphere&amp;p=0&amp;dFR%5Bcollection%5D%5B0%5D=others"><i class="far fa-umbrella icon"></i>Others</a>
+    <!-- <a class="item" href="/browse?q=&idx=diybiosphere&p=0&dFR%5Bcollection%5D%5B0%5D=NEW_COLLECTION(s)"><i class="far fa-NEW_COLLECTION_ICON icon"></i>NEW_COLLECTION</a> -->
+  </div>
+</div>
+
+          <div class="right menu">
+  <div class="ui right dropdown icon item">
+    <i class="sidebar icon"></i>
+     <div class="menu">
+       <div class="header">
+         About
+      </div>
+         <a class="item" href="/about/diybiosphere-project"><i class="far fa-info fa-fw icon"></i>DIYbiosphere</a>
+<a class="item" href="/about/philosophy"><i class="far fa-compass fa-fw icon"></i>Philosophy</a>
+<a class="item" href="/about/community"><i class="far fa-heart fa-fw icon"></i>Our Community</a>
+<a class="item" href="/about/contact"><i class="far fa-paper-plane fa-fw icon"></i>Contact</a>
+
+      <div class="divider"></div>
+      <div class="header">
+         Contribute
+      </div>
+         <a class="item" href="/docs/tutorials/add-entry"><i class="far fa-plus-square fa-fw icon"></i>Add Entry</a>
+<a class="item" href="/docs/tutorials/edit-entry"><i class="far fa-pen-square fa-fw icon"></i>Edit Content</a>
+<a class="item" target="_blank" href="https://github.com/DIYbiosphere/sphere"><i class="fab fa-github fa-fw icon"></i>Github (repo)</a>
+<a class="item" href="/docs/"><i class="far fa-book fa-fw icon"></i>Learn More (docs)</a>
+<a class="item" href="/about/support-us"><i class="far fa-thumbs-up fa-fw icon"></i>Support Us</a>
+
+     </div>
+  </div>
+</div>
+
+        </div>
+        <div class="ui fluid borderless menu xo marginless center aligned">
+          <div class="item">
+            <div class="ui fluid transparent icon input">  <!-- Algolia autocomplete search for mobile. Settings at `assets/hs/autocomplete.es6` -->
+              <input type="search" id="aa-search-input-mobile" class="aa-input-search" placeholder="Search DIYbio initiatives" name="search" autocomplete="on">
+              <i class="search icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+      <main>
+        <div class="ui grid container xo top padding">
+      <div class="tablet computer only row">
+    <div class="ui fluid text blue menu">
+      <a class="item " href="/docs/">
+        <i class="far fa-book icon"></i> <b>DOCUMENTATION</b>
+      </a>
+      <div class="item">
+        <div class="ui transparent input" role="search">
+          <input id="docsearch" type="search" placeholder="Search docs">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="ui dropdown item ">
+          <b>INTRODUCTION</b>
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/introduction/overview">Overview</a>
+  <a class="item " href="/docs/introduction/getting-started">Getting Started</a>
+</div>
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui dropdown item ">
+          <b>BASICS</b>
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/basics/entries">Entries</a>
+  <a class="item " href="/docs/basics/software">Software</a>
+<!--  <a class="item " href="/docs/basics/documentation">Documentation</a>-->
+  <a class="item " href="/docs/basics/design">Design</a>
+</div>
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui dropdown item active-menu">
+          <b>GUIDES</b>
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/guides/contributing">Contributing Guide</a>
+  <a class="item active-menu" href="/docs/guides/writing">Writing Entries</a>
+  <a class="item " href="/docs/guides/workflow">Development Workflow</a>
+  <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
+</div>
+
+        </div>
+      </div>
+      <div class="item">
+        <div class="ui dropdown item ">
+          <b>TUTORIALS</b>
+          <i class="angle down icon"></i>
+          <div class="menu">
+  <a class="item " href="/docs/tutorials/add-entry">Adding Entries</a>
+  <a class="item " href="/docs/tutorials/edit-entry">Editing Entries</a>
+  <a class="item " href="/docs/tutorials/install-locally">Installing Locally</a>
+</div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="mobile only row">
+    <div class="ui fluid text blue menu">
+      <a class="item " href="/docs/">
+        <i class="far fa-book icon"></i> 
+      </a>
+      <div class="item">
+        <div class="ui transparent input" role="search">
+          <input id="docsearch-mobile" type="search" placeholder="Search docs">
+        </div>
+      </div>
+        <div class="ui icon right dropdown item">
+          <span><i class="far fa-ellipsis-h fa-lg"></i></span>
+          <div class="menu">
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Introduction</span>
+              <div class="menu">
+  <a class="item " href="/docs/introduction/overview">Overview</a>
+  <a class="item " href="/docs/introduction/getting-started">Getting Started</a>
+</div>
+
+            </div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Basics</span>
+              <div class="menu">
+  <a class="item " href="/docs/basics/entries">Entries</a>
+  <a class="item " href="/docs/basics/software">Software</a>
+<!--  <a class="item " href="/docs/basics/documentation">Documentation</a>-->
+  <a class="item " href="/docs/basics/design">Design</a>
+</div>
+
+            </div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Guides</span>
+              <div class="menu">
+  <a class="item " href="/docs/guides/contributing">Contributing Guide</a>
+  <a class="item active-menu" href="/docs/guides/writing">Writing Entries</a>
+  <a class="item " href="/docs/guides/workflow">Development Workflow</a>
+  <a class="item " href="/docs/guides/github-eli5">GitHub ELI5</a>
+</div>
+
+            </div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              <span class="text">Tutorials</span>
+              <div class="menu">
+  <a class="item " href="/docs/tutorials/add-entry">Adding Entries</a>
+  <a class="item " href="/docs/tutorials/edit-entry">Editing Entries</a>
+  <a class="item " href="/docs/tutorials/install-locally">Installing Locally</a>
+</div>
+
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+    
+
+<div class="xo padding top bottom">
+  <div class="ui mini horizontal divided link list">
+    <!-- Display last edited date of the page -->
+    <div class=" disabled item">
+       Last edit: 28-Feb-18
+    </div>
+
+    <!-- Link to the page in the Github Repository -->
+    <a class="item noelink noul" href="https://github.com/diybiosphere/sphere/blob/master/docs/guides/writing.md" target="_blank">
+      <span data-tooltip="Edit page in GitHub" data-variation="mini" data-inverted="">
+        <i class="fal fa-edit" data-fa-transform="grow-6 right-6"></i>
+      </span>
+    </a>
+
+    <!-- How it works: check in `_data/entry_issues/yml` for an instance where page_title is equal to the title of the current page -->
+    
+      
+    
+      
+    
+      
+    
+
+    
+    <a class="item noelink noul" href="https://github.com/diybiosphere/sphere/issues/new" target="_blank">
+      <span data-tooltip="Open GitHub Issue" data-variation="mini" data-inverted="">
+        <i class="fal fa-bug" data-fa-transform="grow-6 right-6"></i>
+      </span>
+    </a>
+    
+    
+    
+      
+    
+      
+    
+      
+    
+
+    
+    <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/new" target="_blank">
+      <span data-tooltip="Open Comments Issue in GitHub" data-variation="mini" data-inverted="">
+        <i class="fal fa-comments" data-fa-transform="grow-6 right-6"></i>
+      </span>
+    </a>
+    
+    
+  </div>
+</div>
+
+<article>
+  
+  <h1 class="ui header xo margin top without">
+    <div class="ui medium header">Writing Entries
+    
+    </div>
+  </h1>
+  
+  <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#anatomy-of-an-entry">Anatomy of an entry</a></li>
+<li class="toc-entry toc-h1"><a href="#sections-of-a-file">Sections of a File</a></li>
+<li class="toc-entry toc-h1">
+<a href="#elements-in-a-webpage">Elements in a webpage</a>
+<ul>
+<li class="toc-entry toc-h2">
+<a href="#infobox">Infobox</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#logo">Logo</a></li>
+<li class="toc-entry toc-h3"><a href="#data-table">Data Table</a></li>
+<li class="toc-entry toc-h3"><a href="#tags">Tags</a></li>
+<li class="toc-entry toc-h3">
+<a href="#links">Links</a>
+<ul>
+<li class="toc-entry toc-h4"><a href="#website">Website</a></li>
+<li class="toc-entry toc-h4"><a href="#brand-icons">Brand icons</a></li>
+<li class="toc-entry toc-h4"><a href="#link-icon">Link icon</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#promotion-boxes">Promotion boxes</a></li>
+<li class="toc-entry toc-h2"><a href="#header-image">Header image</a></li>
+<li class="toc-entry toc-h2"><a href="#draft-message">Draft message</a></li>
+<li class="toc-entry toc-h2"><a href="#github-buttons">GitHub Buttons</a></li>
+<li class="toc-entry toc-h2"><a href="#title-and-subtitle">Title and subtitle</a></li>
+<li class="toc-entry toc-h2">
+<a href="#markdown-text">Markdown text</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#wiki-style-links">Wiki-style links</a></li>
+<li class="toc-entry toc-h3"><a href="#formatting-elements">Formatting elements</a></li>
+<li class="toc-entry toc-h3"><a href="#labeled-media">Labeled media</a></li>
+<li class="toc-entry toc-h3"><a href="#creative-commons-images">Creative Commons Images</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#mentions">Mentions</a></li>
+<li class="toc-entry toc-h2"><a href="#comments">Comments</a></li>
+</ul>
+</li>
+</ul>
+<h1 id="anatomy-of-an-entry">
+<a id="anatomy-of-an-entry" class="anchor" href="#anatomy-of-an-entry" aria-hidden="true"><span class="octicon octicon-link"></span></a>Anatomy of an entry</h1>
+<p>An entry is an editable text <strong>file</strong> rendered into various elements in a <strong>webpage</strong>. Check The Avocado Lab entry as an example of how a <a href="https://raw.githubusercontent.com/DIYbiosphere/sphere/master/docs/tutorials/AvocadoLab/AvocadoLab.md">file</a> is rendered into a <a href="/docs/tutorials/AvocadoLab">webpage</a></p>
+
+<h1 id="sections-of-a-file">
+<a id="sections-of-a-file" class="anchor" href="#sections-of-a-file" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sections of a File</h1>
+<p>Basically the file has two sections:</p>
+
+<ul>
+  <li>the <strong>front matter</strong> is between two lines of three dashes <code class="highlighter-rouge">---</code> representing datasets in simple <code class="highlighter-rouge">key: value</code> pairs written in <em>YAML</em> (<a href="https://learnxinyminutes.com/docs/markdown/">Learn yml</a>)</li>
+</ul>
+
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">key</span><span class="pi">:</span> <span class="s">value</span>
+<span class="na">list</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">one</span>
+  <span class="pi">-</span> <span class="s">two</span>
+<span class="na">map</span><span class="pi">:</span>
+  <span class="na">first</span><span class="pi">:</span> <span class="s">1</span>
+  <span class="na">last</span><span class="pi">:</span> <span class="s">9</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+
+<ul>
+  <li>the <strong>markdown text</strong> contains the description, photos and other content of the entry written in simple <em>Markdown</em> (<a href="https://learnxinyminutes.com/docs/markdown/">Learn md</a>)</li>
+</ul>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># Heading 1</span>
+Text with <span class="ge">*italics*</span>, and <span class="gs">**bold**</span>. <span class="p">[</span><span class="nv">Link</span><span class="p">](</span><span class="sx">http://elsewhere.com</span><span class="p">)</span>
+
+<span class="gu">## Heading 2</span>
+<span class="p">-</span> List
+</code></pre></div></div>
+
+<p>You can use the simple <a href="/docs/entrytemplate">entry template</a> or the <a href="/docs/completetemplate">complete template</a></p>
+
+<h1 id="elements-in-a-webpage">
+<a id="elements-in-a-webpage" class="anchor" href="#elements-in-a-webpage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Elements in a webpage</h1>
+<p>The rendered webpage can have several elements taken from the <em>front matter</em> or rendered automatically. Below is an image of the Avocado Lab.</p>
+
+<p><img src="/docs/tutorials/AvocadoLab/side-by-side.png" alt="" class="ui image"></p>
+
+<h2 id="infobox">
+<a id="infobox" class="anchor" href="#infobox" aria-hidden="true"><span class="octicon octicon-link"></span></a>Infobox</h2>
+<p>A box on the right hand side of the entry, or at top in mobile view. It shows comparable data across all entries. The most outstanding parts are the <em>logo</em> and the <em>data table</em></p>
+
+<h3 id="logo">
+<a id="logo" class="anchor" href="#logo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Logo</h3>
+<p>There are three ways to render the logo: (1) Add image file to the folder of your initiative in the repository with the name <code class="highlighter-rouge">logo</code>. (2) add the image path in the repository or (3) the external URL. Image format must be strictly: <code class="highlighter-rouge">.png</code>, <code class="highlighter-rouge">.jpg</code>, or <code class="highlighter-rouge">.svg</code></p>
+
+<h3 id="data-table">
+<a id="data-table" class="anchor" href="#data-table" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data Table</h3>
+<p>The current data variables that are mandatory are:</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">title</span><span class="pi">:</span> <span class="c1"># Name of initiative</span>
+<span class="na">website</span><span class="pi">:</span> <span class="c1"># Main external website with more information</span>
+<span class="na">start-date</span><span class="pi">:</span> <span class="c1">#ISO format: 'YYYY-MM-DD hh:mm', 'YYYY-MM-DD', 'YYYY-MM', or 'YYYY'</span>
+<span class="na">type-org</span><span class="pi">:</span> <span class="c1"># type is the social/legal organization, e.g.: company, university, museum, community, local government, etc.</span>
+<span class="na">country</span><span class="pi">:</span> <span class="c1"># country name in english</span>
+</code></pre></div></div>
+<p>If applicable, the following data variables are also available</p>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">subtitle</span><span class="pi">:</span> <span class="c1"># Short description. 200 characters max!</span>
+<span class="na">predecessor</span><span class="pi">:</span> <span class="c1"># the previous name of the entry</span>
+<span class="na">successor</span><span class="pi">:</span> <span class="c1"># the initiative that evolved from the initiative</span>
+<span class="na">end-date</span><span class="pi">:</span> <span class="c1"># ISO format: 'YYYY-MM-DD hh:mm', 'YYYY-MM-DD', 'YYYY-MM', or 'YYYY'</span>
+<span class="na">status</span><span class="pi">:</span> <span class="c1"># AUTOMATIC!! 'active' by default, unless `end-date` in the past then 'inactive', or unless `start-date` in future then 'planned'. Useful when it is neither 'active', 'inactive', or 'planned'</span>
+<span class="na">hosts</span><span class="pi">:</span> <span class="c1"># Is the space or organization behind the initiative, e.g. a university or a makerspace</span>
+  <span class="pi">-</span>  <span class="c1"># host. Use the exact 'title' of another entry to automatically display as a linked item</span>
+  <span class="pi">-</span> <span class="c1"># another host</span>
+<span class="na">partners</span><span class="pi">:</span> <span class="c1"># collaborators, partners, or affiliations worth mentioning</span>
+  <span class="pi">-</span>  <span class="c1"># partner. If rendering a markdown link wrap in "" or ''</span>
+  <span class="pi">-</span> <span class="c1"># another partner</span>
+<span class="na">address</span><span class="pi">:</span> <span class="c1"># street and number</span>
+<span class="na">directions</span><span class="pi">:</span> <span class="c1"># specific directions to find location</span>
+<span class="na">city</span><span class="pi">:</span> <span class="c1"># city name in english</span>
+<span class="na">state</span><span class="pi">:</span> <span class="c1"># state, province, canton name in english</span>
+<span class="na">country</span><span class="pi">:</span> <span class="c1"># country name in english</span>
+<span class="na">_geoloc</span><span class="pi">:</span> <span class="c1"># Geolocation coordinates for mapping</span>
+  <span class="na">lat</span><span class="pi">:</span> <span class="c1"># latitude number</span>
+  <span class="na">lng</span><span class="pi">:</span> <span class="c1"># longitude number</span>
+</code></pre></div></div>
+
+<h3 id="tags">
+<a id="tags" class="anchor" href="#tags" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tags</h3>
+<p>Are used as keywords to easily categorize entries. A good rule of thumb is to have maximum 10 tags. In addition, it is good practice to search the current tags used by other entries and reuse them if applicable.</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">tags</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="c1"># tag</span>
+  <span class="pi">-</span> <span class="c1"># another tag</span>
+</code></pre></div></div>
+
+<h3 id="links">
+<a id="links" class="anchor" href="#links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Links</h3>
+<p><em>Links</em> to any kind of website, social media, or contact information can be presented here.</p>
+
+<h4 id="website">
+<a id="website" class="anchor" href="#website" aria-hidden="true"><span class="octicon octicon-link"></span></a>Website</h4>
+<p>The <em>website</em> renders twice. Once at the top of the infobox, under the logo, and on the bottom along with the <em>brand icons</em> as: <i class="fas fa-home" style="color:grey"></i> <code class="highlighter-rouge">website: </code></p>
+
+<h4 id="brand-icons">
+<a id="brand-icons" class="anchor" href="#brand-icons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Brand icons</h4>
+<p>These are presently available:</p>
+
+<p><i class="fas fa-envelope" style="color:grey"></i><code class="highlighter-rouge"> email: </code>
+| <i class="fas fa-envelope-open" style="color:grey"></i><code class="highlighter-rouge"> mailing-list: </code>
+| <i class="fas fa-rss-square" style="color:grey"></i><code class="highlighter-rouge"> rss: </code>
+| <span class="fa-layers fa-fw"><i class="fas fa-comment" style="color:grey"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10 up-1" style="font-weight:900">blog</span></span><code class="highlighter-rouge"> blog: </code>
+| <i class="fab fa-medium" style="color:grey"></i><code class="highlighter-rouge"> medium: </code>
+| <i class="fab fa-tumblr" style="color:grey"></i><code class="highlighter-rouge"> tumblr: </code>
+| <i class="fas fa-comments" style="color:grey"></i><code class="highlighter-rouge"> forum: </code>
+| <i class="fab fa-facebook" style="color:grey"></i><code class="highlighter-rouge"> facebook: </code>
+| <span class="fa-layers fa-fw"><i class="fas fa-comment" style="color:grey"></i><i class="fa-inverse fab fa-facebook-f" data-fa-transform="shrink-6"></i></span><code class="highlighter-rouge"> facebook-group: </code>
+| <i class="fab fa-github" style="color:grey"></i><code class="highlighter-rouge"> github: </code>
+| <i class="fab fa-gitlab" style="color:grey"></i><code class="highlighter-rouge"> gitlab: </code>
+| <i class="fab fa-bitbucket" style="color:grey"></i><code class="highlighter-rouge"> bitbucket: </code>
+| <i class="fab fa-twitter" style="color:grey"></i><code class="highlighter-rouge"> twitter: </code>
+| <i class="fab fa-google-plus" style="color:grey"></i><code class="highlighter-rouge"> google-plus: </code>
+| <span class="fa-layers fa-fw"><i class="fas fa-comment" style="color:grey"></i><i class="fa-inverse fab fa-google" data-fa-transform="shrink-6 right-1"></i></span><code class="highlighter-rouge"> google-group: </code>
+| <i class="fab fa-instagram" style="color:grey"></i><code class="highlighter-rouge"> instagram: </code>
+| <i class="fab fa-flickr" style="color:grey"></i><code class="highlighter-rouge"> flickr: </code>
+| <i class="fab fa-vimeo" style="color:grey"></i><code class="highlighter-rouge"> vimeo: </code>
+| <i class="fab fa-youtube" style="color:grey"></i><code class="highlighter-rouge"> youtube: </code>
+| <i class="fab fa-slack" style="color:grey"></i><code class="highlighter-rouge"> slack: </code>
+| <i class="fab fa-gitter" style="color:grey"></i><code class="highlighter-rouge"> gitter: </code>
+| <i class="fab fa-rocketchat" style="color:grey"></i><code class="highlighter-rouge"> rocketchat: </code>
+| <i class="fab fa-trello" style="color:grey"></i><code class="highlighter-rouge"> trello: </code>
+| <i class="fab fa-dropbox" style="color:grey"></i><code class="highlighter-rouge"> dropbox: </code>
+| <i class="fab fa-google-drive" style="color:grey"></i><code class="highlighter-rouge"> google-drive: </code>
+| <span class="fa-layers fa-fw"><i class="fas fa-rectangle-landscape" style="color:grey"></i><span class="fa-layers-text fa-inverse" data-fa-transform="shrink-10" style="font-weight:900">wiki</span></span><code class="highlighter-rouge"> wiki: </code>
+| <i class="fab fa-linkedin" style="color:grey"></i><code class="highlighter-rouge"> linkedin: </code>
+| <i class="fab fa-angellist" style="color:grey"></i><code class="highlighter-rouge"> angellist: </code>
+| <i class="fab fa-meetup" style="color:grey"></i><code class="highlighter-rouge"> meetup: </code>
+| <i class="fab fa-pinterest" style="color:grey"></i><code class="highlighter-rouge"> pinterest: </code>
+| <i class="fab fa-kickstarter" style="color:grey"></i><code class="highlighter-rouge"> kickstarter: </code>
+| <i class="fab fa-patreon" style="color:grey"></i><code class="highlighter-rouge"> patreon: </code>
+| <i class="fab fa-paypal" style="color:grey"></i><code class="highlighter-rouge"> paypal: </code></p>
+
+<h4 id="link-icon">
+<a id="link-icon" class="anchor" href="#link-icon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Link icon</h4>
+<p>For adding a link that doesn’t have an icon (maybe just yet) and it renders as: <i class="fas fa-link" style="color:grey"></i></p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">links</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">URL</span><span class="pi">:</span> <span class="c1"># URL to external link</span>
+    <span class="na">tooltip</span><span class="pi">:</span> <span class="c1"># when mouse hovers, what the pop over tool tip will say</span>
+  <span class="pi">-</span> <span class="na">URL</span><span class="pi">:</span> <span class="c1"># Adding more link icons</span>
+    <span class="na">tooltip</span><span class="pi">:</span>    
+</code></pre></div></div>
+
+<h2 id="promotion-boxes">
+<a id="promotion-boxes" class="anchor" href="#promotion-boxes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Promotion boxes</h2>
+<p><em>Promotions</em> are boxed items below the the <em>infobox</em>, or below the <em>markdown text</em> in mobile. Here you can promote whatever you want, your meetups, classes, to join the project, etc. You can add as many as you want, but a good rule of thumb is no more than 3.</p>
+
+<p>To add a promotion you must write in the front matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">promotions</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="na">text</span><span class="pi">:</span> <span class="c1"># write here your promotion</span>
+    <span class="na">button</span><span class="pi">:</span> <span class="c1"># text in the button</span>
+    <span class="na">URL</span><span class="pi">:</span> <span class="c1"># link for the button</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="c1"># path to the image in the background</span>
+  <span class="pi">-</span> <span class="na">text</span><span class="pi">:</span> <span class="c1"># second promotion starts with another dash</span>
+    <span class="na">button</span><span class="pi">:</span>
+    <span class="na">URL</span><span class="pi">:</span>
+    <span class="na">color</span><span class="pi">:</span> <span class="c1">#specify a background color instead of an image. wrap the color in '', e.g. '#43BB7A'     </span>
+</code></pre></div></div>
+
+<p>The rendered box will first try to grab the <code class="highlighter-rouge">promotions.image</code> key, then the <code class="highlighter-rouge">promotions.color</code> key. If these are not specified the background color will be grey.</p>
+
+<div class="ui mini icon purple message docs">
+  <div class="content">
+    <div class="header">
+        <i class="fas fa-star-exclamation ui icon"></i>
+      Get your promotion in the landing page!
+    </div>
+    <p></p>
+<p>Entries can have their promotions featured in the landing page carousel if they contain a background image, or if the entry has a header image</p>
+
+
+  </div>
+</div>
+
+<h2 id="header-image">
+<a id="header-image" class="anchor" href="#header-image" aria-hidden="true"><span class="octicon octicon-link"></span></a>Header image</h2>
+<p>To display a <em>header</em> image at the top of your entry, you can either save an image in the folder of your initiative with the name ‘header’ in <code class="highlighter-rouge">.png</code>, <code class="highlighter-rouge">.jpg</code> or <code class="highlighter-rouge">.svg</code> format, or add the <code class="highlighter-rouge">header: </code> key in the front matter with a link to the image, e.g. <code class="highlighter-rouge">header: http://linktoheaderimage.jpg</code>. This is the same as the <em>logo</em></p>
+
+<div class="ui mini icon purple message docs">
+  <div class="content">
+    <div class="header">
+        <i class="fas fa-star-exclamation ui icon"></i>
+      Displaying an image in the browse page
+    </div>
+    <p></p>
+<p>You can also add a <strong>thumbnail</strong> image to the folder. Although it is not displayed in the entry, it is meant to be showed in the List of Entries page. The page grabs images in this order: <em>thumbnail</em>, <em>logo</em>, <em>header</em>, a dummy image.</p>
+
+
+  </div>
+</div>
+
+<h2 id="draft-message">
+<a id="draft-message" class="anchor" href="#draft-message" aria-hidden="true"><span class="octicon octicon-link"></span></a>Draft message</h2>
+<p>To display a draft message at the top, just add to the front matter:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">draft</span><span class="pi">:</span> <span class="no">true</span>
+</code></pre></div></div>
+
+<h2 id="github-buttons">
+<a id="github-buttons" class="anchor" href="#github-buttons" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Buttons</h2>
+<p>This section is rendered automatically, showing the last date of editing.</p>
+
+<ul>
+  <li>
+<i class="fal fa-edit" style="color:grey;"></i> redirects to the github file for editing</li>
+  <li>
+<i class="fal fa-bug" style="color:grey;"></i> if it exists, redirects to the github issue to discuss editing in the <a href="https://github.com/DIYbiosphere/sphere">diybiosphere/sphere</a> repository, if not, then to create a new one.</li>
+  <li>
+<i class="fal fa-comments" style="color:grey;"></i> if it exists, redirects to the github issue for comments in the <a href="https://github.com/DIYbiosphere/comments">diybiosphere/comments</a> repository, if not, then to create a new one</li>
+</ul>
+
+<h2 id="title-and-subtitle">
+<a id="title-and-subtitle" class="anchor" href="#title-and-subtitle" aria-hidden="true"><span class="octicon octicon-link"></span></a>Title and subtitle</h2>
+<p>The <em>subtitle</em> is a short description, or a tag line of max 200 characters.</p>
+
+<p>The <em>title</em> is the name of your entry. If you were ever to change it, keep in mind that it might be <em>mentioned</em> by other entries (see below). To check, go to the repository and search for the current name of the entry. If it is mentioned in the <em>front matter</em> of other files, consider changing it in those files as well.</p>
+
+<div class="ui mini icon red message docs">
+  <div class="content">
+    <div class="header">
+      <i class="fas fa-exclamation-triangle icon"></i>
+      Be careful changing the title after
+    </div>
+    <p></p>
+<p>If you want to change the title of an entry, consider it might be mentioned in another entry (see <em>Mentions</em>), and have comments enables (see <em>Comments</em>). So make sure to change it everywhere in the repository</p>
+
+
+  </div>
+</div>
+
+<h2 id="markdown-text">
+<a id="markdown-text" class="anchor" href="#markdown-text" aria-hidden="true"><span class="octicon octicon-link"></span></a>Markdown text</h2>
+<p>The main content of the entry. Write whatever seems pertinent to the entry. Add tables, images, titles, etc.</p>
+
+<h3 id="wiki-style-links">
+<a id="wiki-style-links" class="anchor" href="#wiki-style-links" aria-hidden="true"><span class="octicon octicon-link"></span></a>Wiki-style links</h3>
+<p>It is possible to have internal <em>wiki-style links</em> that are automatically generated by wrapping it in brackets. To do so, you must edit the <code class="highlighter-rouge">_references.md</code> file y the <a href="https://github.com/DIYbiosphere/sphere">sphere repository</a> and add something like:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="ss">Avocado Lab</span><span class="p">]:</span> <span class="sx">/docs/tutorials/AvocadoLab/</span>
+</code></pre></div></div>
+
+<p>So when you write:</p>
+<ul>
+  <li>
+<code class="highlighter-rouge">[Avocado Lab]</code> renders =&gt; <a href="/docs/tutorials/AvocadoLab/">Avocado Lab</a>
+</li>
+  <li>
+<code class="highlighter-rouge">[go to Avocado Lab entry][Avocado Lab]</code> renders =&gt; <a href="/docs/tutorials/AvocadoLab/">go to Avocado Lab entry</a>
+</li>
+</ul>
+
+<h3 id="formatting-elements">
+<a id="formatting-elements" class="anchor" href="#formatting-elements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Formatting elements</h3>
+<p>To format an image, table, etc., add <code class="highlighter-rouge">{:.class}</code> after the element. The <a href="https://semantic-ui.com/">Semantic-UI</a> framework makes formatting easy.</p>
+
+<p><img src="/docs/tutorials/AvocadoLab/AvocadoLab-logo.png" alt="" class="ui small bordered image"></p>
+
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>!<span class="err">[</span>](/docs/tutorials/AvocadoLab/avocadolab-logo.png){:.ui.small.bordered.image}
+</code></pre></div></div>
+
+<h3 id="labeled-media">
+<a id="labeled-media" class="anchor" href="#labeled-media" aria-hidden="true"><span class="octicon octicon-link"></span></a>Labeled media</h3>
+<p>Adding a video or an image with a caption is easy using the following code and filling in <code class="highlighter-rouge">media=</code> with either <code class="highlighter-rouge">"video"</code> or <code class="highlighter-rouge">"image"</code>; <code class="highlighter-rouge">class=</code> for size and position mainly, <code class="highlighter-rouge">path=</code>, and <code class="highlighter-rouge">label=</code> (i.e. substituting the red text)</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="na">elements/labeled-media</span><span class="p">.</span><span class="na">html</span><span class="w"> </span><span class="na">media</span><span class="o">=</span><span class="s2">"video"</span><span class="w"> </span><span class="na">class</span><span class="o">=</span><span class="s2">"medium centered"</span><span class="w"> </span><span class="na">path</span><span class="o">=</span><span class="s2">"/assets/videos/add-entry-users.mp4"</span><span class="w"> </span><span class="na">label</span><span class="o">=</span><span class="s2">"TThis is a label"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<div class="xo video medium centered">
+<div class="ui segments">
+  <div class="ui segment">
+    <video controls="">
+      <source src="/assets/videos/add-entry-users.mp4" type="video/mp4"></source>
+    Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="ui secondary segment">
+    <p>This is a label</p>
+  </div>
+</div>
+</div>
+
+<h3 id="creative-commons-images">
+<a id="creative-commons-images" class="anchor" href="#creative-commons-images" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creative Commons Images</h3>
+<div class="ui medium right floated image">
+    <a class="ui left corner label" href="https://www.freepik.com/free-vector/hand-painted-green-leaves-pack_832587.htm#term=tropical%20leaves&amp;page=1&amp;position=3" target="_blank">
+      <span data-tooltip="BY-NC" data-inverted="" data-position="right center">
+        <i class="fab fa-creative-commons fa-2x"></i>
+      </span>
+    </a>
+    <img src="/docs/tutorials/AvocadoLab/AvocadoLab-header.png">
+</div>
+
+<p>All Content Contributed to DIYbiosphere is dedicated to the public domain (see our <a href="/about/terms-of-use" title="Our terms of use">Terms of Use</a>). Contributions that are shared/uploaded should explicitly note their copyright terms if the author(s) do not waive authorship as per our <a href="/about/contributor-terms" title="Our contributor terms">Contributor Terms</a>.</p>
+
+<p>Works licensed under the Creative Commons can be included in Contributions but must note their copyright using the following element and filling in <code class="highlighter-rouge">class=</code> for size and position,<code class="highlighter-rouge">path=</code>,<code class="highlighter-rouge">license=</code>, and <code class="highlighter-rouge">sourceURL=</code> (i.e. substituting the red text)</p>
+
+<div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{%</span><span class="w"> </span><span class="nt">include</span><span class="w"> </span><span class="na">elements/cc-image</span><span class="p">.</span><span class="na">html</span><span class="w"> </span><span class="na">class</span><span class="o">=</span><span class="s2">"medium right floated"</span><span class="w"> </span><span class="na">path</span><span class="o">=</span><span class="s2">"/docs/tutorials/AvocadoLab/AvocadoLab-header.png"</span><span class="w"> </span><span class="na">license</span><span class="o">=</span><span class="s2">"by-nc"</span><span class="w"> </span><span class="na">sourceURL</span><span class="o">=</span><span class="s2">"https://www.freepik.com/free-vector/hand-painted-green-leaves-pack_832587.htm#term=tropical%20leaves&amp;page=1&amp;position=3"</span><span class="w"> </span><span class="p">%}</span>
+</code></pre></div></div>
+
+<h2 id="mentions">
+<a id="mentions" class="anchor" href="#mentions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Mentions</h2>
+<p>When another entry mentions by <code class="highlighter-rouge">title: </code> another entry either in <code class="highlighter-rouge">partners: </code> or <code class="highlighter-rouge">hosts: </code> it is automatically showed in this section. This way entries can show how other entries connect to them, even if they don’t state it explicitly.</p>
+
+<h2 id="comments">
+<a id="comments" class="anchor" href="#comments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Comments</h2>
+<p>Are rendered from comments of a GitHub Issue in the <a href="https://github.com/DIYbiosphere/comments">diybiosphere/comments</a> repository. To enable them in the webpage:</p>
+
+<ol>
+  <li>Open a GitHub Issue in the <a href="https://github.com/DIYbiosphere/comments">diybiosphere/comments</a> repo</li>
+  <li>Title the issue with the same <code class="highlighter-rouge">title: </code> of the entry</li>
+  <li>Open <code class="highlighter-rouge">_data/entry_issue.yml</code> from <a href="https://github.com/DIYbiosphere/sphere">diybiosphere/sphere</a> repository.</li>
+  <li>Add the following to the file:</li>
+</ol>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">page_title</span><span class="pi">:</span> <span class="c1"># Title of page (exactly)</span>
+  <span class="na">comments_issue</span><span class="pi">:</span> <span class="c1"># issue number of comments in diybiosphere/comments repo</span>
+  <span class="na">edit_issue</span><span class="pi">:</span> <span class="c1"># issue number discussing editing in diybiosphere/sphere repo</span>
+</code></pre></div></div>
+
+<ol start="5">
+  <li>Commit and wait for Travis to build (may take a few minutes)</li>
+</ol>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<!-- Use GitHub 4 Comments -->
+<div class="ui grid container xo top padding">
+<section class="xo margin top fourfold">
+  <h3 class="ui horizontal divider header">
+    <i class="far fa-comments"></i> Comments
+  </h3>
+  
+  <a target href="https://github.com/diybiosphere/talk/issues/new%7D">
+    <div class="ui basic submit mini button">
+        <i class="fal fa-comment"></i> Open Comments Issue in GitHub
+    </div>
+  </a>
+  
+</section>
+</div>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+<script type="text/javascript">
+function loadComments(data) {
+  for (var i=0; i<data.length; i++) {
+    var cuser = data[i].user.login;
+    var cuserlink = "https://www.github.com/" + data[i].user.login;
+    var ctype = data[i].user.type;
+    var clink = "https://github.com/diybiosphere/talk/issues/#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+    var cbody = data[i].body_html;
+    var cavatarlink = data[i].user.avatar_url;
+    var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm");
+
+    $("#comments").append("<div class='comment'><a class='avatar'>" + '<img src="' + cavatarlink + '">' + "</a><div class='content'><a class='author' target='_blank' href=\""+ cuserlink + "\">" + cuser + "</a><div class='metadata'><div class='date'>" + cdate + "</div></div><div class='text'>" + cbody + "</div></div><div class='actions'><a target='_blank' href=\"" + clink + "\" class='reply'><i class='far fa-reply'></i> Reply</a><a target='_blank' href=\"" + clink + "\" class='reply'><i class='far fa-smile'></i> React</a></div></div></div>");
+  }
+}
+
+$.ajax("https://api.github.com/repos/diybiosphere/talk/issues//comments?per_page=100", {
+  headers: {Accept: "application/vnd.github.full+json"},
+  dataType: "json",
+  success: function(msg){
+    loadComments(msg);
+ }
+});
+</script>
+
+
+      </main>
+    <footer class="xo top margin sixfold">
+  <div class="ui container center aligned grid xo top bottom padding twofold">
+
+    <div class="row">
+      <div clas="sixteen wide column">
+        <div class="ui small horizontal divided link list">
+  <a class="item" href="/about/terms-of-use">Terms of Use</a>
+  <a class="item" href="/about/contributor-terms">Contributor Terms</a>
+  <a class="item" href="/about/code-of-conduct">Code of Conduct</a>
+  <a class="item" href="/about/faq">FAQ</a>
+  <div class="item">
+    <a href="https://github.com/DIYbiosphere/sphere" target="_blank">
+      <span data-tooltip="GitHub" data-variation="mini" data-inverted="">
+        <i class="fab fa-github icon"></i>
+      </span>
+    </a>
+    <a href="https://twitter.com/DIYbiosphere" target="_blank">
+      <span data-tooltip="Twitter" data-variation="mini" data-inverted="">
+        <i class="fab fa-twitter icon"></i>
+      </span>
+    </a>
+
+    <a href="https://diybiosphere.herokuapp.com/" target="_blank">
+      <span data-tooltip="Slack" data-variation="mini" data-inverted="">
+        <i class="fab fa-slack icon"></i>
+      </span>
+    </a>
+    <!-- Gitter -->
+    <a href="https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&amp;utm_medium=link&amp;utm_campaign=share-link" target="_blank">
+      <span data-tooltip="Gitter" data-variation="mini" data-inverted="">
+        <i class="fab fa-gitter icon"></i>
+      </span>
+    </a>
+
+  </div>
+
+</div>
+
+      </div>
+      <div clas="sixteen wide column">
+        <div class="ui horizontal small link list">
+    <a class="item" rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+      <div class="ui middle aligned image">
+        <svg class="logo" xmlns="http://www.w3.org/2000/svg" width="80" height="15" viewbox="0 0 80 15">
+          <path d="M22.109375,2 L78,2 L78,13 L22.2327637,13 C23.4400646,11.4127177 24.242187,9.58447415 24.242187,7.601562 C24.242187,5.546875 23.386718,3.625 22.109375,2 Z M0,0 L80,0 L80,15 L0,15 L0,0 Z M1,1 L1,14 L79,14 L79,1 L1,1 Z M26.085691,4.69995117 L26.085691,5.78688337 L29.003721,5.78688337 L26,9.42201907 L26,10.2969768 L30.87992,10.2969768 L30.87992,9.20553457 L27.790507,9.20553457 L30.794228,5.57039887 L30.794228,4.69995117 L26.085691,4.69995117 Z M31.9299927,4.69995117 L31.9299927,10.2969768 L35.9033847,10.2969768 L35.9033847,9.20553457 L33.3732227,9.20553457 L33.3732227,7.92015827 L35.6778807,7.92015827 L35.6778807,6.83322497 L33.3732227,6.83322497 L33.3732227,5.78688337 L35.8222037,5.78688337 L35.8222037,4.69995117 L31.9299927,4.69995117 Z M39.223593,7.03430796 L38.61473,7.03430796 L38.61473,5.60009766 L39.223593,5.60009766 C39.525769,5.60009766 39.742253,5.65421886 39.873047,5.76246106 C40.003841,5.87070326 40.071491,6.05561686 40.071491,6.30818206 C40.071491,6.56976806 40.003839,6.75468156 39.873047,6.86292376 C39.742253,6.97567796 39.525769,7.03430796 39.223593,7.03430796 Z M38.61473,8.17723337 L39.025149,8.17723337 C39.259674,8.17723337 39.444587,8.22684807 39.584401,8.33057587 C39.728724,8.43430837 39.868536,8.62373287 40.008349,8.90335807 L40.689373,10.2969768 L42.227315,10.2969768 L41.442559,8.70491397 C41.280196,8.38469707 41.122342,8.14115257 40.964489,7.98780887 C40.811146,7.82544547 40.635252,7.72171067 40.436808,7.67661267 C40.797615,7.56386067 41.068221,7.39247657 41.244115,7.15344187 C41.42451,6.91440727 41.51472,6.61223067 41.51472,6.24240367 C41.51472,5.70570227 41.338827,5.31783367 40.996059,5.06977937 C40.653292,4.82172397 40.112081,4.69995117 39.376936,4.69995117 L37.1715,4.69995117 L37.1715,10.2969768 L38.61473,10.2969768 L38.61473,8.17723337 Z M45.636945,5.69995117 C46.078935,5.69995117 46.421702,5.86231457 46.665246,6.18704127 C46.904281,6.51176797 47.026054,6.97179807 47.026054,7.55810957 C47.026054,8.14893207 46.904281,8.60445117 46.665246,8.92917787 C46.421702,9.25390457 46.078935,9.41626797 45.636945,9.41626797 C45.194957,9.41626797 44.856699,9.25390457 44.613154,8.92917787 C44.369609,8.60445117 44.247836,8.14893207 44.247836,7.55810957 C44.247836,6.97179807 44.369609,6.51176797 44.613154,6.18704127 C44.856699,5.86231457 45.194957,5.69995117 45.636945,5.69995117 Z M45.636945,4.69995117 C44.739436,4.69995117 44.035862,4.95702737 43.521712,5.47117737 C43.012071,5.98983837 42.759506,6.69792277 42.759506,7.60445117 C42.759506,8.51098077 43.012071,9.21906507 43.521712,9.73321517 C44.035862,10.2518762 44.739436,10.5089512 45.636945,10.5089512 C46.534454,10.5089512 47.242538,10.2518762 47.752178,9.73321517 C48.26182,9.21906507 48.514385,8.51098077 48.514385,7.60445117 C48.514385,6.69792277 48.26182,5.98983837 47.752178,5.47117737 C47.242538,4.95702737 46.534454,4.69995117 45.636945,4.69995117 Z M16.0676476,13.199219 L7.29316302,13.199219 C6.93574273,12.9559555 6.59192805,12.6786254 6.261719,12.367188 C4.753906,10.9375 4,9.234375 4,7.253906 C4,5.269531 4.753906,3.554688 6.261719,2.101563 C6.2977118,2.06728867 6.33389828,2.03343436 6.37027843,2 L8.70144132,2 C8.18506103,2.27031679 7.70508843,2.61934029 7.261719,3.046875 C6.007813,4.242188 5.382813,5.644531 5.382813,7.253906 C5.382813,8.863281 6,10.253906 7.242188,11.425781 C8.484375,12.597656 9.960938,13.183594 11.675781,13.183594 C13.390625,13.183594 14.882813,12.59375 16.148438,11.40625 C17.351563,10.308594 17.953125,8.921875 17.953125,7.253906 C17.953125,5.597656 17.339844,4.191406 16.117188,3.035156 C15.6706617,2.61295998 15.1890037,2.26784393 14.6722139,2 L16.9921303,2 C17.0288062,2.03343436 17.0652838,2.06728867 17.101563,2.101563 C18.585938,3.503906 19.324219,5.222656 19.324219,7.253906 C19.324219,9.28125 18.597656,10.980469 17.140625,12.347656 C16.7970082,12.6669767 16.4393205,12.950831 16.0676476,13.199219 Z M10.5625,6.546875 C10.371094,6.152344 10.082031,5.953125 9.703125,5.953125 C9.023438,5.953125 8.6875,6.382813 8.6875,7.246094 C8.6875,8.105469 9.023438,8.535156 9.703125,8.535156 C10.148438,8.535156 10.46875,8.324219 10.660156,7.90625 L11.597656,8.378906 C11.148438,9.128906 10.480469,9.503906 9.585938,9.503906 C8.894531,9.503906 8.34375,9.304688 7.929688,8.90625 C7.511719,8.503906 7.304688,7.953125 7.304688,7.253906 C7.304688,6.5625 7.519531,6.015625 7.945313,5.609375 C8.375,5.203125 8.90625,5 9.546875,5 C10.492188,5 11.167969,5.351563 11.578125,6.054688 L10.5625,6.546875 Z M14.972656,6.546875 C14.78125,6.152344 14.5,5.953125 14.128906,5.953125 C13.4375,5.953125 13.09375,6.382813 13.09375,7.246094 C13.09375,8.105469 13.4375,8.535156 14.128906,8.535156 C14.578125,8.535156 14.890625,8.324219 15.070313,7.90625 L16.027344,8.378906 C15.582031,9.128906 14.910156,9.503906 14.019531,9.503906 C13.332031,9.503906 12.78125,9.304688 12.363281,8.90625 C11.953125,8.503906 11.742188,7.953125 11.742188,7.253906 C11.742188,6.5625 11.953125,6.015625 12.375,5.609375 C12.796875,5.203125 13.332031,5 13.980469,5 C14.925781,5 15.601563,5.351563 16.007813,6.054688 L14.972656,6.546875 Z"></path>
+        </svg>
+      </div>
+    </a>
+    <a class="disabled item">
+    Except where otherwise noted, content on this site is dedicated to the public domain
+  </a>
+</div>
+
+      </div>
+    </div>
+  </div> <!-- close padded grid -->
+</footer>
+
+
+
+
+      <button class="js-gitter-toggle-chat-button ui button">
+          <div class="fa-4x">
+          <span class="fa-layers fa-fw" data-tooltip="Open Gitter Chat" data-variation="mini" data-inverted="">
+            <i class="fas fa-circle" style="color:mediumorchid"></i>
+            <i class="fa-inverse fab fa-gitter" data-fa-transform="shrink-8"></i>
+          </span>
+      
+
+
+    <script>
+      ((window.gitter = {}).chat = {}).options = {
+        room: 'diybiosphere/sphere',
+        activationElement: false
+      };
+    </script>
+
+    <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+
+
+
+      <!-- Google Analytics -->
+    <script src="https://www.google.com/jsapi"></script>
+
+      <!-- JQuery & Semantic UI -->
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+    <script src="/assets/semantic/dist/semantic.min.js"></script>
+    <script type="text/javascript">$('.ui.dropdown').dropdown();</script>
+    <script type="text/javascript">$('.tabular.menu .item').tab();</script>
+    <script type="text/javascript">$('.message .close').on('click', function() {$(this).closest('.message').transition('fade');});</script>
+
+    <script src="https://cdn.jsdelivr.net/hogan.js/3.0.2/hogan.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js"></script>
+    <script src="/assets/js/autocomplete.es6"></script>
+    <script src="https://cdn.jsdelivr.net/algoliasearch.helper/2/algoliasearch.helper.min.js"></script>
+
+    
+
+    
+
+     <!-- Documentation search from algolia -->
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
+      <script src="/assets/js/docs.es6"></script>
+    
+
+  </div></button>
+</body>
+</html>

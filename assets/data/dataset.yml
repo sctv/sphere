@@ -1,0 +1,1845 @@
+
+
+
+- title: Bio Design Challenge
+  collection: events
+  sphere_url: /events/biodesignchallenge/
+  subtitle: learn. create. grow.
+  start-date: 2016
+  type-org: university
+  city: NYC
+  country: United States
+  tags: 
+    - conference
+    - challenge
+    - art
+  links:
+    facebook: https://www.facebook.com/biodesignchallenge/
+    twitter: https://twitter.com/BioDesigned
+    website: http://biodesignchallenge.org/
+
+- title: BioFabbing Convergence
+  collection: events
+  sphere_url: /events/biofabbing/
+  start-date: 2017-05-10
+  end-date: 2017-05-14
+  city: Geneva
+  country: Switzerland
+  tags: 
+  links:
+    
+
+- title: Biohack The Planet
+  collection: events
+  sphere_url: /events/biohtp/
+  subtitle: create something beautiful
+  start-date: 2016
+  type-org: company
+  city: SF
+  country: United States
+  tags: 
+    - conference
+  links:
+    website: http://biohacktheplanet.com/
+
+- title: Global Community BioSummit
+  collection: events
+  sphere_url: /events/globalcommunitybiosummit/
+  start-date: 2017
+  type-org: community
+  city: Cambridge
+  country: United States
+  tags: 
+    - conference
+  links:
+    website: https://www.biosummit.org/
+
+- title: iGEM
+  collection: events
+  sphere_url: /events/igem/
+  subtitle: synthetic biology based on standard parts
+  start-date: 2003
+  type-org: non-profit
+  city: Cambridge
+  country: United States
+  tags: 
+    - conference
+    - competition
+    - synthetic biology
+  links:
+    facebook: https://www.facebook.com/iGEMFoundation/
+    twitter: https://twitter.com/igem
+    website: http://igem.org/
+
+- title: Africa Open Science Hardware Summit
+  collection: events
+  sphere_url: /events/africaosh/
+  start-date: 2018
+  type-org: community
+  city: Kumasi
+  country: Ghana
+  tags: 
+    - conference
+  links:
+    website: http://www.africaosh.com/
+
+
+
+
+- title: Be.In.To
+  collection: groups
+  sphere_url: /groups/beintobiohacking/
+  subtitle: Biohacking Experience in Torino
+  start-date: 2014
+  hosts: 
+    - '[FabLab Torino](http://fablabtorino.org/)'
+  type-org: community
+  city: Torino
+  country: Italy
+  tags: 
+    - fablab
+    - hackerspace
+  links:
+    email: info@fablabtorino.org
+    tumblr: http://biohackingexperience.tumblr.com/
+    facebook: https://www.facebook.com/be.into.7/
+    google-plus: https://plus.google.com/communities/103117985725435831502
+    website: http://fablabtorino.org/be-in-to/
+
+- title: BioHackSyd
+  collection: groups
+  sphere_url: /groups/biohacksyd/
+  subtitle: Syney Biohackers Meeting
+  start-date: 2015
+  type-org: community
+  city: Sydney
+  country: Australia
+  tags: 
+  links:
+    meetup: https://www.meetup.com/biohackoz/
+    
+
+- title: BioHubIl
+  collection: groups
+  sphere_url: /groups/biohubil/
+  start-date: 2015
+  type-org: non-profit
+  city: Tel Aviv
+  country: Israel
+  tags: 
+  links:
+    website: http://biohubil.org/
+
+- title: Biotinkering Berlin
+  collection: groups
+  sphere_url: /groups/biotinkeringberlin/
+  start-date: 2014
+  hosts: 
+    - '[Art Laboratory Berlin](http://artlaboratory-berlin.org/home.htm)'
+  type-org: community
+  city: Berlin
+  country: Germany
+  tags: 
+  links:
+    google-group: biotinkering-berlin@googlegroups.com
+    meetup: https://www.meetup.com/Biotinkering-Berlin/
+    website: https://www.biotinkering-berlin.de/?lang=en
+
+- title: Biogarage
+  collection: groups
+  sphere_url: /groups/biogarage/
+  subtitle: Das Do It Yourself Labor
+  start-date: 2013
+  type-org: community
+  city: Munich
+  country: Germany
+  tags: 
+  links:
+    twitter: https://twitter.com/biogarage
+    google-plus: https://plus.google.com/u/0/118328088681211953650
+    website: http://biogarage.de/
+
+- title: Biohackers NYC
+  collection: groups
+  sphere_url: /groups/biohackersnyc/
+  subtitle: human performance optimized
+  start-date: 2012
+  end-date: 2015
+  type-org: community
+  city: New York
+  country: United States
+  tags: 
+    - transhumanism
+  links:
+    facebook: https://www.facebook.com/Biohackers-NYC-380626135343749/
+    
+
+- title: Biohacking Mexico
+  collection: groups
+  sphere_url: /groups/biohackingmexico/
+  subtitle: All biohackers in Latin America
+  start-date: 2015
+  end-date: 2016
+  type-org: community
+  country: Mexico
+  tags: 
+  links:
+    facebook: https://www.facebook.com/biohackingmexico
+    
+
+- title: Cap City Biohackers
+  collection: groups
+  sphere_url: /groups/capcitybiohackers/
+  start-date: 2015
+  hosts: 
+    - '[Rev1 Ventures](https://www.rev1ventures.com/)'
+  type-org: community
+  city: Columbus
+  country: United States
+  tags: 
+  links:
+    blog: http://www.capcitybiohackers.org/blog/
+    facebook: https://www.facebook.com/diybiocolumbus
+    twitter: https://twitter.com/capcitybio
+    instagram: https://www.instagram.com/capcitybiohackers/
+    website: http://www.capcitybiohackers.org/
+
+- title: DIYbio Chicago
+  collection: groups
+  sphere_url: /groups/chicagobiohacking/
+  start-date: 2013
+  type-org: community
+  city: Chicago
+  country: United States
+  tags: 
+  links:
+    meetup: https://www.meetup.com/Chicago-Biohacking/
+    
+
+- title: DIY Neurotech
+  collection: groups
+  sphere_url: /groups/diyneurotech-2/
+  start-date: 2014
+  type-org: community
+  city: Jackson
+  country: United States
+  tags: 
+    - neurology
+    - transhumanism
+  links:
+    twitter: https://twitter.com/DIYneurotech
+    website: http://www.diyneurotech.com/
+
+- title: DIY Neurotech
+  collection: groups
+  sphere_url: /groups/diyneurotech/
+  start-date: 2014
+  end-date: 2015
+  type-org: community
+  city: Jackson
+  country: United States
+  tags: 
+    - neurology
+    - transhumanism
+  links:
+    twitter: https://twitter.com/DIYneurotech
+    website: http://www.diyneurotech.com/
+
+- title: Auckland DIYbio
+  collection: groups
+  sphere_url: /groups/diybioauckland/
+  start-date: 2013
+  end-date: 2013
+  type-org: community
+  city: Auckland
+  country: Australia
+  tags: 
+  links:
+    
+
+- title: Biohacking BA
+  collection: groups
+  sphere_url: /groups/diybiobuenosaires/
+  start-date: 2015
+  city: Buenos Aires
+  country: Argentina
+  tags: 
+  links:
+    email: hola@diybioba.org
+    twitter: https://twitter.com/diybioba
+    meetup: https://www.meetup.com/biohackingBA/
+    website: www.diybioba.org
+
+- title: DIYbio Chicago
+  collection: groups
+  sphere_url: /groups/diybiochicago-2/
+  start-date: 2008
+  type-org: community
+  city: Chicago
+  country: United States
+  tags: 
+  links:
+    google-group: https://groups.google.com/forum/#!forum/diybio-chicago
+    
+
+- title: DIYbio Chicago
+  collection: groups
+  sphere_url: /groups/diybiochicago/
+  start-date: 2008
+  end-date: 2011
+  type-org: community
+  city: Chicago
+  country: United States
+  tags: 
+  links:
+    google-group: https://groups.google.com/forum/#!forum/diybio-chicago
+    
+
+- title: DIYbio Groningen
+  collection: groups
+  sphere_url: /groups/diybiogroningen/
+  subtitle: A vribrant community of makers, hackers, and do-it-yourself biologists
+  start-date: 2013
+  hosts: 
+    - '[Fablab Groningen](http://www.fablabgroningen.nl/)'
+  type-org: community
+  city: Groningen
+  country: Netherlands
+  tags: 
+  links:
+    email: groningendiybio@gmail.com
+    facebook: https://www.facebook.com/DIYBioGroningen/
+    twitter: https://twitter.com/diybiogroningen
+    github: https://github.com/DIYbioGroningen
+    youtube: https://www.youtube.com/channel/UCPoJujrzQcKxW88DV7fpe8g
+    website: http://www.diybiogroningen.org/
+
+- title: DIYbio Ireland
+  collection: groups
+  sphere_url: /groups/diybioireland/
+  start-date: 2011
+  end-date: 2015
+  country: Ireland
+  tags: 
+  links:
+    google-group: https://groups.google.com/forum/#!forum/diybio-ireland
+    
+
+- title: DIYbio Israel
+  collection: groups
+  sphere_url: /groups/diybioisrael/
+  start-date: 2013
+  hosts: 
+    - '[Sustainiverse](http://sustainiverse.org/)'
+  type-org: community
+  city: Tel Aviv
+  country: Israel
+  tags: 
+  links:
+    website: http://sustainiverse.org/dyibio-israel-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/
+
+- title: DIYbio Mexico
+  collection: groups
+  sphere_url: /groups/diybiomexico/
+  type-org: community
+  country: Mexico
+  tags: 
+  links:
+    
+
+- title: DIYbio Perth
+  collection: groups
+  sphere_url: /groups/diybioperth/
+  hosts: 
+    - '[The Perth Artifactory](http://artifactory.org.au/)'
+  city: Perth
+  country: Australia
+  tags: 
+    - makerspace
+  links:
+    
+
+- title: DIYbio Singapore
+  collection: groups
+  sphere_url: /groups/diybiosingapore/
+  start-date: 2010
+  type-org: community
+  city: Singapore
+  country: Singapore
+  tags: 
+  links:
+    google-group: https://groups.google.com/forum/#!forum/diybio-sg
+    website: https://diybiosingapore.wordpress.com/
+
+- title: Gene Garage
+  collection: groups
+  sphere_url: /groups/genegarage/
+  start-date: 2015
+  hosts: 
+    - 'Tecnologico de Monterrey, Campus Guadalajara'
+  type-org: university
+  city: Guadalajara
+  country: Mexico
+  tags: 
+  links:
+    facebook: https://www.facebook.com/Gene-Garage-1598624203727376/
+    twitter: https://twitter.com/genegarage_gdl
+    meetup: http://www.meetup.com/Gene-Garage/
+    
+
+- title: Hackstronauts
+  collection: groups
+  sphere_url: /groups/hackstronauts/
+  subtitle: Biohackers, Nootropics & Limitless MeetUps
+  start-date: 2016
+  type-org: community
+  city: New York
+  country: United States
+  tags: 
+    - transhumanism
+    - nootropics
+  links:
+    meetup: https://www.meetup.com/NYC-Biohacking/
+    website: http://hackstronaut.com/
+
+- title: MN DIYbio
+  collection: groups
+  sphere_url: /groups/mndiybio/
+  start-date: 2015
+  hosts: 
+    - '[Spark-Y](http://spark-y.org/)'
+  city: Minneapolis
+  country: United States
+  tags: 
+  links:
+    facebook: https://www.facebook.com/mndiybio/
+    google-group: https://groups.google.com/forum/#!forum/mn-diybio
+    meetup: https://www.meetup.com/MN-diyBio/
+    website: http://mn.diy-bio.org/Wordpress/
+
+- title: Manila Biopunk
+  collection: groups
+  sphere_url: /groups/manilabiopunk/
+  start-date: 2014
+  hosts: 
+    - '[Tsinelas Labs](https://wiki.hackerspaces.org/Tsinelas_Labs)'
+  type-org: community
+  city: Dillman, Quezon City
+  country: Phillipines
+  tags: 
+  links:
+    website: http://www.manilabiopunk.org/
+
+- title: MikroBiomik
+  collection: groups
+  sphere_url: /groups/mikrobiomik/
+  start-date: 2017
+  type-org: community
+  city: Munich
+  country: Germany
+  tags: 
+    - microbiology
+    - microbiome
+    - ecology
+  links:
+    email: mail@mikrobiomik.org
+    website: https://mikrobiomik.org/en
+
+- title: Triangle DIY Biology
+  collection: groups
+  sphere_url: /groups/tridiybio/
+  subtitle: Community Citizen Science and DIYbio Group of the NC Triangle
+  start-date: 2015
+  hosts: 
+    - '[SplatSpace](http://splatspace.org/)'
+  city: Durham
+  country: United States
+  tags: 
+  links:
+    meetup: https://www.meetup.com/splatspace/events/236762179/
+    website: http://www.tridiybio.org/
+
+
+
+
+- title: Berkley Biolabs
+  collection: incubators
+  sphere_url: /incubators/berkleybiolabs/
+  start-date: 2013
+  city: Berkley
+  country: United States
+  tags: 
+  links:
+    facebook: https://www.facebook.com/Berkeley-Biolabs-361021104034449/
+    twitter: https://twitter.com/berkeleybiolab
+    google-plus: https://plus.google.com/108820188519369034008/posts
+    meetup: http://www.meetup.com/Berkeley-Biolabs/
+    website: http://www.berkeleybiolabs.com/
+
+- title: BioRiiDL
+  collection: incubators
+  sphere_url: /incubators/bioriidl/
+  start-date: 2017
+  hosts: 
+    - '[Somaiya Vidyavihar](https://www.somaiya.edu/)'
+  type-org: university
+  city: Mumbai
+  country: India
+  tags: 
+    - courses
+  links:
+    facebook: https://www.facebook.com/BioRiiDL/
+    twitter: https://twitter.com/bioriidl
+    website: http://www.bioriidl.org/
+
+- title: Bio, Tech and Beyond
+  collection: incubators
+  sphere_url: /incubators/biotechandbeyond/
+  subtitle: North San Diego's Life Science Incubator
+  start-date: 2013
+  type-org: company
+  city: Carlsbad
+  country: United States
+  tags: 
+  links:
+    email: info@btandb.com
+    blog: http://www.tridiybio.org/blog.html
+    twitter: https://twitter.com/biotechbeyond
+    website: http://www.biotechnbeyond.com/
+
+- title: Blue City Lab
+  collection: incubators
+  sphere_url: /incubators/bluecity/
+  start-date: 2017
+  hosts: 
+    - 'Blue City'
+  city: Rotterdam
+  country: Netherlands
+  tags: 
+  links:
+    email: info@bluecity.nl
+    facebook: https://www.facebook.com/bluecity010/
+    twitter: https://twitter.com/bluecity010
+    instagram: https://www.instagram.com/bluecity010/
+    website: http://www.bluecity.nl/
+
+- title: Harlem Biospace
+  collection: incubators
+  sphere_url: /incubators/harlembiospace/
+  subtitle: An affordable co-working wet lab, right in Manhattan
+  start-date: 2013
+  type-org: for-profit
+  city: New York City
+  country: United States
+  tags: 
+  links:
+    email: director@harlembiospace.com
+    facebook: https://www.facebook.com/Harlembiospace
+    twitter: https://twitter.com/Harlembiospace
+    google-plus: https://plus.google.com/u/0/+Harlembiospace
+    website: http://harlembiospace.com/
+
+- title: Hax Accelerator
+  collection: incubators
+  sphere_url: /incubators/hax/
+  subtitle: In the heart of the Silicon Valley for hardware
+  type-org: investor
+  city: Shenzhen
+  country: China
+  tags: 
+    - funding
+  links:
+    facebook: https://www.facebook.com/RebelBio/
+    twitter: https://twitter.com/RebelBio
+    website: https://hax.co/accelerator/
+
+- title: IndieBio
+  collection: incubators
+  sphere_url: /incubators/indiebio/
+  subtitle: Accelerating Biology
+  start-date: 2010
+  type-org: investor
+  city: San Francisco
+  country: United States
+  tags: 
+    - investor
+  links:
+    facebook: https://www.facebook.com/indiebio
+    twitter: https://twitter.com/indbio
+    website: http://indiebio.co/
+
+- title: RebelBio
+  collection: incubators
+  sphere_url: /incubators/rebelbio/
+  subtitle: The world's first life sciences accelerator.
+  start-date: 2010
+  hosts: 
+    - '[University College Cork](https://www.ucc.ie/en/)'
+    - '[Imperial White City Incubator](http://www.imperial.ac.uk/thinkspace/partners-and-services/imperial-white-city-incubator/)'
+  partners: 
+    - '[SOSV](https://sosv.com/)'
+  type-org: university
+  city: Cork
+  country: Ireland
+  tags: 
+    - accelerator
+    - funding
+  links:
+    facebook: https://www.facebook.com/RebelBio/
+    twitter: https://twitter.com/RebelBio
+    website: https://rebelbio.co/
+
+
+
+
+- title: Art Science BLR
+  collection: labs
+  sphere_url: /labs/artscienceblr/
+  subtitle: Public Laboratory at the Srishi Intitute of Art, Design & Technology
+  type-org: University
+  city: Bangalore
+  country: India
+  _geoloc:
+    lat: 13.111525
+    lng: 77.583126
+  tags: 
+    - bioart
+  links:
+    email: artscienceblr@gmail.com
+    website: http://artscienceblr.org/
+
+- title: Bio Art Laboratores
+  collection: labs
+  sphere_url: /labs/bioartlaboratories/
+  start-date: 2012
+  type-org: university
+  city: Eindhoven
+  country: Netherlands
+  _geoloc:
+    lat: 13.111525
+    lng: 77.583126
+  tags: 
+    - bioart
+  links:
+    email: contact@bioartlab.com
+    tumblr: http://bioscopelab.tumblr.com/
+    facebook: https://www.facebook.com/BioArtLab#
+    twitter: https://twitter.com/bioartlab
+    flickr: https://www.flickr.com/photos/bioartlab
+    website: http://bioartlab.com/
+
+- title: Biodidact
+  collection: labs
+  sphere_url: /labs/biodidact/
+  start-date: 2014
+  type-org: community
+  city: Los Alamos
+  country: United States
+  _geoloc:
+    lat: 35.892568
+    lng: -106.320034
+  tags: 
+  links:
+    facebook: https://www.facebook.com/Biodidact-766169000111497/
+    twitter: https://twitter.com/biodidact
+    website: http://biodidact.net/
+
+- title: Bio Foundry
+  collection: labs
+  sphere_url: /labs/biofoundry/
+  subtitle: Australia's first community lab for citizen scientists
+  start-date: 2014
+  type-org: non-profit
+  city: Alexandria
+  country: Australia
+  _geoloc:
+    lat: -33.904579
+    lng: 151.202014
+  tags: 
+  links:
+    rss: http://foundry.bio/feed/
+    facebook: https://www.facebook.com/thebiofoundry/
+    website: http://foundry.bio/
+
+- title: Biomakers Lab Peru
+  collection: labs
+  sphere_url: /labs/biomakerslabperu/
+  start-date: 2014
+  city: Lima
+  country: Peru
+  _geoloc:
+    lat: -12.2720956
+    lng: -76.2710833
+  tags: 
+  links:
+    facebook: https://www.facebook.com/biomakerslab/
+    website: http://biomakerslab.wixsite.com/
+
+- title: BioNyfiken
+  collection: labs
+  sphere_url: /labs/bionyfiken/
+  start-date: 2014
+  type-org: non-profit
+  city: Stockholm
+  country: Sweden
+  _geoloc:
+    lat: 59.350774
+    lng: 18.067712
+  tags: 
+  links:
+    facebook: https://www.facebook.com/BioNyfiken
+    twitter: https://twitter.com/BioNyfiken/likes
+    youtube: https://www.youtube.com/channel/UCS4YrUkKRyUmRL33gFEgXSg
+    meetup: http://www.meetup.com/BioNyfiken-Sthlm/
+    website: http://www.bionyfiken.se/
+
+- title: BuiQuisitive
+  collection: labs
+  sphere_url: /labs/bioquisitive/
+  start-date: 2015
+  type-org: community
+  city: Brunswick
+  country: Australia
+  tags: 
+  links:
+    email: info@bioquisitive.org.au
+    blog: http://bioquisitive.org.au/category/blog/
+    facebook: https://www.facebook.com/BioQuisitive-684269055011742/
+    twitter: https://twitter.com/BioQuisitive?lang=en
+    instagram: https://www.instagram.com/bioquisitive/
+    linkedin: https://www.linkedin.com/company/bioquisitive-inc?trk=company_logo
+    meetup: https://www.meetup.com/BioHack-Melbourne/
+    website: http://bioquisitive.org.au/
+
+- title: BioTehna
+  collection: labs
+  sphere_url: /labs/biotehna/
+  start-date: 2013
+  city: Ljubljana
+  country: Slovenia
+  tags: 
+  links:
+    email: info@biotehna.org
+    facebook: https://www.facebook.com/pg/BioTehna/about/?ref=page_internal
+    meetup: http://www.meetup.com/BioTehna/
+    
+
+- title: BioTown
+  collection: labs
+  sphere_url: /labs/biotown/
+  subtitle: Ottawa's DIY Biology Community
+  start-date: 2017
+  hosts: 
+    - '[ArtEngine](http://www.artengine.ca/)'
+  type-org: community
+  city: Ottawa
+  country: Canada
+  tags: 
+  links:
+    facebook: https://www.facebook.com/biotown/
+    twitter: https://twitter.com/_biotown?lang=en
+    github: https://github.com/biotown
+    instagram: https://www.instagram.com/biotown_ottawa/
+    linkedin: https://www.linkedin.com/company-beta/10879950/
+    meetup: https://www.meetup.com/biotown/
+    website: https://biotown.ca/
+
+- title: Biocurious
+  collection: labs
+  sphere_url: /labs/biocurious/
+  start-date: 2010
+  type-org: non-profit
+  city: Sunnyvale
+  country: United States
+  _geoloc:
+    lat: 37.377524
+    lng: -121.973031
+  tags: 
+    - open source
+    - synthetic biology
+    - hardware
+    - paid
+    - mycology
+  links:
+    email: info@biocurious.org
+    forum: https://groups.google.com/forum/#!forum/biocurious
+    facebook: https://www.facebook.com/BioCurious
+    twitter: https://twitter.com/biocuriouslab
+    meetup: http://www.meetup.com/biocurious/
+    website: http://biocurious.org/
+
+- title: BiologiGaragen
+  collection: labs
+  sphere_url: /labs/biologigaragen/
+  start-date: 2010
+  hosts: 
+    - '[Labitat](https://labitat.dk/)'
+  type-org: community
+  city: Copenhagen
+  country: Denmark
+  _geoloc:
+    lat: 55.67654
+    lng: 12.54552
+  tags: 
+    - hackerspace
+  links:
+    rss: http://biologigaragen.org/feed
+    blog: http://biologigaragen.org/blog/
+    facebook: https://www.facebook.com/groups/biologigaragen/
+    twitter: https://twitter.com/biologigaragen
+    vimeo: https://vimeo.com/biologigaragen
+    website: http://biologigaragen.org/
+
+- title: Biologik Labs
+  collection: labs
+  sphere_url: /labs/biologiklabs/
+  start-date: 2013
+  type-org: community
+  city: Norfolk
+  country: United States
+  _geoloc:
+    lat: 36.849866
+    lng: -76.290872
+  tags: 
+  links:
+    blog: http://biologiklabs.tumblr.com/
+    tumblr: http://biologiklabs.tumblr.com/
+    facebook: https://www.facebook.com/BiologikLabs
+    twitter: https://twitter.com/biologiklabs
+    google-plus: https://plus.google.com/110547922615605568991/posts
+    website: http://www.biologiklabs.org/
+
+- title: Bioscope
+  collection: labs
+  sphere_url: /labs/bioscope/
+  start-date: 2014
+  hosts: 
+    - 'University of Geneva'
+  type-org: university
+  city: Geneva
+  country: Switzerland
+  tags: 
+  links:
+    blog: http://bioscopelab.tumblr.com/
+    facebook: https://www.facebook.com/BIOSCOPE.UNIGE
+    twitter: https://twitter.com/bioscopelab
+    instagram: https://www.instagram.com/bioscopelab/
+    website: http://bioscope.ch/
+
+- title: Biotech Without Borders
+  collection: labs
+  sphere_url: /labs/biotechwithoutborders/
+  start-date: 2017
+  type-org: non-profit
+  city: Brooklyn
+  country: United States
+  tags: 
+  links:
+    facebook: https://www.facebook.com/BiotechWithoutBorders/
+    twitter: https://twitter.com/BioWOborders
+    website: https://biotechwithoutborders.org
+
+- title: BosLab
+  collection: labs
+  sphere_url: /labs/boslab/
+  start-date: 2014
+  type-org: non-profit
+  city: Boston
+  country: United States
+  tags: 
+  links:
+    email: homosapiens@boslab.org
+    rss: http://www.boslab.org/#!blog/c177y
+    facebook: https://www.facebook.com/BostonOpenScience/
+    twitter: https://twitter.com/BosOpenSci_Lab
+    linkedin: https://www.linkedin.com/company/boslab
+    website: http://boslab.org/
+
+- title: Bricobio
+  collection: labs
+  sphere_url: /labs/bricobio/
+  start-date: 2013
+  hosts: 
+    - '[Helios Makerspace](http://heliosmakerspace.ca/)'
+  city: Montreal
+  country: Canada
+  tags: 
+    - makerspace
+  links:
+    email: info@brico.bio
+    facebook: https://www.facebook.com/bricobio/
+    twitter: https://twitter.com/bricobiomtl
+    meetup: http://www.meetup.com/DIYBio-Montreal/
+    website: logo
+
+- title: Brmlab
+  collection: labs
+  sphere_url: /labs/brmbiolab/
+  type-org: Non-Profit
+  city: Prague
+  country: Czech Republic
+  tags: 
+  links:
+    email: biolab@brmlab.cz
+    facebook: https://www.facebook.com/brmlab?_rdr=p
+    twitter: https://twitter.com/brmlab
+    github: https://github.com/brmlab
+    flickr: https://secure.flickr.com/photos/brmlab
+    irc: http://webchat.freenode.net/?nick=brm...&channels=brmlab&prompt=1
+    wiki: http://brmlab.cz/start
+    website: http://brmlab.cz/index.html
+
+- title: Bugss
+  collection: labs
+  sphere_url: /labs/bugss/
+  start-date: 2013
+  type-org: non-profit
+  city: Baltimore
+  country: United States
+  tags: 
+  links:
+    rss: http://www.bugssonline.org/2/feed
+    meetup: http://www.meetup.com/BUGSS-Baltimore-Meetup/ https://www.facebook.com/BUGSS-Baltimore-Under-Ground-Science-Space-275707269195705/
+    website: http://www.bugssonline.org/
+
+- title: Capital Area BioSpace
+  collection: labs
+  sphere_url: /labs/capitalareabiospace/
+  hosts: 
+    - '[Nova Labs](http://www.nova-labs.org/blog/)'
+  type-org: community
+  city: Reston
+  country: United States
+  tags: 
+  links:
+    email: capitalareabiospace@gmail.com
+    website: https://www.meetup.com/CapitalAreaBioSpace/
+
+- title: ChiTownBio
+  collection: labs
+  sphere_url: /labs/chitownbio/
+  subtitle: Chicagoland's Community Biology Lab
+  start-date: 2017
+  city: Chicago
+  country: United States
+  tags: 
+  links:
+    facebook: https://www.facebook.com/ChiTownBio/
+    twitter: https://twitter.com/ChiTownBio
+    linkedin: https://www.linkedin.com/company/chitownbio
+    meetup: https://www.meetup.com/ChiTownBio/?_cookie-check=qfES85bPo5htT_N_
+    website: http://chitownbio.org
+
+- title: Counter Culture Labs
+  collection: labs
+  sphere_url: /labs/counterculturelabs/
+  subtitle: Your Biohacking and Citizen Science Lab in Oakland
+  start-date: 2013
+  hosts: 
+    - '[Omni Commons](https://omnicommons.org)'
+  type-org: community
+  city: Oakland
+  country: United States
+  _geoloc:
+    lat: 37.835233
+    lng: -122.264195
+  tags: 
+    - citizen science
+    - biohacking
+    - bioart
+  links:
+    email: info@counterculturelabs.org
+    facebook: https://www.facebook.com/CounterCultureLabs
+    twitter: https://twitter.com/countrcultrlabs
+    wiki: https://counterculturelabs.org/wiki/Counter_Culture_Labs
+    meetup: http://www.meetup.com/Counter-Culture-Labs/
+    website: http://counterculturelabs.org/
+
+- title: DIY Bio Barcelona
+  collection: labs
+  sphere_url: /labs/diybiobcn/
+  start-date: 2014
+  hosts: 
+    - '[MADE](http://made-bcn.org/)'
+  type-org: non-profit
+  city: Barcelona
+  country: Spain
+  tags: 
+  links:
+    rss: http://www.diybcn.org/feed/
+    twitter: https://twitter.com/DIYBIOBCN
+    instagram: https://www.facebook.com/DiyBioBcn
+    website: http://www.diybcn.org/
+
+- title: DIYbioTech
+  collection: labs
+  sphere_url: /labs/diybiotech-2/
+  start-date: 2013
+  hosts: 
+    - '[FamiLAB](https://familab.org/)'
+  type-org: community
+  city: Longwood
+  country: United States
+  tags: 
+    - makerspace
+  links:
+    trello: https://trello.com/b/T5816bnN/familab-biotech
+    wiki: https://familab.org/wiki/Diy_BioTech_Lab
+    meetup: https://www.meetup.com/DiyBio-in-Central-Florida/
+    
+
+- title: DIYbioTech
+  collection: labs
+  sphere_url: /labs/diybiotech/
+  start-date: 2013
+  end-date: 2016
+  hosts: 
+    - '[FamiLAB](https://familab.org/)'
+  type-org: community
+  city: Longwood
+  country: United States
+  tags: 
+    - makerspace
+  links:
+    trello: https://trello.com/b/T5816bnN/familab-biotech
+    wiki: https://familab.org/wiki/Diy_BioTech_Lab
+    meetup: https://www.meetup.com/DiyBio-in-Central-Florida/
+    
+
+- title: DIYbio Belgium
+  collection: labs
+  sphere_url: /labs/diybiobelgium/
+  type-org: non-profit
+  city: Nivelles
+  country: Belgium
+  tags: 
+  links:
+    blog: http://www.diybio.be/index.php/en/blog
+    facebook: https://www.facebook.com/diybio.be/
+    twitter: https://twitter.com/diybiobelgium
+    youtube: https://www.youtube.com/channel/UCTrz0Qs6ElwEMpp1hEt_4Jg
+    website: http://www.diybio.be/index.php/en/
+
+- title: DIYbio Toronto
+  collection: labs
+  sphere_url: /labs/diybiotoronto/
+  start-date: 2013
+  hosts: 
+    - '[HackLab](https://hacklab.to/)'
+  type-org: community
+  city: Toronto
+  country: Canada
+  tags: 
+    - hackerspace
+  links:
+    rss: https://hacklab.to/feed/
+    facebook: https://www.facebook.com/diybio.to
+    twitter: https://twitter.com/diybioto
+    flickr: https://www.flickr.com/photos/133973041@N05/
+    youtube: https://www.youtube.com/channel/UCwCqSNdQakcTkkpQWPiWgDg
+    wiki: https://knowledge.hacklab.to/wiki/Main_Page
+    meetup: http://www.meetup.com/DIYbio-Toronto/
+    website: http://diybio.to/
+
+- title: Denver Biolabs
+  collection: labs
+  sphere_url: /labs/denverbiolabs/
+  start-date: 2015
+  type-org: non-profit
+  city: Denver
+  country: United States
+  tags: 
+  links:
+    email: info@denverbiolabs.com
+    facebook: https://www.facebook.com/denverbiolabs
+    twitter: https://twitter.com/denverbiolabs
+    instagram: https://www.instagram.com/denverbiolabs/
+    slack: http://slack.denverbiolabs.com/
+    meetup: https://www.meetup.com/denverbiolabs/
+    website: http://denverbiolabs.com/
+
+- title: F-lab
+  collection: labs
+  sphere_url: /labs/flab/
+  type-org: community
+  city: Bangkok
+  country: Thailand
+  tags: 
+  links:
+    blog: http://f-labth.blogspot.ch/
+    facebook: https://www.facebook.com/FLabDIYbioThailand/
+    wiki: http://www.f-lab.cc/wiki/index.php/Main_Page
+    website: http://f-lab.cc/
+
+- title: Forma Labs
+  collection: labs
+  sphere_url: /labs/formalabs/
+  start-date: 2014
+  end-date: 2015
+  type-org: community
+  city: Cork
+  country: Ireland
+  tags: 
+  links:
+    twitter: https://twitter.com/formabiolabs?lang=en
+    website: http://formalabs.org/
+
+- title: Garoa Open BioLab
+  collection: labs
+  sphere_url: /labs/garoaopenbiolab/
+  start-date: 2011
+  hosts: 
+    - '[Garao Hacker Clube](https://garoa.net.br/wiki/P%C3%A1gina_principal)'
+  type-org: community
+  city: Sao Paolo
+  country: Brazil
+  tags: 
+    - hackerspace
+  links:
+    forum: https://groups.google.com/forum/#!forum/hackerspacesp
+    facebook: https://www.facebook.com/GaroaHC
+    twitter: https://twitter.com/garoahc
+    wiki: https://garoa.net.br/wiki/Garoa_Hacker_Clube:About
+    website: https://garoa.net.br/wiki/Garoa_Open_BioLab
+
+- title: GaudiLabs
+  collection: labs
+  sphere_url: /labs/gaudilabs/
+  type-org: non-profit
+  city: Lucerne
+  country: Switzerland
+  tags: 
+  links:
+    facebook: https://www.facebook.com/mrgaudi
+    youtube: https://www.youtube.com/user/MrGaudiCH
+    website: http://www.gaudi.ch/GaudiLabs/
+
+- title: Genspace
+  collection: labs
+  sphere_url: /labs/genspace/
+  subtitle: New York's Community Lab
+  type-org: non-profit
+  city: Brooklyn
+  country: United States
+  tags: 
+  links:
+    email: info@genspace.org
+    rss: http://www.genspace.org/blog/feed/
+    blog: http://www.genspace.org/blog/
+    facebook: https://www.facebook.com/Genspace-174637505918889/
+    twitter: https://twitter.com/genspacenyc
+    meetup: https://www.meetup.com/Brooklyn-Biohackers/
+    website: http://genspace.org/
+
+- title: Hackuarium
+  collection: labs
+  sphere_url: /labs/hackuarium/
+  subtitle: An Open Laboratory for DIY Biology (And Beyond)
+  start-date: 2014
+  hosts: 
+    - '[UniverCite](http://univercity.ch/)'
+  city: Renens
+  country: Switzerland
+  tags: 
+  links:
+    email: hello@hackuarium.ch
+    blog: https://medium.com/hackuarium-diybio
+    facebook: https://www.facebook.com/hackuarium
+    twitter: https://twitter.com/hackuarium
+    instagram: https://www.instagram.com/hackuarium/
+    wiki: http://wiki.hackuarium.ch/w/Main_Page
+    pinterest: https://nl.pinterest.com/shalf/diybio/
+    website: http://www.hackuarium.ch/en/
+
+- title: HiveBio
+  collection: labs
+  sphere_url: /labs/hivebio/
+  start-date: 2013
+  type-org: community
+  city: Seattle
+  country: United States
+  tags: 
+  links:
+    facebook: https://www.facebook.com/HivebioCommunityLab/
+    twitter: https://twitter.com/HiveBio
+    youtube: https://www.youtube.com/channel/UCALWihVVy-XpIsEi78uRnXQ
+    website: http://hivebio.org/
+
+- title: Indie Lab
+  collection: labs
+  sphere_url: /labs/indielab/
+  start-date: 2012
+  hosts: 
+    - '[Hack RVA](http://www.hackrva.org/blog/)'
+  type-org: community
+  city: Richmond
+  country: United States
+  tags: 
+  links:
+    email: admin@indielab.co
+    facebook: https://www.facebook.com/indielabrva/
+    twitter: https://twitter.com/indielabrva
+    youtube: https://www.youtube.com/channel/UCAYGsEQUx4DmjiEhv48-0UA
+    website: http://rva.indielab.co/
+
+- title: L'Eprouvette
+  collection: labs
+  sphere_url: /labs/leprouvette/
+  start-date: 2005
+  hosts: 
+    - '[University of Lausanne](http://www.unil.ch/interface/home.html)'
+  type-org: university
+  city: Lausanne
+  country: Switzerland
+  tags: 
+  links:
+    email: eprouvette@unil.ch
+    facebook: https://www.facebook.com/eprouvette/
+    twitter: https://twitter.com/Eprouvette_Unil
+    website: http://wp.unil.ch/mediationscientifique/activites/eprouvette
+
+- title: La Jolla Bio Lab
+  collection: labs
+  sphere_url: /labs/lajollabiolab/
+  start-date: 2015
+  hosts: 
+    - '[La Jolla Public Library](http://lajollalibrary.org/)'
+  city: La Jolla
+  country: United States
+  tags: 
+  links:
+    website: http://lajollalibrary.org/your-library/bio-lab/
+
+- title: La Paillase
+  collection: labs
+  sphere_url: /labs/lapaillase/
+  city: Paris
+  country: France
+  tags: 
+  links:
+    email: contact@lapaillasse.org
+    twitter: https://twitter.com/lapaillasse
+    website: http://lapaillasse.org/
+
+- title: La Paillase Saône
+  collection: labs
+  sphere_url: /labs/lapaillasesaone/
+  start-date: 2015
+  hosts: 
+    - 'La MYNE'
+  partners: 
+    - 'La Paillase'
+  type-org: non-profit
+  city: Villeurbanne
+  country: France
+  tags: 
+  links:
+    twitter: https://twitter.com/laPaillassaone
+    website: https://lapaillassaone.wordpress.com/
+
+- title: Biome Hack Lab
+  collection: labs
+  sphere_url: /labs/lebiomehacklab/
+  type-org: community
+  city: Rennes
+  country: France
+  tags: 
+    - biomimicry
+  links:
+    email: lebiomefablab@gmail.com
+    facebook: https://www.facebook.com/biomefrance
+    twitter: https://twitter.com/Le_biome
+    github: https://github.com/LeBiome
+    website: https://lebiome.github.io/
+
+- title: LifePatch
+  collection: labs
+  sphere_url: /labs/lifepatch/
+  subtitle: Citizen Initiative in Art, Science and Technology
+  type-org: community
+  city: Yogyarta
+  country: Indonesia
+  tags: 
+  links:
+    wiki: http://lifepatch.org/
+    
+
+- title: London Biohackspace
+  collection: labs
+  sphere_url: /labs/londonbiohackerspace/
+  start-date: 2009
+  hosts: 
+    - '[London Hackspace](https://london.hackspace.org.uk/)'
+  type-org: non-profit
+  city: London
+  country: United Kingdom
+  tags: 
+    - hackerspace
+  links:
+    facebook: https://www.facebook.com/LondonBiohackspace
+    twitter: https://twitter.com/LondonBioHack
+    flickr: https://www.flickr.com/groups/londonhackspace/pool
+    irc: http://webchat.freenode.net/?channels=london-hack-space
+    wiki: https://wiki.london.hackspace.org.uk/view/Group:Biohacking
+    website: https://biohackspace.org/
+
+- title: MadLab Biolab
+  collection: labs
+  sphere_url: /labs/madlabbiolab/
+  type-org: non-profit
+  city: Manchester
+  country: United Kingdom
+  tags: 
+  links:
+    facebook: https://www.facebook.com/MadLabUK/
+    twitter: https://twitter.com/madlabuk
+    vimeo: https://vimeo.com/madlabuk
+    website: https://madlab.org.uk/community-biotechnology/
+
+- title: Open bioLab Graz Austria
+  collection: labs
+  sphere_url: /labs/openbiolabgraz/
+  start-date: 2013
+  hosts: 
+    - '[Real Raum](https://realraum.at/wiki/doku.php?id=realraum)'
+  type-org: non-profit
+  city: Graz
+  country: Austria
+  tags: 
+  links:
+    email: openbiolabgraz@realraum.at
+    blog: https://wp.realraum.at/
+    facebook: https://www.facebook.com/OpenBioLabGraz
+    twitter: https://twitter.com/DIYbio_Austria
+    website: https://realraum.at/wiki/doku.php?id=olga:olga
+
+- title: Charlottesville Open Bio Labs
+  collection: labs
+  sphere_url: /labs/openbiolabs/
+  start-date: 2015
+  hosts: 
+    - '[The School Factory](http://schoolfactory.org/)'
+  type-org: Non-Profit
+  city: Charlottesville
+  country: United States
+  tags: 
+  links:
+    email: info@openbiolabs.org
+    blog: http://openbiolabs.org/blog/
+    facebook: https://www.facebook.com/openbiolabs
+    twitter: https://twitter.com/openbiolabs/
+    website: http://openbiolabs.org/
+
+- title: Open Science Network
+  collection: labs
+  sphere_url: /labs/opensciencenet/
+  start-date: 2010
+  hosts: 
+    - '[MakerLabs](http://www.makerlabs.com/)'
+  type-org: non-profit
+  city: Vancouver
+  country: Canada
+  tags: 
+    - makerspace
+  links:
+    forum: https://groups.google.com/forum/#!forum/open-science-network
+    facebook: https://www.facebook.com/Opensciencenetwork
+    twitter: https://twitter.com/Openscinet
+    meetup: http://www.meetup.com/open-science-network/
+    website: http://www.opensciencenet.org/
+
+- title: Open Wetlab
+  collection: labs
+  sphere_url: /labs/openwetlab/
+  start-date: 2012
+  hosts: 
+    - '[Waag Society](http://waag.org/en)'
+  type-org: institute
+  city: Amsterdam
+  country: Netherlands
+  tags: 
+  links:
+    facebook: https://www.facebook.com/waagsociety
+    twitter: https://twitter.com/waag
+    meetup: http://www.meetup.com/Dutch-DIY-Bio/
+    website: https://waag.org/en/lab/open-wetlab
+
+- title: PechBlenda Lab
+  collection: labs
+  sphere_url: /labs/pechblenda/
+  subtitle: Laboratory of bioelectrochemical experimentations
+  type-org: community
+  city: Barcelona
+  country: Spain
+  tags: 
+  links:
+    blog: https://network23.org/pechblendalab/
+    website: https://pechblenda.hotglue.me/
+
+- title: ReaGent
+  collection: labs
+  sphere_url: /labs/reagent/
+  start-date: 2015
+  type-org: community
+  city: Gent
+  country: Belgium
+  tags: 
+  links:
+    facebook: https://www.facebook.com/ReaGentBiolab/
+    twitter: https://twitter.com/reagentlab
+    website: http://reagentlab.org/
+
+- title: SoundBio Lab
+  collection: labs
+  sphere_url: /labs/soundbiolab/
+  start-date: 2016
+  type-org: community
+  city: Seattle
+  country: United States
+  tags: 
+  links:
+    email: info@sound.bio
+    facebook: https://www.facebook.com/SoundBioLab/
+    twitter: https://twitter.com/SoundBioLab
+    instagram: https://www.instagram.com/soundbiolab/
+    meetup: https://www.meetup.com/SoundBio/
+    website: https://sound.bio/
+
+- title: Symbiolab
+  collection: labs
+  sphere_url: /labs/symbiolab/
+  subtitle: Open and DIY biolaboratory
+  start-date: 2014
+  hosts: 
+    - '[IRNAS](http://irnas.eu/)'
+  type-org: non-profit
+  city: Maribor
+  country: Slovenia
+  tags: 
+  links:
+    email: info@irnas.eu
+    forum: http://forum.irnas.eu/
+    facebook: https://www.facebook.com/instituteirnas https://www.linkedin.com/company/5091007?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A2145770871449478448235%2CVSRPtargetId%3A5091007%2CVSRPcmpt%3Aprimary
+    twitter: https://twitter.com/institute_irnas
+    github: https://github.com/IRNAS
+    website: http://irnas.eu/symbiolab.html
+
+- title: The LAb
+  collection: labs
+  sphere_url: /labs/thelab/
+  start-date: 2011
+  type-org: community
+  city: Los Angeles
+  country: United States
+  tags: 
+  links:
+    rss: http://www.thel4b.com/?feed=rss2
+    facebook: https://www.facebook.com/TheL4b
+    twitter: https://twitter.com/labiohackers
+    website: http://www.thel4b.com/
+
+- title: The Wet Lab
+  collection: labs
+  sphere_url: /labs/thewetlab/
+  start-date: 2013
+  hosts: 
+    - 'La Jolla Public Library'
+  type-org: public
+  city: San Diego
+  country: United States
+  tags: 
+  links:
+    email: sdwetlab@gmail.com
+    forum: https://groups.google.com/forum/#%21forum/wet-lab-san-diego-diybio
+    facebook: https://www.facebook.com/wetlab.coordinator.5?fref=mentions
+    trello: https://trello.com/thewetlab
+    meetup: http://www.meetup.com/The-Wet-Lab-a-DIYBio-maker-community-for-algae-enthusiasts/
+    
+
+- title: TrySci Community Biolabs
+  collection: labs
+  sphere_url: /labs/tryscibiolab/
+  start-date: 2014
+  type-org: non-profit
+  city: South
+  country: United States
+  tags: 
+  links:
+    facebook: https://www.facebook.com/TrySci-Community-Biolabs-1466032090280960/?sk=app_190322544333196&ref=s
+    twitter: https://twitte...=followbutton
+    google-plus: https://plus.google.com/113393817402093284211/about
+    linkedin: https://www.linkedin.com/company/trysci-community-biolabs
+    website: http://www.trysci.org/
+
+
+
+
+- title: BioChanges
+  collection: networks
+  sphere_url: /networks/biochanges/
+  partners: 
+    - 'BioDesign Studios'
+    - 'BioMaker Spaces'
+  tags: 
+  links:
+    facebook: https://www.facebook.com/events/1665977003687808/
+    
+
+- title: Biodesign for the Real World https://filopodia.files.wordpress.com/2013/10/cropped-biodesign-logo-green.png
+  collection: networks
+  sphere_url: /networks/biodesignftrw/
+  partners: 
+    - '[EPFL]()'
+    - '(Art)ScienceBLR'
+    - 'Lifepatch'
+  type-org: community
+  tags: 
+  links:
+    website: https://biodesign.cc/
+
+- title: DIYbio.org
+  collection: networks
+  sphere_url: /networks/diybio-org/
+  subtitle: Biotechnology and greater public understanding about it has the potential to benefit everyone.
+  start-date: 2008
+  type-org: non-profit
+  city: Boston
+  country: United States
+  tags: 
+    - diybio
+  links:
+    facebook: https://www.facebook.com/groups/diybio/
+    twitter: https://twitter.com/diybio
+    website: http://diybio.org/
+
+- title: Hackteria
+  collection: networks
+  sphere_url: /networks/hackteria/
+  start-date: 2009
+  type-org: non-profit
+  country: Switzerland
+  tags: 
+    - workshops
+    - hardware
+    - art
+  links:
+    website: https://www.hackteria.org/
+
+- title: NYC Bio
+  collection: networks
+  sphere_url: /networks/nycbio/
+  subtitle: Education, showcases & networking with the pillars of NYC’s life sciences startup community.
+  start-date: 2008
+  type-org: non-profit
+  city: New York
+  country: United States
+  tags: 
+    - networking
+    - education
+    - events
+  links:
+    linkedin: https://www.linkedin.com/groups/41295/profile
+    
+
+- title: Open BioMedical Initiative
+  collection: networks
+  sphere_url: /networks/openbiomedicalinitiative/
+  start-date: 2014
+  type-org: non-profit
+  tags: 
+    - medical
+    - open-source
+  links:
+    email: info@openbiomedical.org
+    rss: http://www.openbiomedical.org/feed/
+    facebook: https://www.facebook.com/openbiomedical.org
+    twitter: https://twitter.com/openbiomedical
+    google-plus: https://plus.google.com/+OpenbiomedicalOrg
+    youtube: https://www.youtube.com/channel/UCb7xeo68gb9sq2xE1uAwfHA
+    linkedin: https://www.linkedin.com/company/open-biomedical-initiative/
+    website: http://www.openbiomedical.org/
+
+- title: SynTechBio Network
+  collection: networks
+  sphere_url: /networks/syntechbio/
+  tags: 
+  links:
+    facebook: https://www.facebook.com/Syntechbio
+    website: https://www.syntechbio.com/
+
+
+
+
+
+
+
+
+
+
+- title: DIYbiosphere
+  collection: projects
+  sphere_url: /projects/diybiosphere/
+  subtitle: Connecting DIYbio Worldwide
+  start-date: 2016
+  partners: 
+    - 'DIYbio.org'
+  type-org: non-profit
+  city: Geneva
+  country: Switzerland
+  _geoloc:
+    lat: 
+    lng: 
+  tags: 
+    - website
+    - database
+  links:
+    twitter: https://twitter.com/DIYbiosphere/
+    github: https://github.com/DIYbiosphere/sphere
+    gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+    website: http://sphere.diybio.org/
+
+- title: Biodisplay
+  collection: projects
+  sphere_url: /projects/biodisplay/
+  tags: 
+  links:
+    
+
+- title: Decentralized Oxalis Genome Project
+  collection: projects
+  sphere_url: /projects/decentralizedoxalisgenomeproject/
+  start-date: 2016
+  type-org: community
+  city: NYC
+  country: United States
+  tags: 
+    - sequencing
+    - plant biology
+  links:
+    facebook: https://www.facebook.com/oxalisgenome/
+    website: https://www.facebook.com/oxalisgenome/
+
+- title: Kombucha Genomics
+  collection: projects
+  sphere_url: /projects/kombuchagenomics/
+  start-date: 2017-11-14
+  hosts: 
+    - 'Counter Culture Labs'
+  type-org: community
+  city: Oakland
+  country: United States
+  tags: 
+    - metagenomics
+    - food
+    - global
+  links:
+    mailing-list: https://groups.google.com/forum/#!forum/kombuchagenomics
+    
+
+- title: Metafluidics
+  collection: projects
+  sphere_url: /projects/metafluidics/
+  subtitle: An open repository for fluidic systems
+  start-date: 2017
+  type-org: university
+  city: Boston
+  country: United States
+  tags: 
+    - hardware
+  links:
+    facebook: https://www.facebook.com/metafluidics
+    twitter: https://twitter.com/metafluidics
+    website: https://metafluidics.org/
+
+- title: OYEP: Open Yeast Engineering Project
+  collection: projects
+  sphere_url: /projects/oyep/
+  subtitle: Bringing Yeast Engineering to the Masses
+  start-date: 2017
+  type-org: community
+  city: Boston
+  country: United States
+  tags: 
+    - synbio
+  links:
+    twitter: https://twitter.com/openyeast
+    website: https://github.com/oyep/oyep
+
+- title: Opengenx
+  collection: projects
+  sphere_url: /projects/opengenx/
+  tags: 
+  links:
+    
+
+- title: Open Insulin
+  collection: projects
+  sphere_url: /projects/openinsulin/
+  subtitle: We're a team of Bay Area biohackers working on newer, simpler, less expensive ways to make insulin.
+  start-date: 2015
+  hosts: 
+    - 'Counter Culture Labs'
+  partners: 
+    - 'ReaGent'
+    - 'Bio Foundry'
+  type-org: community
+  city: Oakland
+  country: United States
+  tags: 
+    - medicine
+    - synbio
+  links:
+    facebook: https://www.facebook.com/openinsulin/
+    website: http://openinsulin.org/
+
+- title: OpenPCR
+  collection: projects
+  sphere_url: /projects/openpcr/
+  subtitle: An open source project to make DNA diagnostics and PCR technology available at low-cost
+  start-date: 2010
+  city: Santa Clara
+  country: United States
+  tags: 
+    - hardware
+  links:
+    facebook: https://www.facebook.com/openpcr
+    twitter: https://twitter.com/openpcr
+    website: http://openpcr.org/
+
+- title: Real Vegan Cheese
+  collection: projects
+  sphere_url: /projects/realvegancheese/
+  subtitle: Biohackers are engineering baker's yeast to produce Real Vegan Cheese. No cows needed!
+  start-date: 2014
+  hosts: 
+    - 'Counter Culture Labs'
+  partners: 
+    - 'Biocurious'
+  type-org: community
+  city: Oakland
+  country: United States
+  _geoloc:
+    lat: 37.835233
+    lng: -122.264195
+  tags: 
+    - citizen science
+    - biohacking
+    - bioart
+  links:
+    facebook: https://www.facebook.com/realvegancheese/
+    wiki: https://wiki.realvegancheese.org/index.php/Real_Vegan_Cheese
+    website: https://realvegancheese.org/
+
+- title: Roningenetics
+  collection: projects
+  sphere_url: /projects/roningenetics/
+  tags: 
+  links:
+    
+
+
+
+
+- title: Amino Labs
+  collection: startups
+  sphere_url: /startups/aminolabs/
+  subtitle: Empowering the next generation of scientists and innovators
+  start-date: 2015
+  type-org: company
+  city: Alberta
+  country: Canada
+  tags: 
+    - hardware
+    - education
+    - kits
+  links:
+    facebook: https://www.facebook.com/aminobiolab/
+    twitter: https://twitter.com/Aminobiolab
+    website: https://amino.bio/
+
+- title: Chai Bio
+  collection: startups
+  sphere_url: /startups/chaibio/
+  subtitle: DNA diagnostics for everyone
+  start-date: 2016
+  type-org: company
+  city: Santa Clara
+  country: United States
+  tags: 
+    - hardware
+  links:
+    facebook: https://www.facebook.com/chaibiotech
+    twitter: https://twitter.com/chaibio
+    website: https://www.chaibio.com/
+
+- title: OpenBionics
+  collection: startups
+  sphere_url: /startups/openbionics/
+  subtitle: The Next Generation of Bionics
+  start-date: 2014
+  type-org: Company
+  city: Bristol
+  country: United Kingdom
+  tags: 
+    - hardware
+    - open-source
+    - medicine
+    - prosthetics
+  links:
+    forum: https://www.tapatalk.com/groups/openbionics/
+    tumblr: https://openbionics.tumblr.com/
+    facebook: https://www.facebook.com/openbionicsltd
+    twitter: https://twitter.com/openbionics
+    github: https://github.com/Open-Bionics
+    google-plus: https://plus.google.com/+Openbionics
+    instagram: https://www.instagram.com/openbionics/
+    youtube: https://www.youtube.com/channel/UCcjAyHEHlN5wKYcOPyk4mOw
+    linkedin: https://www.linkedin.com/company/openbionics/
+    pinterest: https://www.pinterest.com/openbionics/
+    website: https://www.openbionics.com/
+
+- title: Open Trons
+  collection: startups
+  sphere_url: /startups/opentrons/
+  subtitle: Opentrons makes robots for biologists.
+  start-date: 2014
+  type-org: company
+  city: New York
+  country: United States
+  tags: 
+    - hardware
+  links:
+    facebook: https://www.facebook.com/opentronslabworks/
+    website: https://opentrons.com/
+
+- title: Rotter Zwam
+  collection: startups
+  sphere_url: /startups/rotterzwam/
+  start-date: 2017
+  city: Rotterdam
+  country: Netherlands
+  tags: 
+    - mycology
+    - food
+    - recyle
+  links:
+    facebook: https://www.facebook.com/Rotterzwam
+    twitter: https://twitter.com/RotterZwam
+    website: https://www.rotterzwam.nl/
+
+- title: The ODIN
+  collection: startups
+  sphere_url: /startups/theodin/
+  start-date: 2016
+  type-org: company
+  city: California
+  country: USA
+  tags: 
+    - supplies
+    - kits
+  links:
+    facebook: https://www.facebook.com/TheODINinc
+    twitter: https://twitter.com/TheODINinc
+    website: http://www.the-odin.com/
+
+
