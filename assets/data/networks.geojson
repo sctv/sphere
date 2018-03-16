@@ -1,0 +1,145 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.127758, 51.507351]
+          },
+          "properties": {
+            "title": "BioChanges BioDesign",
+            "url": "/networks/biochanges/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.632273, 46.519653]
+          },
+          "properties": {
+            "title": "Biodesign for the Real World",
+            "url": "/networks/biodesignftrw/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "DIYbio.org",
+            "url": "/networks/diybio-org/",
+            "address": null,
+            "city": "Boston",
+            "state": null,
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.227512, 46.818188]
+          },
+          "properties": {
+            "title": "Hackteria",
+            "url": "/networks/hackteria/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Switzerland",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "NYC Bio",
+            "url": "/networks/nycbio/",
+            "address": null,
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.56738, 41.87194]
+          },
+          "properties": {
+            "title": "Open BioMedical Initiative",
+            "url": "/networks/openbiomedicalinitiative/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-51.92528, -14.235004]
+          },
+          "properties": {
+            "title": "SynTechBio Network",
+            "url": "/networks/syntechbio/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Brazil",
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      }
+      
+    ]
+}

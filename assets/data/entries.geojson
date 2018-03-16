@@ -5,12 +5,760 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [77.583126, 13.111525]
+          "coordinates": [-74.00295, 40.657082]
           },
           "properties": {
-            "title": "Art Science BLR",
-            "url": "/labs/artscienceblr/",
-            "collection": "labs"
+            "title": "Bio Design Challenge",
+            "url": "/events/biodesignchallenge/",
+            "address": "140 32nd Street",
+            "city": "New York City",
+            "state": "New York",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.054807, 46.23479]
+          },
+          "properties": {
+            "title": "BioFabbing Convergence",
+            "url": "/events/biofabbing/",
+            "address": "CERN",
+            "city": "Geneva",
+            "state": null,
+            "country": "Switzerland",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264173, 37.835258]
+          },
+          "properties": {
+            "title": "Biohack The Planet",
+            "url": "/events/biohtp/",
+            "address": "4799 Shattuck Avenue",
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.087339, 42.360611]
+          },
+          "properties": {
+            "title": "Global Community BioSummit",
+            "url": "/events/globalcommunitybiosummit/",
+            "address": "75 Amherst St",
+            "city": "Cambridge",
+            "state": "Massachusetts",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.616271, 6.6666]
+          },
+          "properties": {
+            "title": "Africa Open Science Hardware Summit",
+            "url": "/events/africaosh/",
+            "address": null,
+            "city": "Kumasi",
+            "state": null,
+            "country": "Ghana",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [7.668286, 45.050267]
+          },
+          "properties": {
+            "title": "Be.In.To",
+            "url": "/groups/beintobiohacking/",
+            "address": "Via Egeo 16",
+            "city": "Torino",
+            "state": null,
+            "country": "Italy",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [151.209296, -33.86882]
+          },
+          "properties": {
+            "title": "BioHackSyd",
+            "url": "/groups/biohacksyd/",
+            "address": null,
+            "city": "Sydney",
+            "state": "New South Wales",
+            "country": "Australia",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [34.769344, 32.063287]
+          },
+          "properties": {
+            "title": "BioHubIl",
+            "url": "/groups/biohubil/",
+            "address": "Rothschild Boulevard 3",
+            "city": "Tel Aviv",
+            "state": null,
+            "country": "Israel",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.386036, 52.558269]
+          },
+          "properties": {
+            "title": "Biotinkering Berlin",
+            "url": "/groups/biotinkeringberlin/",
+            "address": "Prinzenallee 34",
+            "city": "Berlin",
+            "state": null,
+            "country": "Germany",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.58198, 48.135125]
+          },
+          "properties": {
+            "title": "Biogarage",
+            "url": "/groups/biogarage/",
+            "address": null,
+            "city": "Munich",
+            "state": null,
+            "country": "Germany",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "Biohackers NYC",
+            "url": "/groups/biohackersnyc/",
+            "address": null,
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-102.552784, 23.634501]
+          },
+          "properties": {
+            "title": "Biohacking Mexico",
+            "url": "/groups/biohackingmexico/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Mexico",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-83.042339, 39.997578]
+          },
+          "properties": {
+            "title": "Cap City Biohackers",
+            "url": "/groups/capcitybiohackers/",
+            "address": "1275 Kinnear Rd",
+            "city": "Columbus",
+            "state": "Ohio",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "DIYbio Chicago",
+            "url": "/groups/chicagobiohacking/",
+            "address": null,
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-90.18481, 32.298757]
+          },
+          "properties": {
+            "title": "DIY Neurotech",
+            "url": "/groups/diyneurotech/",
+            "address": null,
+            "city": "Jackson",
+            "state": "Mississippi",
+            "country": "United States",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [174.763332, -36.84846]
+          },
+          "properties": {
+            "title": "Auckland DIYbio",
+            "url": "/groups/diybioauckland/",
+            "address": null,
+            "city": "Auckland",
+            "state": null,
+            "country": "Australia",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.353517, 51.109716]
+          },
+          "properties": {
+            "title": "DIYbio Belgium",
+            "url": "/groups/diybiobelgium/",
+            "address": null,
+            "city": "Nivelles",
+            "state": null,
+            "country": "Belgium",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.381559, -34.603684]
+          },
+          "properties": {
+            "title": "Biohacking BA",
+            "url": "/groups/diybiobuenosaires/",
+            "address": null,
+            "city": "Buenos Aires",
+            "state": null,
+            "country": "Argentina",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "DIYbio Chicago",
+            "url": "/groups/diybiochicago/",
+            "address": null,
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.569136, 53.214447]
+          },
+          "properties": {
+            "title": "DIYbio Groningen",
+            "url": "/groups/diybiogroningen/",
+            "address": null,
+            "city": "Groningen",
+            "state": null,
+            "country": "Netherlands",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-7.692054, 53.142367]
+          },
+          "properties": {
+            "title": "DIYbio Ireland",
+            "url": "/groups/diybioireland/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Ireland",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [34.781768, 32.0853]
+          },
+          "properties": {
+            "title": "DIYbio Israel",
+            "url": "/groups/diybioisrael/",
+            "address": null,
+            "city": "Tel Aviv",
+            "state": null,
+            "country": "Israel",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-102.552784, 23.634501]
+          },
+          "properties": {
+            "title": "DIYbio Mexico",
+            "url": "/groups/diybiomexico/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Mexico",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [115.810083, -31.901608]
+          },
+          "properties": {
+            "title": "DIYbio Perth",
+            "url": "/groups/diybioperth/",
+            "address": null,
+            "city": "Osborne Park",
+            "state": null,
+            "country": "Australia",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [103.819836, 1.352083]
+          },
+          "properties": {
+            "title": "DIYbio Singapore",
+            "url": "/groups/diybiosingapore/",
+            "address": null,
+            "city": "Singapore",
+            "state": null,
+            "country": "Singapore",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-103.349609, 20.659699]
+          },
+          "properties": {
+            "title": "Gene Garage",
+            "url": "/groups/genegarage/",
+            "address": null,
+            "city": "Guadalajara",
+            "state": "Jalisco",
+            "country": "Mexico",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "Hackstronauts",
+            "url": "/groups/hackstronauts/",
+            "address": null,
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.677793, 48.117266]
+          },
+          "properties": {
+            "title": "Biome Hack Lab",
+            "url": "/groups/lebiomehacklab/",
+            "address": null,
+            "city": "Rennes",
+            "state": null,
+            "country": "France",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-93.26284, 44.922625]
+          },
+          "properties": {
+            "title": "MN DIYbio",
+            "url": "/groups/mndiybio/",
+            "address": "4432 Chicago Ave S.",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [121.03638, 14.628067]
+          },
+          "properties": {
+            "title": "Manila Biopunk",
+            "url": "/groups/manilabiopunk/",
+            "address": "Teodoro Gener",
+            "city": "Quezon City",
+            "state": "Metro Manila",
+            "country": "Phillipines",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.58198, 48.135125]
+          },
+          "properties": {
+            "title": "MikroBiomik",
+            "url": "/groups/mikrobiomik/",
+            "address": null,
+            "city": "Munich",
+            "state": null,
+            "country": "Germany",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.161084, 32.715738]
+          },
+          "properties": {
+            "title": "The Wet Lab",
+            "url": "/groups/thewetlab/",
+            "address": null,
+            "city": "San Diego",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.894831, 36.001758]
+          },
+          "properties": {
+            "title": "Triangle DIY Biology",
+            "url": "/groups/tridiybio/",
+            "address": "800 N Mangum St",
+            "city": "Durham",
+            "state": "North Carolina",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.299814, 37.862421]
+          },
+          "properties": {
+            "title": "Berkley Biolabs",
+            "url": "/incubators/berkleybiolabs/",
+            "address": "614 Bancroft Way",
+            "city": "Berkley",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [72.897863, 19.07933]
+          },
+          "properties": {
+            "title": "BioRiiDL",
+            "url": "/incubators/bioriidl/",
+            "address": "SIMSR Building, Off 7th Rajawadi Road",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "country": "India",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.274311, 33.135863]
+          },
+          "properties": {
+            "title": "Bio, Tech and Beyond",
+            "url": "/incubators/biotechandbeyond/",
+            "address": "2351 Faraday Ave",
+            "city": "Carlsbad",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.501622, 51.920674]
+          },
+          "properties": {
+            "title": "Blue City Lab",
+            "url": "/incubators/bluecity/",
+            "address": "Maasboulevard 100",
+            "city": "Rotterdam",
+            "state": null,
+            "country": "Netherlands",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [114.057865, 22.543096]
+          },
+          "properties": {
+            "title": "Hax Accelerator",
+            "url": "/incubators/hax/",
+            "address": null,
+            "city": "Shenzhen",
+            "state": null,
+            "country": "China",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "incubators"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.40857, 37.781841]
+          },
+          "properties": {
+            "title": "IndieBio",
+            "url": "/incubators/indiebio/",
+            "address": "479 Jessie St",
+            "city": "San Francisco",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-8.469755, 51.897351]
+          },
+          "properties": {
+            "title": "RebelBio",
+            "url": "/incubators/rebelbio/",
+            "address": "12 South Mall Street",
+            "city": "Cork",
+            "state": null,
+            "country": "Ireland",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
           }
       },
       {
@@ -20,8 +768,34 @@
           "coordinates": [77.583126, 13.111525]
           },
           "properties": {
+            "title": "Art Science BLR",
+            "url": "/labs/artscienceblr/",
+            "address": null,
+            "city": "Bangalore",
+            "state": null,
+            "country": "India",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [5.4532, 51.45126]
+          },
+          "properties": {
             "title": "Bio Art Laboratores",
             "url": "/labs/bioartlaboratories/",
+            "address": "Achtseweg Zuid 151",
+            "city": "Eindhoven",
+            "state": null,
+            "country": "Netherlands",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
           }
       },
@@ -34,6 +808,13 @@
           "properties": {
             "title": "Biodidact",
             "url": "/labs/biodidact/",
+            "address": "1900 Diamond Drive",
+            "city": "Los Alamos",
+            "state": "New Mexico",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
           }
       },
@@ -46,6 +827,13 @@
           "properties": {
             "title": "Bio Foundry",
             "url": "/labs/biofoundry/",
+            "address": "296 Botany Road",
+            "city": "Alexandria",
+            "state": "New South Wales",
+            "country": "Australia",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
           }
       },
@@ -58,6 +846,13 @@
           "properties": {
             "title": "Biomakers Lab Peru",
             "url": "/labs/biomakerslabperu/",
+            "address": null,
+            "city": "Lima",
+            "state": null,
+            "country": "Peru",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
             "collection": "labs"
           }
       },
@@ -70,6 +865,70 @@
           "properties": {
             "title": "BioNyfiken",
             "url": "/labs/bionyfiken/",
+            "address": "Drottning Kristinas väg 53",
+            "city": "Stockholm",
+            "state": null,
+            "country": "Sweden",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [144.959293, -37.765773]
+          },
+          "properties": {
+            "title": "BuiQuisitive",
+            "url": "/labs/bioquisitive/",
+            "address": "45 Talbot St.",
+            "city": "Brunswick",
+            "state": "Victoria",
+            "country": "Australia",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [14.591224, 46.042842]
+          },
+          "properties": {
+            "title": "BioTehna",
+            "url": "/labs/biotehna/",
+            "address": "Litijska cesta 259",
+            "city": "Ljubljana",
+            "state": null,
+            "country": "Slovenia",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.688658, 45.425631]
+          },
+          "properties": {
+            "title": "BioTown",
+            "url": "/labs/biotown/",
+            "address": "2 Daly Ave",
+            "city": "Ottawa",
+            "state": null,
+            "country": "Canada",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
           }
       },
@@ -82,6 +941,13 @@
           "properties": {
             "title": "Biocurious",
             "url": "/labs/biocurious/",
+            "address": "845 Stewart Drive",
+            "city": "Sunnyvale",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
           }
       },
@@ -94,6 +960,13 @@
           "properties": {
             "title": "BiologiGaragen",
             "url": "/labs/biologigaragen/",
+            "address": "H. C. Ørsteds Vej 5",
+            "city": "Copenhagen",
+            "state": null,
+            "country": "Denmark",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
           }
       },
@@ -106,6 +979,165 @@
           "properties": {
             "title": "Biologik Labs",
             "url": "/labs/biologiklabs/",
+            "address": "259 Granby St.",
+            "city": "Norfolk",
+            "state": "Virginia",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.136478, 46.196136]
+          },
+          "properties": {
+            "title": "Bioscope",
+            "url": "/labs/bioscope/",
+            "address": "Rue de l’Ecole-de-Médecine, 20",
+            "city": "Geneva",
+            "state": null,
+            "country": "Switzerland",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-73.979717, 40.687953]
+          },
+          "properties": {
+            "title": "Biotech Without Borders",
+            "url": "/labs/biotechwithoutborders/",
+            "address": "33 Flatbush Avenue",
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.118517, 42.39396]
+          },
+          "properties": {
+            "title": "BosLab",
+            "url": "/labs/boslab/",
+            "address": "339 Summer Street",
+            "city": "Somerville",
+            "state": "Massachusetts",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-73.582007, 45.475229]
+          },
+          "properties": {
+            "title": "Bricobio",
+            "url": "/labs/bricobio/",
+            "address": "137 Rue Saint-Ferdinand",
+            "city": "Montreal",
+            "state": "Quebec",
+            "country": "Canada",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [14.435878, 50.098678]
+          },
+          "properties": {
+            "title": "Brmlab",
+            "url": "/labs/brmbiolab/",
+            "address": "Bubenská 1477/1",
+            "city": "Prague",
+            "state": null,
+            "country": "Czech Republic",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.562254, 39.294383]
+          },
+          "properties": {
+            "title": "Bugss",
+            "url": "/labs/bugss/",
+            "address": "101 N Haven St",
+            "city": "Baltimore",
+            "state": "Maryland",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.338357, 38.954722]
+          },
+          "properties": {
+            "title": "Capital Area BioSpace",
+            "url": "/labs/capitalareabiospace/",
+            "address": "1916 Isaac Newton Square West",
+            "city": "Reston",
+            "state": "Virginia",
+            "country": "United States",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "ChiTownBio",
+            "url": "/labs/chitownbio/",
+            "address": null,
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
             "collection": "labs"
           }
       },
@@ -118,7 +1150,812 @@
           "properties": {
             "title": "Counter Culture Labs",
             "url": "/labs/counterculturelabs/",
+            "address": "4799 Shattuck",
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
             "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.154291, 41.383107]
+          },
+          "properties": {
+            "title": "DIY Bio Barcelona",
+            "url": "/labs/diybiobcn/",
+            "address": "Carrer Consell de Cent, 159",
+            "city": "Barcelona",
+            "state": null,
+            "country": "Spain",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-81.353101, 28.684971]
+          },
+          "properties": {
+            "title": "DIYbioTech",
+            "url": "/labs/diybiotech/",
+            "address": "1355 Bennett Dr.",
+            "city": "Longwood",
+            "state": "Florida",
+            "country": "United States",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.429635, 43.64265]
+          },
+          "properties": {
+            "title": "DIYbio Toronto",
+            "url": "/labs/diybiotoronto/",
+            "address": "1266 Queen St.",
+            "city": "Toronto",
+            "state": "Ontario",
+            "country": "Canada",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-104.974551, 39.768852]
+          },
+          "properties": {
+            "title": "Denver Biolabs",
+            "url": "/labs/denverbiolabs/",
+            "address": "3563 Walnut St",
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [100.501765, 13.756331]
+          },
+          "properties": {
+            "title": "F.lab",
+            "url": "/labs/flab/",
+            "address": null,
+            "city": "Bangkok",
+            "state": null,
+            "country": "Thailand",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-8.479665, 51.898617]
+          },
+          "properties": {
+            "title": "Forma Labs",
+            "url": "/labs/formalabs/",
+            "address": "Grattan House, Grattan Street",
+            "city": "Cork",
+            "state": null,
+            "country": "Ireland",
+            "status": "inactive",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-46.699185, -23.564721]
+          },
+          "properties": {
+            "title": "Garoa Open BioLab",
+            "url": "/labs/garoaopenbiolab/",
+            "address": "R. Costa Carvalho, 567 - Pinheiros",
+            "city": "Sao Paolo",
+            "state": "Sao Paolo",
+            "country": "Brazil",
+            "status": "planning",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.308673, 47.044967]
+          },
+          "properties": {
+            "title": "GaudiLabs",
+            "url": "/labs/gaudilabs/",
+            "address": "Neustadtstrasse 7",
+            "city": "Lucerne",
+            "state": null,
+            "country": "Switzerland",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.003143, 40.660715]
+          },
+          "properties": {
+            "title": "Genspace",
+            "url": "/labs/genspace/",
+            "address": "140 32nd Street",
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "United States",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.591302, 46.532564]
+          },
+          "properties": {
+            "title": "Hackuarium",
+            "url": "/labs/hackuarium/",
+            "address": "Chemin du Closel 5",
+            "city": "Renens",
+            "state": null,
+            "country": "Switzerland",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.284605, 47.659243]
+          },
+          "properties": {
+            "title": "HiveBio",
+            "url": "/labs/hivebio/",
+            "address": "4000 NE 41st St.",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.473345, 37.571138]
+          },
+          "properties": {
+            "title": "Indie Lab",
+            "url": "/labs/indielab/",
+            "address": "1600 Roseneath Rd",
+            "city": "Richmond",
+            "state": "Virginia",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.575231, 46.521464]
+          },
+          "properties": {
+            "title": "L'Eprouvette",
+            "url": "/labs/leprouvette/",
+            "address": "Quartier Sorge",
+            "city": "Lausanne",
+            "state": null,
+            "country": "Switzerland",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.276108, 32.84109]
+          },
+          "properties": {
+            "title": "La Jolla Bio Lab",
+            "url": "/labs/lajollabiolab/",
+            "address": "7555 Draper Ave",
+            "city": "La Jolla",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.352136, 48.868712]
+          },
+          "properties": {
+            "title": "La Paillase",
+            "url": "/labs/lapaillase/",
+            "address": "226 rue St. Denis",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.884314, 45.783892]
+          },
+          "properties": {
+            "title": "La Paillase Saône",
+            "url": "/labs/lapaillasesaone/",
+            "address": "1 Rue du Luizet",
+            "city": "Villeurbanne",
+            "state": null,
+            "country": "France",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.37708, -7.795758]
+          },
+          "properties": {
+            "title": "LifePatch",
+            "url": "/labs/lifepatch/",
+            "address": "969, Jl. Tegal lempuyangan DN III, Bausasran, Danurejan",
+            "city": "Yogyakarta City",
+            "state": null,
+            "country": "Indonesia",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.06065, 51.532427]
+          },
+          "properties": {
+            "title": "London Biohackspace",
+            "url": "/labs/londonbiohackerspace/",
+            "address": "447 Hackney Road",
+            "city": "London",
+            "state": null,
+            "country": "United Kingdom",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.236389, 53.484344]
+          },
+          "properties": {
+            "title": "MadLab Biolab",
+            "url": "/labs/madlabbiolab/",
+            "address": "36-40 Edge St",
+            "city": "Manchester",
+            "state": null,
+            "country": "United Kingdom",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [15.450556, 47.065773]
+          },
+          "properties": {
+            "title": "Open bioLab Graz Austria",
+            "url": "/labs/openbiolabgraz/",
+            "address": "Brockmanngasse 15",
+            "city": "Graz",
+            "state": null,
+            "country": "Austria",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.485606, 38.030528]
+          },
+          "properties": {
+            "title": "Charlottesville Open Bio Labs",
+            "url": "/labs/openbiolabs/",
+            "address": "300 W. Main St.",
+            "city": "Charlottesville",
+            "state": "Virginia",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-123.087224, 49.282184]
+          },
+          "properties": {
+            "title": "Open Science Network",
+            "url": "/labs/opensciencenet/",
+            "address": "780 East Cordova Street",
+            "city": "Vancouver",
+            "state": "British Columbia",
+            "country": "Canada",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.900237, 52.37299]
+          },
+          "properties": {
+            "title": "Open Wetlab",
+            "url": "/labs/openwetlab/",
+            "address": "Nieuwmarkt 4",
+            "city": "Amsterdam",
+            "state": null,
+            "country": "Netherlands",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.173403, 41.385064]
+          },
+          "properties": {
+            "title": "PechBlenda Lab",
+            "url": "/labs/pechblenda/",
+            "address": null,
+            "city": "Barcelona",
+            "state": null,
+            "country": "Spain",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [3.711934, 51.052662]
+          },
+          "properties": {
+            "title": "ReaGent",
+            "url": "/labs/reagent/",
+            "address": "Wispelbergstraat 2",
+            "city": "Gent",
+            "state": null,
+            "country": "Belgium",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.316011, 47.663503]
+          },
+          "properties": {
+            "title": "SoundBio Lab",
+            "url": "/labs/soundbiolab/",
+            "address": "1100 Northeast 47th Street",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [15.635657, 46.554905]
+          },
+          "properties": {
+            "title": "Symbiolab",
+            "url": "/labs/symbiolab/",
+            "address": "Valvasorjeva ulica 42",
+            "city": "Maribor",
+            "state": null,
+            "country": "Slovenia",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-118.207445, 34.061189]
+          },
+          "properties": {
+            "title": "The LAb",
+            "url": "/labs/thelab/",
+            "address": "1927 Zonal Avenue",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-94.381997, 39.077467]
+          },
+          "properties": {
+            "title": "TrySci Community Biolabs",
+            "url": "/labs/tryscibiolab/",
+            "address": "16657 E 23rd St",
+            "city": "Independence",
+            "state": "Missouri",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.127758, 51.507351]
+          },
+          "properties": {
+            "title": "BioChanges BioDesign",
+            "url": "/networks/biochanges/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.632273, 46.519653]
+          },
+          "properties": {
+            "title": "Biodesign for the Real World",
+            "url": "/networks/biodesignftrw/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "DIYbio.org",
+            "url": "/networks/diybio-org/",
+            "address": null,
+            "city": "Boston",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.227512, 46.818188]
+          },
+          "properties": {
+            "title": "Hackteria",
+            "url": "/networks/hackteria/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Switzerland",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "NYC Bio",
+            "url": "/networks/nycbio/",
+            "address": null,
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.56738, 41.87194]
+          },
+          "properties": {
+            "title": "Open BioMedical Initiative",
+            "url": "/networks/openbiomedicalinitiative/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-51.92528, -14.235004]
+          },
+          "properties": {
+            "title": "SynTechBio Network",
+            "url": "/networks/syntechbio/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Brazil",
+            "status": "unknown",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "networks"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "Decentralized Oxalis Genome Project",
+            "url": "/projects/decentralizedoxalisgenomeproject/",
+            "address": null,
+            "city": "New York City",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Kombucha Genomics",
+            "url": "/projects/kombuchagenomics/",
+            "address": null,
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "Metafluidics",
+            "url": "/projects/metafluidics/",
+            "address": null,
+            "city": "Boston",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "OYEP: Open Yeast Engineering Project",
+            "url": "/projects/oyep/",
+            "address": null,
+            "city": "Boston",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Open Insulin",
+            "url": "/projects/openinsulin/",
+            "address": null,
+            "city": "Oakland",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.955236, 37.354108]
+          },
+          "properties": {
+            "title": "OpenPCR",
+            "url": "/projects/openpcr/",
+            "address": null,
+            "city": "Santa Clara",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
           }
       },
       {
@@ -130,6 +1967,13 @@
           "properties": {
             "title": "Real Vegan Cheese",
             "url": "/projects/realvegancheese/",
+            "address": null,
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
             "collection": "projects"
           }
       },
@@ -137,11 +1981,132 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
-          "coordinates": [6.1431577, 46.2043907]
+          "coordinates": [-112.70926, 49.742742]
+          },
+          "properties": {
+            "title": "Amino Labs",
+            "url": "/startups/aminolabs/",
+            "address": null,
+            "city": "Lethbridge",
+            "state": "Alberta",
+            "country": "Canada",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.952022, 37.364356]
+          },
+          "properties": {
+            "title": "Chai Bio",
+            "url": "/startups/chaibio/",
+            "address": "990 Richard Avenue",
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.552189, 51.502299]
+          },
+          "properties": {
+            "title": "OpenBionics",
+            "url": "/startups/openbionics/",
+            "address": "UWE Bristol Exhibition and Conference Centre, Filton Rd, Stoke Gifford, Bristol , UK",
+            "city": "Bristol",
+            "state": null,
+            "country": "United Kingdom",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "Open Trons",
+            "url": "/startups/opentrons/",
+            "address": "20 Jay Street,",
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.501646, 51.92012]
+          },
+          "properties": {
+            "title": "RotterZwam",
+            "url": "/startups/rotterzwam/",
+            "address": "Maasboulevard 100",
+            "city": "Rotterdam",
+            "state": null,
+            "country": "Netherlands",
+            "status": "active",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.298033, 37.804184]
+          },
+          "properties": {
+            "title": "The ODIN",
+            "url": "/startups/theodin/",
+            "address": null,
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
           },
           "properties": {
             "title": "DIYbiosphere",
             "url": "/projects/diybiosphere/",
+            "address": null,
+            "city": "Boston",
+            "state": "Massachusetts",
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
             "collection": "projects"
           }
       }

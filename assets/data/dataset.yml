@@ -7,8 +7,11 @@
   subtitle: learn. create. grow.
   start-date: 2016
   type-org: university
-  city: NYC
+  city: New York City
   country: United States
+  _geoloc:
+    lat: 40.657082
+    lng: -74.00295
   tags: 
     - conference
     - challenge
@@ -23,20 +26,32 @@
   sphere_url: /events/biofabbing/
   start-date: 2017-05-10
   end-date: 2017-05-14
+  partners: 
+    - 'University of Geneva'
+    - 'CERN'
+    - 'Citizen Cyberlab'
   city: Geneva
   country: Switzerland
+  _geoloc:
+    lat: 46.23479
+    lng: 6.054807
   tags: 
   links:
-    
+    website: http://citizensciences.net/biofabbing/
 
 - title: Biohack The Planet
   collection: events
   sphere_url: /events/biohtp/
   subtitle: create something beautiful
   start-date: 2016
+  hosts: 
+    - 'Counter Culture Labs'
   type-org: company
-  city: SF
+  city: Oakland
   country: United States
+  _geoloc:
+    lat: 37.835258
+    lng: -122.264173
   tags: 
     - conference
   links:
@@ -46,9 +61,14 @@
   collection: events
   sphere_url: /events/globalcommunitybiosummit/
   start-date: 2017
-  type-org: community
+  hosts: 
+    - '[MIT](https://www.media.mit.edu/)'
+  type-org: university
   city: Cambridge
   country: United States
+  _geoloc:
+    lat: 42.360611
+    lng: -71.087339
   tags: 
     - conference
   links:
@@ -74,12 +94,18 @@
 - title: Africa Open Science Hardware Summit
   collection: events
   sphere_url: /events/africaosh/
+  subtitle: Making / Hacking / Bio-Hacking
   start-date: 2018
   type-org: community
   city: Kumasi
   country: Ghana
+  _geoloc:
+    lat: 6.6666
+    lng: -1.616271
   tags: 
     - conference
+    - open-source
+    - hardware
   links:
     website: http://www.africaosh.com/
 
@@ -96,6 +122,9 @@
   type-org: community
   city: Torino
   country: Italy
+  _geoloc:
+    lat: 45.050267
+    lng: 7.668286
   tags: 
     - fablab
     - hackerspace
@@ -114,6 +143,9 @@
   type-org: community
   city: Sydney
   country: Australia
+  _geoloc:
+    lat: -33.86882
+    lng: 151.209296
   tags: 
   links:
     meetup: https://www.meetup.com/biohackoz/
@@ -126,6 +158,9 @@
   type-org: non-profit
   city: Tel Aviv
   country: Israel
+  _geoloc:
+    lat: 32.063287
+    lng: 34.769344
   tags: 
   links:
     website: http://biohubil.org/
@@ -139,6 +174,9 @@
   type-org: community
   city: Berlin
   country: Germany
+  _geoloc:
+    lat: 52.558269
+    lng: 13.386036
   tags: 
   links:
     google-group: biotinkering-berlin@googlegroups.com
@@ -153,6 +191,9 @@
   type-org: community
   city: Munich
   country: Germany
+  _geoloc:
+    lat: 48.135125
+    lng: 11.58198
   tags: 
   links:
     twitter: https://twitter.com/biogarage
@@ -168,6 +209,9 @@
   type-org: community
   city: New York
   country: United States
+  _geoloc:
+    lat: 40.712775
+    lng: -74.005973
   tags: 
     - transhumanism
   links:
@@ -182,6 +226,9 @@
   end-date: 2016
   type-org: community
   country: Mexico
+  _geoloc:
+    lat: 23.634501
+    lng: -102.552784
   tags: 
   links:
     facebook: https://www.facebook.com/biohackingmexico
@@ -196,6 +243,9 @@
   type-org: community
   city: Columbus
   country: United States
+  _geoloc:
+    lat: 39.997578
+    lng: -83.042339
   tags: 
   links:
     blog: http://www.capcitybiohackers.org/blog/
@@ -211,24 +261,13 @@
   type-org: community
   city: Chicago
   country: United States
+  _geoloc:
+    lat: 41.878114
+    lng: -87.629798
   tags: 
   links:
     meetup: https://www.meetup.com/Chicago-Biohacking/
     
-
-- title: DIY Neurotech
-  collection: groups
-  sphere_url: /groups/diyneurotech-2/
-  start-date: 2014
-  type-org: community
-  city: Jackson
-  country: United States
-  tags: 
-    - neurology
-    - transhumanism
-  links:
-    twitter: https://twitter.com/DIYneurotech
-    website: http://www.diyneurotech.com/
 
 - title: DIY Neurotech
   collection: groups
@@ -238,6 +277,9 @@
   type-org: community
   city: Jackson
   country: United States
+  _geoloc:
+    lat: 32.298757
+    lng: -90.18481
   tags: 
     - neurology
     - transhumanism
@@ -253,9 +295,31 @@
   type-org: community
   city: Auckland
   country: Australia
+  _geoloc:
+    lat: -36.84846
+    lng: 174.763332
   tags: 
   links:
     
+
+- title: DIYbio Belgium
+  collection: groups
+  sphere_url: /groups/diybiobelgium/
+  start-date: 2012
+  end-date: 2014
+  type-org: community
+  city: Nivelles
+  country: Belgium
+  _geoloc:
+    lat: 51.109716
+    lng: 4.353517
+  tags: 
+  links:
+    blog: http://www.diybio.be/index.php/en/blog
+    facebook: https://www.facebook.com/diybio.be/
+    twitter: https://twitter.com/diybiobelgium
+    youtube: https://www.youtube.com/channel/UCTrz0Qs6ElwEMpp1hEt_4Jg
+    website: http://www.diybio.be/
 
 - title: Biohacking BA
   collection: groups
@@ -263,6 +327,9 @@
   start-date: 2015
   city: Buenos Aires
   country: Argentina
+  _geoloc:
+    lat: -34.603684
+    lng: -58.381559
   tags: 
   links:
     email: hola@diybioba.org
@@ -272,24 +339,15 @@
 
 - title: DIYbio Chicago
   collection: groups
-  sphere_url: /groups/diybiochicago-2/
-  start-date: 2008
-  type-org: community
-  city: Chicago
-  country: United States
-  tags: 
-  links:
-    google-group: https://groups.google.com/forum/#!forum/diybio-chicago
-    
-
-- title: DIYbio Chicago
-  collection: groups
   sphere_url: /groups/diybiochicago/
   start-date: 2008
   end-date: 2011
   type-org: community
   city: Chicago
   country: United States
+  _geoloc:
+    lat: 41.878114
+    lng: -87.629798
   tags: 
   links:
     google-group: https://groups.google.com/forum/#!forum/diybio-chicago
@@ -305,6 +363,9 @@
   type-org: community
   city: Groningen
   country: Netherlands
+  _geoloc:
+    lat: 53.214447
+    lng: 6.569136
   tags: 
   links:
     email: groningendiybio@gmail.com
@@ -320,6 +381,9 @@
   start-date: 2011
   end-date: 2015
   country: Ireland
+  _geoloc:
+    lat: 53.142367
+    lng: -7.692054
   tags: 
   links:
     google-group: https://groups.google.com/forum/#!forum/diybio-ireland
@@ -329,20 +393,26 @@
   collection: groups
   sphere_url: /groups/diybioisrael/
   start-date: 2013
-  hosts: 
-    - '[Sustainiverse](http://sustainiverse.org/)'
+  end-date: 2016
   type-org: community
   city: Tel Aviv
   country: Israel
+  _geoloc:
+    lat: 32.0853
+    lng: 34.781768
   tags: 
   links:
-    website: http://sustainiverse.org/dyibio-israel-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/
+    google-group: https://groups.google.com/forum/#!forum/diybio-israel
+    
 
 - title: DIYbio Mexico
   collection: groups
   sphere_url: /groups/diybiomexico/
   type-org: community
   country: Mexico
+  _geoloc:
+    lat: 23.634501
+    lng: -102.552784
   tags: 
   links:
     
@@ -352,8 +422,11 @@
   sphere_url: /groups/diybioperth/
   hosts: 
     - '[The Perth Artifactory](http://artifactory.org.au/)'
-  city: Perth
+  city: Osborne Park
   country: Australia
+  _geoloc:
+    lat: -31.901608
+    lng: 115.810083
   tags: 
     - makerspace
   links:
@@ -366,6 +439,9 @@
   type-org: community
   city: Singapore
   country: Singapore
+  _geoloc:
+    lat: 1.352083
+    lng: 103.819836
   tags: 
   links:
     google-group: https://groups.google.com/forum/#!forum/diybio-sg
@@ -377,9 +453,12 @@
   start-date: 2015
   hosts: 
     - 'Tecnologico de Monterrey, Campus Guadalajara'
-  type-org: university
+  type-org: students
   city: Guadalajara
   country: Mexico
+  _geoloc:
+    lat: 20.659699
+    lng: -103.349609
   tags: 
   links:
     facebook: https://www.facebook.com/Gene-Garage-1598624203727376/
@@ -395,12 +474,33 @@
   type-org: community
   city: New York
   country: United States
+  _geoloc:
+    lat: 40.712775
+    lng: -74.005973
   tags: 
     - transhumanism
     - nootropics
   links:
     meetup: https://www.meetup.com/NYC-Biohacking/
     website: http://hackstronaut.com/
+
+- title: Biome Hack Lab
+  collection: groups
+  sphere_url: /groups/lebiomehacklab/
+  type-org: community
+  city: Rennes
+  country: France
+  _geoloc:
+    lat: 48.117266
+    lng: -1.677793
+  tags: 
+    - biomimicry
+  links:
+    email: lebiomefablab@gmail.com
+    facebook: https://www.facebook.com/biomefrance
+    twitter: https://twitter.com/Le_biome
+    github: https://github.com/LeBiome
+    website: https://lebiome.github.io/
 
 - title: MN DIYbio
   collection: groups
@@ -410,6 +510,9 @@
     - '[Spark-Y](http://spark-y.org/)'
   city: Minneapolis
   country: United States
+  _geoloc:
+    lat: 44.922625
+    lng: -93.26284
   tags: 
   links:
     facebook: https://www.facebook.com/mndiybio/
@@ -424,8 +527,11 @@
   hosts: 
     - '[Tsinelas Labs](https://wiki.hackerspaces.org/Tsinelas_Labs)'
   type-org: community
-  city: Dillman, Quezon City
+  city: Quezon City
   country: Phillipines
+  _geoloc:
+    lat: 14.628067
+    lng: 121.03638
   tags: 
   links:
     website: http://www.manilabiopunk.org/
@@ -437,6 +543,9 @@
   type-org: community
   city: Munich
   country: Germany
+  _geoloc:
+    lat: 48.135125
+    lng: 11.58198
   tags: 
     - microbiology
     - microbiome
@@ -445,6 +554,25 @@
     email: mail@mikrobiomik.org
     website: https://mikrobiomik.org/en
 
+- title: The Wet Lab
+  collection: groups
+  sphere_url: /groups/thewetlab/
+  start-date: 2013
+  type-org: community
+  city: San Diego
+  country: United States
+  _geoloc:
+    lat: 32.715738
+    lng: -117.161084
+  tags: 
+  links:
+    email: sdwetlab@gmail.com
+    facebook: https://www.facebook.com/wetlab.coordinator.5?fref=mentions
+    google-group: https://groups.google.com/forum/#%21forum/wet-lab-san-diego-diybio
+    trello: https://trello.com/thewetlab
+    meetup: http://www.meetup.com/The-Wet-Lab-a-DIYBio-maker-community-for-algae-enthusiasts/
+    website: http://www.sdwetlab.org/
+
 - title: Triangle DIY Biology
   collection: groups
   sphere_url: /groups/tridiybio/
@@ -452,8 +580,12 @@
   start-date: 2015
   hosts: 
     - '[SplatSpace](http://splatspace.org/)'
+  type-org: community
   city: Durham
   country: United States
+  _geoloc:
+    lat: 36.001758
+    lng: -78.894831
   tags: 
   links:
     meetup: https://www.meetup.com/splatspace/events/236762179/
@@ -468,6 +600,9 @@
   start-date: 2013
   city: Berkley
   country: United States
+  _geoloc:
+    lat: 37.862421
+    lng: -122.299814
   tags: 
   links:
     facebook: https://www.facebook.com/Berkeley-Biolabs-361021104034449/
@@ -485,6 +620,9 @@
   type-org: university
   city: Mumbai
   country: India
+  _geoloc:
+    lat: 19.07933
+    lng: 72.897863
   tags: 
     - courses
   links:
@@ -500,6 +638,9 @@
   type-org: company
   city: Carlsbad
   country: United States
+  _geoloc:
+    lat: 33.135863
+    lng: -117.274311
   tags: 
   links:
     email: info@btandb.com
@@ -515,6 +656,9 @@
     - 'Blue City'
   city: Rotterdam
   country: Netherlands
+  _geoloc:
+    lat: 51.920674
+    lng: 4.501622
   tags: 
   links:
     email: info@bluecity.nl
@@ -546,6 +690,9 @@
   type-org: investor
   city: Shenzhen
   country: China
+  _geoloc:
+    lat: 22.543096
+    lng: 114.057865
   tags: 
     - funding
   links:
@@ -561,6 +708,9 @@
   type-org: investor
   city: San Francisco
   country: United States
+  _geoloc:
+    lat: 37.781841
+    lng: -122.40857
   tags: 
     - investor
   links:
@@ -581,6 +731,9 @@
   type-org: university
   city: Cork
   country: Ireland
+  _geoloc:
+    lat: 51.897351
+    lng: -8.469755
   tags: 
     - accelerator
     - funding
@@ -616,8 +769,8 @@
   city: Eindhoven
   country: Netherlands
   _geoloc:
-    lat: 13.111525
-    lng: 77.583126
+    lat: 51.45126
+    lng: 5.4532
   tags: 
     - bioart
   links:
@@ -700,6 +853,9 @@
   type-org: community
   city: Brunswick
   country: Australia
+  _geoloc:
+    lat: -37.765773
+    lng: 144.959293
   tags: 
   links:
     email: info@bioquisitive.org.au
@@ -717,6 +873,9 @@
   start-date: 2013
   city: Ljubljana
   country: Slovenia
+  _geoloc:
+    lat: 46.042842
+    lng: 14.591224
   tags: 
   links:
     email: info@biotehna.org
@@ -734,6 +893,9 @@
   type-org: community
   city: Ottawa
   country: Canada
+  _geoloc:
+    lat: 45.425631
+    lng: -75.688658
   tags: 
   links:
     facebook: https://www.facebook.com/biotown/
@@ -818,6 +980,9 @@
   type-org: university
   city: Geneva
   country: Switzerland
+  _geoloc:
+    lat: 46.196136
+    lng: 6.136478
   tags: 
   links:
     blog: http://bioscopelab.tumblr.com/
@@ -833,6 +998,9 @@
   type-org: non-profit
   city: Brooklyn
   country: United States
+  _geoloc:
+    lat: 40.687953
+    lng: -73.979717
   tags: 
   links:
     facebook: https://www.facebook.com/BiotechWithoutBorders/
@@ -844,8 +1012,11 @@
   sphere_url: /labs/boslab/
   start-date: 2014
   type-org: non-profit
-  city: Boston
+  city: Somerville
   country: United States
+  _geoloc:
+    lat: 42.39396
+    lng: -71.118517
   tags: 
   links:
     email: homosapiens@boslab.org
@@ -863,6 +1034,9 @@
     - '[Helios Makerspace](http://heliosmakerspace.ca/)'
   city: Montreal
   country: Canada
+  _geoloc:
+    lat: 45.475229
+    lng: -73.582007
   tags: 
     - makerspace
   links:
@@ -875,9 +1049,12 @@
 - title: Brmlab
   collection: labs
   sphere_url: /labs/brmbiolab/
-  type-org: Non-Profit
+  type-org: non-profit
   city: Prague
   country: Czech Republic
+  _geoloc:
+    lat: 50.098678
+    lng: 14.435878
   tags: 
   links:
     email: biolab@brmlab.cz
@@ -896,6 +1073,9 @@
   type-org: non-profit
   city: Baltimore
   country: United States
+  _geoloc:
+    lat: 39.294383
+    lng: -76.562254
   tags: 
   links:
     rss: http://www.bugssonline.org/2/feed
@@ -910,6 +1090,9 @@
   type-org: community
   city: Reston
   country: United States
+  _geoloc:
+    lat: 38.954722
+    lng: -77.338357
   tags: 
   links:
     email: capitalareabiospace@gmail.com
@@ -922,6 +1105,9 @@
   start-date: 2017
   city: Chicago
   country: United States
+  _geoloc:
+    lat: 41.878114
+    lng: -87.629798
   tags: 
   links:
     facebook: https://www.facebook.com/ChiTownBio/
@@ -964,29 +1150,15 @@
   type-org: non-profit
   city: Barcelona
   country: Spain
+  _geoloc:
+    lat: 41.383107
+    lng: 2.154291
   tags: 
   links:
     rss: http://www.diybcn.org/feed/
     twitter: https://twitter.com/DIYBIOBCN
     instagram: https://www.facebook.com/DiyBioBcn
     website: http://www.diybcn.org/
-
-- title: DIYbioTech
-  collection: labs
-  sphere_url: /labs/diybiotech-2/
-  start-date: 2013
-  hosts: 
-    - '[FamiLAB](https://familab.org/)'
-  type-org: community
-  city: Longwood
-  country: United States
-  tags: 
-    - makerspace
-  links:
-    trello: https://trello.com/b/T5816bnN/familab-biotech
-    wiki: https://familab.org/wiki/Diy_BioTech_Lab
-    meetup: https://www.meetup.com/DiyBio-in-Central-Florida/
-    
 
 - title: DIYbioTech
   collection: labs
@@ -998,6 +1170,9 @@
   type-org: community
   city: Longwood
   country: United States
+  _geoloc:
+    lat: 28.684971
+    lng: -81.353101
   tags: 
     - makerspace
   links:
@@ -1005,20 +1180,6 @@
     wiki: https://familab.org/wiki/Diy_BioTech_Lab
     meetup: https://www.meetup.com/DiyBio-in-Central-Florida/
     
-
-- title: DIYbio Belgium
-  collection: labs
-  sphere_url: /labs/diybiobelgium/
-  type-org: non-profit
-  city: Nivelles
-  country: Belgium
-  tags: 
-  links:
-    blog: http://www.diybio.be/index.php/en/blog
-    facebook: https://www.facebook.com/diybio.be/
-    twitter: https://twitter.com/diybiobelgium
-    youtube: https://www.youtube.com/channel/UCTrz0Qs6ElwEMpp1hEt_4Jg
-    website: http://www.diybio.be/index.php/en/
 
 - title: DIYbio Toronto
   collection: labs
@@ -1029,6 +1190,9 @@
   type-org: community
   city: Toronto
   country: Canada
+  _geoloc:
+    lat: 43.64265
+    lng: -79.429635
   tags: 
     - hackerspace
   links:
@@ -1045,9 +1209,14 @@
   collection: labs
   sphere_url: /labs/denverbiolabs/
   start-date: 2015
+  hosts: 
+    - '[The Fusion Factory](https://www.facebook.com/thefusionfactory)'
   type-org: non-profit
   city: Denver
   country: United States
+  _geoloc:
+    lat: 39.768852
+    lng: -104.974551
   tags: 
   links:
     email: info@denverbiolabs.com
@@ -1058,12 +1227,15 @@
     meetup: https://www.meetup.com/denverbiolabs/
     website: http://denverbiolabs.com/
 
-- title: F-lab
+- title: F.lab
   collection: labs
   sphere_url: /labs/flab/
   type-org: community
   city: Bangkok
   country: Thailand
+  _geoloc:
+    lat: 13.756331
+    lng: 100.501765
   tags: 
   links:
     blog: http://f-labth.blogspot.ch/
@@ -1079,6 +1251,9 @@
   type-org: community
   city: Cork
   country: Ireland
+  _geoloc:
+    lat: 51.898617
+    lng: -8.479665
   tags: 
   links:
     twitter: https://twitter.com/formabiolabs?lang=en
@@ -1093,6 +1268,9 @@
   type-org: community
   city: Sao Paolo
   country: Brazil
+  _geoloc:
+    lat: -23.564721
+    lng: -46.699185
   tags: 
     - hackerspace
   links:
@@ -1108,6 +1286,9 @@
   type-org: non-profit
   city: Lucerne
   country: Switzerland
+  _geoloc:
+    lat: 47.044967
+    lng: 8.308673
   tags: 
   links:
     facebook: https://www.facebook.com/mrgaudi
@@ -1121,6 +1302,9 @@
   type-org: non-profit
   city: Brooklyn
   country: United States
+  _geoloc:
+    lat: 40.660715
+    lng: -74.003143
   tags: 
   links:
     email: info@genspace.org
@@ -1140,6 +1324,9 @@
     - '[UniverCite](http://univercity.ch/)'
   city: Renens
   country: Switzerland
+  _geoloc:
+    lat: 46.532564
+    lng: 6.591302
   tags: 
   links:
     email: hello@hackuarium.ch
@@ -1158,6 +1345,9 @@
   type-org: community
   city: Seattle
   country: United States
+  _geoloc:
+    lat: 47.659243
+    lng: -122.284605
   tags: 
   links:
     facebook: https://www.facebook.com/HivebioCommunityLab/
@@ -1174,6 +1364,9 @@
   type-org: community
   city: Richmond
   country: United States
+  _geoloc:
+    lat: 37.571138
+    lng: -77.473345
   tags: 
   links:
     email: admin@indielab.co
@@ -1191,6 +1384,9 @@
   type-org: university
   city: Lausanne
   country: Switzerland
+  _geoloc:
+    lat: 46.521464
+    lng: 6.575231
   tags: 
   links:
     email: eprouvette@unil.ch
@@ -1204,8 +1400,12 @@
   start-date: 2015
   hosts: 
     - '[La Jolla Public Library](http://lajollalibrary.org/)'
+  type-org: public
   city: La Jolla
   country: United States
+  _geoloc:
+    lat: 32.84109
+    lng: -117.276108
   tags: 
   links:
     website: http://lajollalibrary.org/your-library/bio-lab/
@@ -1213,8 +1413,13 @@
 - title: La Paillase
   collection: labs
   sphere_url: /labs/lapaillase/
+  start-date: 2011
+  type-org: non-profit
   city: Paris
   country: France
+  _geoloc:
+    lat: 48.868712
+    lng: 2.352136
   tags: 
   links:
     email: contact@lapaillasse.org
@@ -1226,39 +1431,30 @@
   sphere_url: /labs/lapaillasesaone/
   start-date: 2015
   hosts: 
-    - 'La MYNE'
+    - '[La MYNE](https://www.lamyne.org/)'
   partners: 
     - 'La Paillase'
   type-org: non-profit
   city: Villeurbanne
   country: France
+  _geoloc:
+    lat: 45.783892
+    lng: 4.884314
   tags: 
   links:
     twitter: https://twitter.com/laPaillassaone
     website: https://lapaillassaone.wordpress.com/
-
-- title: Biome Hack Lab
-  collection: labs
-  sphere_url: /labs/lebiomehacklab/
-  type-org: community
-  city: Rennes
-  country: France
-  tags: 
-    - biomimicry
-  links:
-    email: lebiomefablab@gmail.com
-    facebook: https://www.facebook.com/biomefrance
-    twitter: https://twitter.com/Le_biome
-    github: https://github.com/LeBiome
-    website: https://lebiome.github.io/
 
 - title: LifePatch
   collection: labs
   sphere_url: /labs/lifepatch/
   subtitle: Citizen Initiative in Art, Science and Technology
   type-org: community
-  city: Yogyarta
+  city: Yogyakarta City
   country: Indonesia
+  _geoloc:
+    lat: -7.795758
+    lng: 110.37708
   tags: 
   links:
     wiki: http://lifepatch.org/
@@ -1273,6 +1469,9 @@
   type-org: non-profit
   city: London
   country: United Kingdom
+  _geoloc:
+    lat: 51.532427
+    lng: -0.06065
   tags: 
     - hackerspace
   links:
@@ -1289,6 +1488,9 @@
   type-org: non-profit
   city: Manchester
   country: United Kingdom
+  _geoloc:
+    lat: 53.484344
+    lng: -2.236389
   tags: 
   links:
     facebook: https://www.facebook.com/MadLabUK/
@@ -1305,6 +1507,9 @@
   type-org: non-profit
   city: Graz
   country: Austria
+  _geoloc:
+    lat: 47.065773
+    lng: 15.450556
   tags: 
   links:
     email: openbiolabgraz@realraum.at
@@ -1322,6 +1527,9 @@
   type-org: Non-Profit
   city: Charlottesville
   country: United States
+  _geoloc:
+    lat: 38.030528
+    lng: -78.485606
   tags: 
   links:
     email: info@openbiolabs.org
@@ -1339,6 +1547,9 @@
   type-org: non-profit
   city: Vancouver
   country: Canada
+  _geoloc:
+    lat: 49.282184
+    lng: -123.087224
   tags: 
     - makerspace
   links:
@@ -1357,6 +1568,9 @@
   type-org: institute
   city: Amsterdam
   country: Netherlands
+  _geoloc:
+    lat: 52.37299
+    lng: 4.900237
   tags: 
   links:
     facebook: https://www.facebook.com/waagsociety
@@ -1371,6 +1585,9 @@
   type-org: community
   city: Barcelona
   country: Spain
+  _geoloc:
+    lat: 41.385064
+    lng: 2.173403
   tags: 
   links:
     blog: https://network23.org/pechblendalab/
@@ -1383,6 +1600,9 @@
   type-org: community
   city: Gent
   country: Belgium
+  _geoloc:
+    lat: 51.052662
+    lng: 3.711934
   tags: 
   links:
     facebook: https://www.facebook.com/ReaGentBiolab/
@@ -1396,6 +1616,9 @@
   type-org: community
   city: Seattle
   country: United States
+  _geoloc:
+    lat: 47.663503
+    lng: -122.316011
   tags: 
   links:
     email: info@sound.bio
@@ -1415,6 +1638,9 @@
   type-org: non-profit
   city: Maribor
   country: Slovenia
+  _geoloc:
+    lat: 46.554905
+    lng: 15.635657
   tags: 
   links:
     email: info@irnas.eu
@@ -1431,6 +1657,9 @@
   type-org: community
   city: Los Angeles
   country: United States
+  _geoloc:
+    lat: 34.061189
+    lng: -118.207445
   tags: 
   links:
     rss: http://www.thel4b.com/?feed=rss2
@@ -1438,31 +1667,16 @@
     twitter: https://twitter.com/labiohackers
     website: http://www.thel4b.com/
 
-- title: The Wet Lab
-  collection: labs
-  sphere_url: /labs/thewetlab/
-  start-date: 2013
-  hosts: 
-    - 'La Jolla Public Library'
-  type-org: public
-  city: San Diego
-  country: United States
-  tags: 
-  links:
-    email: sdwetlab@gmail.com
-    forum: https://groups.google.com/forum/#%21forum/wet-lab-san-diego-diybio
-    facebook: https://www.facebook.com/wetlab.coordinator.5?fref=mentions
-    trello: https://trello.com/thewetlab
-    meetup: http://www.meetup.com/The-Wet-Lab-a-DIYBio-maker-community-for-algae-enthusiasts/
-    
-
 - title: TrySci Community Biolabs
   collection: labs
   sphere_url: /labs/tryscibiolab/
   start-date: 2014
   type-org: non-profit
-  city: South
+  city: Independence
   country: United States
+  _geoloc:
+    lat: 39.077467
+    lng: -94.381997
   tags: 
   links:
     facebook: https://www.facebook.com/TrySci-Community-Biolabs-1466032090280960/?sk=app_190322544333196&ref=s
@@ -1474,18 +1688,22 @@
 
 
 
-- title: BioChanges
+- title: BioChanges BioDesign
   collection: networks
   sphere_url: /networks/biochanges/
   partners: 
     - 'BioDesign Studios'
     - 'BioMaker Spaces'
+  _geoloc:
+    lat: 51.507351
+    lng: -0.127758
   tags: 
   links:
     facebook: https://www.facebook.com/events/1665977003687808/
-    
+    meetup: https://www.meetup.com/BioChanges/
+    website: https://www.biochangesbiodesign.com/
 
-- title: Biodesign for the Real World https://filopodia.files.wordpress.com/2013/10/cropped-biodesign-logo-green.png
+- title: Biodesign for the Real World
   collection: networks
   sphere_url: /networks/biodesignftrw/
   partners: 
@@ -1493,6 +1711,9 @@
     - '(Art)ScienceBLR'
     - 'Lifepatch'
   type-org: community
+  _geoloc:
+    lat: 46.519653
+    lng: 6.632273
   tags: 
   links:
     website: https://biodesign.cc/
@@ -1505,6 +1726,9 @@
   type-org: non-profit
   city: Boston
   country: United States
+  _geoloc:
+    lat: 42.360082
+    lng: -71.05888
   tags: 
     - diybio
   links:
@@ -1518,6 +1742,9 @@
   start-date: 2009
   type-org: non-profit
   country: Switzerland
+  _geoloc:
+    lat: 46.818188
+    lng: 8.227512
   tags: 
     - workshops
     - hardware
@@ -1533,6 +1760,9 @@
   type-org: non-profit
   city: New York
   country: United States
+  _geoloc:
+    lat: 40.712775
+    lng: -74.005973
   tags: 
     - networking
     - education
@@ -1546,6 +1776,9 @@
   sphere_url: /networks/openbiomedicalinitiative/
   start-date: 2014
   type-org: non-profit
+  _geoloc:
+    lat: 41.87194
+    lng: 12.56738
   tags: 
     - medical
     - open-source
@@ -1562,6 +1795,10 @@
 - title: SynTechBio Network
   collection: networks
   sphere_url: /networks/syntechbio/
+  country: Brazil
+  _geoloc:
+    lat: -14.235004
+    lng: -51.92528
   tags: 
   links:
     facebook: https://www.facebook.com/Syntechbio
@@ -1584,8 +1821,8 @@
   partners: 
     - 'DIYbio.org'
   type-org: non-profit
-  city: Geneva
-  country: Switzerland
+  city: Boston
+  country: United States
   _geoloc:
     lat: 
     lng: 
@@ -1610,8 +1847,11 @@
   sphere_url: /projects/decentralizedoxalisgenomeproject/
   start-date: 2016
   type-org: community
-  city: NYC
+  city: New York City
   country: United States
+  _geoloc:
+    lat: 40.712775
+    lng: -74.005973
   tags: 
     - sequencing
     - plant biology
@@ -1628,6 +1868,9 @@
   type-org: community
   city: Oakland
   country: United States
+  _geoloc:
+    lat: 37.835233
+    lng: -122.264195
   tags: 
     - metagenomics
     - food
@@ -1644,6 +1887,9 @@
   type-org: university
   city: Boston
   country: United States
+  _geoloc:
+    lat: 42.360082
+    lng: -71.05888
   tags: 
     - hardware
   links:
@@ -1659,6 +1905,9 @@
   type-org: community
   city: Boston
   country: United States
+  _geoloc:
+    lat: 42.360082
+    lng: -71.05888
   tags: 
     - synbio
   links:
@@ -1685,6 +1934,9 @@
   type-org: community
   city: Oakland
   country: United States
+  _geoloc:
+    lat: 37.835233
+    lng: -122.264195
   tags: 
     - medicine
     - synbio
@@ -1699,6 +1951,9 @@
   start-date: 2010
   city: Santa Clara
   country: United States
+  _geoloc:
+    lat: 37.354108
+    lng: -121.955236
   tags: 
     - hardware
   links:
@@ -1746,8 +2001,11 @@
   subtitle: Empowering the next generation of scientists and innovators
   start-date: 2015
   type-org: company
-  city: Alberta
+  city: Lethbridge
   country: Canada
+  _geoloc:
+    lat: 49.742742
+    lng: -112.70926
   tags: 
     - hardware
     - education
@@ -1765,6 +2023,9 @@
   type-org: company
   city: Santa Clara
   country: United States
+  _geoloc:
+    lat: 37.364356
+    lng: -121.952022
   tags: 
     - hardware
   links:
@@ -1777,9 +2038,12 @@
   sphere_url: /startups/openbionics/
   subtitle: The Next Generation of Bionics
   start-date: 2014
-  type-org: Company
+  type-org: for-profit
   city: Bristol
   country: United Kingdom
+  _geoloc:
+    lat: 51.502299
+    lng: -2.552189
   tags: 
     - hardware
     - open-source
@@ -1806,23 +2070,31 @@
   type-org: company
   city: New York
   country: United States
+  _geoloc:
+    lat: 41.878114
+    lng: -87.629798
   tags: 
     - hardware
   links:
     facebook: https://www.facebook.com/opentronslabworks/
     website: https://opentrons.com/
 
-- title: Rotter Zwam
+- title: RotterZwam
   collection: startups
   sphere_url: /startups/rotterzwam/
   start-date: 2017
+  type-org: for-profit
   city: Rotterdam
   country: Netherlands
+  _geoloc:
+    lat: 51.92012
+    lng: 4.501646
   tags: 
     - mycology
     - food
-    - recyle
+    - recycle
   links:
+    email: info@rotterzwam.nl
     facebook: https://www.facebook.com/Rotterzwam
     twitter: https://twitter.com/RotterZwam
     website: https://www.rotterzwam.nl/
@@ -1832,8 +2104,11 @@
   sphere_url: /startups/theodin/
   start-date: 2016
   type-org: company
-  city: California
-  country: USA
+  city: Oakland
+  country: United States
+  _geoloc:
+    lat: 37.804184
+    lng: -122.298033
   tags: 
     - supplies
     - kits

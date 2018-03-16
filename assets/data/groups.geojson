@@ -1,0 +1,565 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [7.668286, 45.050267]
+          },
+          "properties": {
+            "title": "Be.In.To",
+            "url": "/groups/beintobiohacking/",
+            "address": "Via Egeo 16",
+            "city": "Torino",
+            "state": null,
+            "country": "Italy",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [151.209296, -33.86882]
+          },
+          "properties": {
+            "title": "BioHackSyd",
+            "url": "/groups/biohacksyd/",
+            "address": null,
+            "city": "Sydney",
+            "state": "New South Wales",
+            "country": "Australia",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [34.769344, 32.063287]
+          },
+          "properties": {
+            "title": "BioHubIl",
+            "url": "/groups/biohubil/",
+            "address": "Rothschild Boulevard 3",
+            "city": "Tel Aviv",
+            "state": null,
+            "country": "Israel",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [13.386036, 52.558269]
+          },
+          "properties": {
+            "title": "Biotinkering Berlin",
+            "url": "/groups/biotinkeringberlin/",
+            "address": "Prinzenallee 34",
+            "city": "Berlin",
+            "state": null,
+            "country": "Germany",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.58198, 48.135125]
+          },
+          "properties": {
+            "title": "Biogarage",
+            "url": "/groups/biogarage/",
+            "address": null,
+            "city": "Munich",
+            "state": null,
+            "country": "Germany",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "Biohackers NYC",
+            "url": "/groups/biohackersnyc/",
+            "address": null,
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-102.552784, 23.634501]
+          },
+          "properties": {
+            "title": "Biohacking Mexico",
+            "url": "/groups/biohackingmexico/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Mexico",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-83.042339, 39.997578]
+          },
+          "properties": {
+            "title": "Cap City Biohackers",
+            "url": "/groups/capcitybiohackers/",
+            "address": "1275 Kinnear Rd",
+            "city": "Columbus",
+            "state": "Ohio",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "DIYbio Chicago",
+            "url": "/groups/chicagobiohacking/",
+            "address": null,
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-90.18481, 32.298757]
+          },
+          "properties": {
+            "title": "DIY Neurotech",
+            "url": "/groups/diyneurotech/",
+            "address": null,
+            "city": "Jackson",
+            "state": "Mississippi",
+            "country": "United States",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [174.763332, -36.84846]
+          },
+          "properties": {
+            "title": "Auckland DIYbio",
+            "url": "/groups/diybioauckland/",
+            "address": null,
+            "city": "Auckland",
+            "state": null,
+            "country": "Australia",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.353517, 51.109716]
+          },
+          "properties": {
+            "title": "DIYbio Belgium",
+            "url": "/groups/diybiobelgium/",
+            "address": null,
+            "city": "Nivelles",
+            "state": null,
+            "country": "Belgium",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-58.381559, -34.603684]
+          },
+          "properties": {
+            "title": "Biohacking BA",
+            "url": "/groups/diybiobuenosaires/",
+            "address": null,
+            "city": "Buenos Aires",
+            "state": null,
+            "country": "Argentina",
+            "type-org": null,
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "DIYbio Chicago",
+            "url": "/groups/diybiochicago/",
+            "address": null,
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.569136, 53.214447]
+          },
+          "properties": {
+            "title": "DIYbio Groningen",
+            "url": "/groups/diybiogroningen/",
+            "address": null,
+            "city": "Groningen",
+            "state": null,
+            "country": "Netherlands",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-7.692054, 53.142367]
+          },
+          "properties": {
+            "title": "DIYbio Ireland",
+            "url": "/groups/diybioireland/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Ireland",
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [34.781768, 32.0853]
+          },
+          "properties": {
+            "title": "DIYbio Israel",
+            "url": "/groups/diybioisrael/",
+            "address": null,
+            "city": "Tel Aviv",
+            "state": null,
+            "country": "Israel",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-102.552784, 23.634501]
+          },
+          "properties": {
+            "title": "DIYbio Mexico",
+            "url": "/groups/diybiomexico/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "Mexico",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [115.810083, -31.901608]
+          },
+          "properties": {
+            "title": "DIYbio Perth",
+            "url": "/groups/diybioperth/",
+            "address": null,
+            "city": "Osborne Park",
+            "state": null,
+            "country": "Australia",
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [103.819836, 1.352083]
+          },
+          "properties": {
+            "title": "DIYbio Singapore",
+            "url": "/groups/diybiosingapore/",
+            "address": null,
+            "city": "Singapore",
+            "state": null,
+            "country": "Singapore",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-103.349609, 20.659699]
+          },
+          "properties": {
+            "title": "Gene Garage",
+            "url": "/groups/genegarage/",
+            "address": null,
+            "city": "Guadalajara",
+            "state": "Jalisco",
+            "country": "Mexico",
+            "type-org": "students",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "Hackstronauts",
+            "url": "/groups/hackstronauts/",
+            "address": null,
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.677793, 48.117266]
+          },
+          "properties": {
+            "title": "Biome Hack Lab",
+            "url": "/groups/lebiomehacklab/",
+            "address": null,
+            "city": "Rennes",
+            "state": null,
+            "country": "France",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-93.26284, 44.922625]
+          },
+          "properties": {
+            "title": "MN DIYbio",
+            "url": "/groups/mndiybio/",
+            "address": "4432 Chicago Ave S.",
+            "city": "Minneapolis",
+            "state": "Minnesota",
+            "country": "United States",
+            "type-org": null,
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [121.03638, 14.628067]
+          },
+          "properties": {
+            "title": "Manila Biopunk",
+            "url": "/groups/manilabiopunk/",
+            "address": "Teodoro Gener",
+            "city": "Quezon City",
+            "state": "Metro Manila",
+            "country": "Phillipines",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [11.58198, 48.135125]
+          },
+          "properties": {
+            "title": "MikroBiomik",
+            "url": "/groups/mikrobiomik/",
+            "address": null,
+            "city": "Munich",
+            "state": null,
+            "country": "Germany",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.161084, 32.715738]
+          },
+          "properties": {
+            "title": "The Wet Lab",
+            "url": "/groups/thewetlab/",
+            "address": null,
+            "city": "San Diego",
+            "state": "California",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "groups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.894831, 36.001758]
+          },
+          "properties": {
+            "title": "Triangle DIY Biology",
+            "url": "/groups/tridiybio/",
+            "address": "800 N Mangum St",
+            "city": "Durham",
+            "state": "North Carolina",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "groups"
+          }
+      }
+      
+    ]
+}

@@ -1,0 +1,1005 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [77.583126, 13.111525]
+          },
+          "properties": {
+            "title": "Art Science BLR",
+            "url": "/labs/artscienceblr/",
+            "address": null,
+            "city": "Bangalore",
+            "state": null,
+            "country": "India",
+            "type-org": "University",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [5.4532, 51.45126]
+          },
+          "properties": {
+            "title": "Bio Art Laboratores",
+            "url": "/labs/bioartlaboratories/",
+            "address": "Achtseweg Zuid 151",
+            "city": "Eindhoven",
+            "state": null,
+            "country": "Netherlands",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-106.320034, 35.892568]
+          },
+          "properties": {
+            "title": "Biodidact",
+            "url": "/labs/biodidact/",
+            "address": "1900 Diamond Drive",
+            "city": "Los Alamos",
+            "state": "New Mexico",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [151.202014, -33.904579]
+          },
+          "properties": {
+            "title": "Bio Foundry",
+            "url": "/labs/biofoundry/",
+            "address": "296 Botany Road",
+            "city": "Alexandria",
+            "state": "New South Wales",
+            "country": "Australia",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.2710833, -12.2720956]
+          },
+          "properties": {
+            "title": "Biomakers Lab Peru",
+            "url": "/labs/biomakerslabperu/",
+            "address": null,
+            "city": "Lima",
+            "state": null,
+            "country": "Peru",
+            "type-org": null,
+            "color": "blue",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [18.067712, 59.350774]
+          },
+          "properties": {
+            "title": "BioNyfiken",
+            "url": "/labs/bionyfiken/",
+            "address": "Drottning Kristinas väg 53",
+            "city": "Stockholm",
+            "state": null,
+            "country": "Sweden",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [144.959293, -37.765773]
+          },
+          "properties": {
+            "title": "BuiQuisitive",
+            "url": "/labs/bioquisitive/",
+            "address": "45 Talbot St.",
+            "city": "Brunswick",
+            "state": "Victoria",
+            "country": "Australia",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [14.591224, 46.042842]
+          },
+          "properties": {
+            "title": "BioTehna",
+            "url": "/labs/biotehna/",
+            "address": "Litijska cesta 259",
+            "city": "Ljubljana",
+            "state": null,
+            "country": "Slovenia",
+            "type-org": null,
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.688658, 45.425631]
+          },
+          "properties": {
+            "title": "BioTown",
+            "url": "/labs/biotown/",
+            "address": "2 Daly Ave",
+            "city": "Ottawa",
+            "state": null,
+            "country": "Canada",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.973031, 37.377524]
+          },
+          "properties": {
+            "title": "Biocurious",
+            "url": "/labs/biocurious/",
+            "address": "845 Stewart Drive",
+            "city": "Sunnyvale",
+            "state": "California",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [12.54552, 55.67654]
+          },
+          "properties": {
+            "title": "BiologiGaragen",
+            "url": "/labs/biologigaragen/",
+            "address": "H. C. Ørsteds Vej 5",
+            "city": "Copenhagen",
+            "state": null,
+            "country": "Denmark",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.290872, 36.849866]
+          },
+          "properties": {
+            "title": "Biologik Labs",
+            "url": "/labs/biologiklabs/",
+            "address": "259 Granby St.",
+            "city": "Norfolk",
+            "state": "Virginia",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.136478, 46.196136]
+          },
+          "properties": {
+            "title": "Bioscope",
+            "url": "/labs/bioscope/",
+            "address": "Rue de l’Ecole-de-Médecine, 20",
+            "city": "Geneva",
+            "state": null,
+            "country": "Switzerland",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-73.979717, 40.687953]
+          },
+          "properties": {
+            "title": "Biotech Without Borders",
+            "url": "/labs/biotechwithoutborders/",
+            "address": "33 Flatbush Avenue",
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.118517, 42.39396]
+          },
+          "properties": {
+            "title": "BosLab",
+            "url": "/labs/boslab/",
+            "address": "339 Summer Street",
+            "city": "Somerville",
+            "state": "Massachusetts",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-73.582007, 45.475229]
+          },
+          "properties": {
+            "title": "Bricobio",
+            "url": "/labs/bricobio/",
+            "address": "137 Rue Saint-Ferdinand",
+            "city": "Montreal",
+            "state": "Quebec",
+            "country": "Canada",
+            "type-org": null,
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [14.435878, 50.098678]
+          },
+          "properties": {
+            "title": "Brmlab",
+            "url": "/labs/brmbiolab/",
+            "address": "Bubenská 1477/1",
+            "city": "Prague",
+            "state": null,
+            "country": "Czech Republic",
+            "type-org": "non-profit",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.562254, 39.294383]
+          },
+          "properties": {
+            "title": "Bugss",
+            "url": "/labs/bugss/",
+            "address": "101 N Haven St",
+            "city": "Baltimore",
+            "state": "Maryland",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.338357, 38.954722]
+          },
+          "properties": {
+            "title": "Capital Area BioSpace",
+            "url": "/labs/capitalareabiospace/",
+            "address": "1916 Isaac Newton Square West",
+            "city": "Reston",
+            "state": "Virginia",
+            "country": "United States",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "ChiTownBio",
+            "url": "/labs/chitownbio/",
+            "address": null,
+            "city": "Chicago",
+            "state": "Illinois",
+            "country": "United States",
+            "type-org": null,
+            "color": "blue",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Counter Culture Labs",
+            "url": "/labs/counterculturelabs/",
+            "address": "4799 Shattuck",
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.154291, 41.383107]
+          },
+          "properties": {
+            "title": "DIY Bio Barcelona",
+            "url": "/labs/diybiobcn/",
+            "address": "Carrer Consell de Cent, 159",
+            "city": "Barcelona",
+            "state": null,
+            "country": "Spain",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-81.353101, 28.684971]
+          },
+          "properties": {
+            "title": "DIYbioTech",
+            "url": "/labs/diybiotech/",
+            "address": "1355 Bennett Dr.",
+            "city": "Longwood",
+            "state": "Florida",
+            "country": "United States",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.429635, 43.64265]
+          },
+          "properties": {
+            "title": "DIYbio Toronto",
+            "url": "/labs/diybiotoronto/",
+            "address": "1266 Queen St.",
+            "city": "Toronto",
+            "state": "Ontario",
+            "country": "Canada",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-104.974551, 39.768852]
+          },
+          "properties": {
+            "title": "Denver Biolabs",
+            "url": "/labs/denverbiolabs/",
+            "address": "3563 Walnut St",
+            "city": "Denver",
+            "state": "Colorado",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [100.501765, 13.756331]
+          },
+          "properties": {
+            "title": "F.lab",
+            "url": "/labs/flab/",
+            "address": null,
+            "city": "Bangkok",
+            "state": null,
+            "country": "Thailand",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-8.479665, 51.898617]
+          },
+          "properties": {
+            "title": "Forma Labs",
+            "url": "/labs/formalabs/",
+            "address": "Grattan House, Grattan Street",
+            "city": "Cork",
+            "state": null,
+            "country": "Ireland",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-46.699185, -23.564721]
+          },
+          "properties": {
+            "title": "Garoa Open BioLab",
+            "url": "/labs/garoaopenbiolab/",
+            "address": "R. Costa Carvalho, 567 - Pinheiros",
+            "city": "Sao Paolo",
+            "state": "Sao Paolo",
+            "country": "Brazil",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [8.308673, 47.044967]
+          },
+          "properties": {
+            "title": "GaudiLabs",
+            "url": "/labs/gaudilabs/",
+            "address": "Neustadtstrasse 7",
+            "city": "Lucerne",
+            "state": null,
+            "country": "Switzerland",
+            "type-org": "non-profit",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.003143, 40.660715]
+          },
+          "properties": {
+            "title": "Genspace",
+            "url": "/labs/genspace/",
+            "address": "140 32nd Street",
+            "city": "Brooklyn",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.591302, 46.532564]
+          },
+          "properties": {
+            "title": "Hackuarium",
+            "url": "/labs/hackuarium/",
+            "address": "Chemin du Closel 5",
+            "city": "Renens",
+            "state": null,
+            "country": "Switzerland",
+            "type-org": null,
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.284605, 47.659243]
+          },
+          "properties": {
+            "title": "HiveBio",
+            "url": "/labs/hivebio/",
+            "address": "4000 NE 41st St.",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.473345, 37.571138]
+          },
+          "properties": {
+            "title": "Indie Lab",
+            "url": "/labs/indielab/",
+            "address": "1600 Roseneath Rd",
+            "city": "Richmond",
+            "state": "Virginia",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.575231, 46.521464]
+          },
+          "properties": {
+            "title": "L'Eprouvette",
+            "url": "/labs/leprouvette/",
+            "address": "Quartier Sorge",
+            "city": "Lausanne",
+            "state": null,
+            "country": "Switzerland",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.276108, 32.84109]
+          },
+          "properties": {
+            "title": "La Jolla Bio Lab",
+            "url": "/labs/lajollabiolab/",
+            "address": "7555 Draper Ave",
+            "city": "La Jolla",
+            "state": "California",
+            "country": "United States",
+            "type-org": "public",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.352136, 48.868712]
+          },
+          "properties": {
+            "title": "La Paillase",
+            "url": "/labs/lapaillase/",
+            "address": "226 rue St. Denis",
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.884314, 45.783892]
+          },
+          "properties": {
+            "title": "La Paillase Saône",
+            "url": "/labs/lapaillasesaone/",
+            "address": "1 Rue du Luizet",
+            "city": "Villeurbanne",
+            "state": null,
+            "country": "France",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [110.37708, -7.795758]
+          },
+          "properties": {
+            "title": "LifePatch",
+            "url": "/labs/lifepatch/",
+            "address": "969, Jl. Tegal lempuyangan DN III, Bausasran, Danurejan",
+            "city": "Yogyakarta City",
+            "state": null,
+            "country": "Indonesia",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-0.06065, 51.532427]
+          },
+          "properties": {
+            "title": "London Biohackspace",
+            "url": "/labs/londonbiohackerspace/",
+            "address": "447 Hackney Road",
+            "city": "London",
+            "state": null,
+            "country": "United Kingdom",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.236389, 53.484344]
+          },
+          "properties": {
+            "title": "MadLab Biolab",
+            "url": "/labs/madlabbiolab/",
+            "address": "36-40 Edge St",
+            "city": "Manchester",
+            "state": null,
+            "country": "United Kingdom",
+            "type-org": "non-profit",
+            "color": "grey",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [15.450556, 47.065773]
+          },
+          "properties": {
+            "title": "Open bioLab Graz Austria",
+            "url": "/labs/openbiolabgraz/",
+            "address": "Brockmanngasse 15",
+            "city": "Graz",
+            "state": null,
+            "country": "Austria",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-78.485606, 38.030528]
+          },
+          "properties": {
+            "title": "Charlottesville Open Bio Labs",
+            "url": "/labs/openbiolabs/",
+            "address": "300 W. Main St.",
+            "city": "Charlottesville",
+            "state": "Virginia",
+            "country": "United States",
+            "type-org": "Non-Profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-123.087224, 49.282184]
+          },
+          "properties": {
+            "title": "Open Science Network",
+            "url": "/labs/opensciencenet/",
+            "address": "780 East Cordova Street",
+            "city": "Vancouver",
+            "state": "British Columbia",
+            "country": "Canada",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.900237, 52.37299]
+          },
+          "properties": {
+            "title": "Open Wetlab",
+            "url": "/labs/openwetlab/",
+            "address": "Nieuwmarkt 4",
+            "city": "Amsterdam",
+            "state": null,
+            "country": "Netherlands",
+            "type-org": "institute",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.173403, 41.385064]
+          },
+          "properties": {
+            "title": "PechBlenda Lab",
+            "url": "/labs/pechblenda/",
+            "address": null,
+            "city": "Barcelona",
+            "state": null,
+            "country": "Spain",
+            "type-org": "community",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [3.711934, 51.052662]
+          },
+          "properties": {
+            "title": "ReaGent",
+            "url": "/labs/reagent/",
+            "address": "Wispelbergstraat 2",
+            "city": "Gent",
+            "state": null,
+            "country": "Belgium",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.316011, 47.663503]
+          },
+          "properties": {
+            "title": "SoundBio Lab",
+            "url": "/labs/soundbiolab/",
+            "address": "1100 Northeast 47th Street",
+            "city": "Seattle",
+            "state": "Washington",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [15.635657, 46.554905]
+          },
+          "properties": {
+            "title": "Symbiolab",
+            "url": "/labs/symbiolab/",
+            "address": "Valvasorjeva ulica 42",
+            "city": "Maribor",
+            "state": null,
+            "country": "Slovenia",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-118.207445, 34.061189]
+          },
+          "properties": {
+            "title": "The LAb",
+            "url": "/labs/thelab/",
+            "address": "1927 Zonal Avenue",
+            "city": "Los Angeles",
+            "state": "California",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-94.381997, 39.077467]
+          },
+          "properties": {
+            "title": "TrySci Community Biolabs",
+            "url": "/labs/tryscibiolab/",
+            "address": "16657 E 23rd St",
+            "city": "Independence",
+            "state": "Missouri",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      }
+      
+    ]
+}

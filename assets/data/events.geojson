@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.00295, 40.657082]
+          },
+          "properties": {
+            "title": "Bio Design Challenge",
+            "url": "/events/biodesignchallenge/",
+            "address": "140 32nd Street",
+            "city": "New York City",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [6.054807, 46.23479]
+          },
+          "properties": {
+            "title": "BioFabbing Convergence",
+            "url": "/events/biofabbing/",
+            "address": "CERN",
+            "city": "Geneva",
+            "state": null,
+            "country": "Switzerland",
+            "type-org": null,
+            "color": "grey",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264173, 37.835258]
+          },
+          "properties": {
+            "title": "Biohack The Planet",
+            "url": "/events/biohtp/",
+            "address": "4799 Shattuck Avenue",
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.087339, 42.360611]
+          },
+          "properties": {
+            "title": "Global Community BioSummit",
+            "url": "/events/globalcommunitybiosummit/",
+            "address": "75 Amherst St",
+            "city": "Cambridge",
+            "state": "Massachusetts",
+            "country": "United States",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "iGEM",
+            "url": "/events/igem/",
+            "address": null,
+            "city": "Cambridge",
+            "state": null,
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-1.616271, 6.6666]
+          },
+          "properties": {
+            "title": "Africa Open Science Hardware Summit",
+            "url": "/events/africaosh/",
+            "address": null,
+            "city": "Kumasi",
+            "state": null,
+            "country": "Ghana",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      }
+      
+    ]
+}

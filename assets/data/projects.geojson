@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "DIYbiosphere",
+            "url": "/projects/diybiosphere/",
+            "address": null,
+            "city": "Boston",
+            "state": "Massachusetts",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Biodisplay",
+            "url": "/projects/biodisplay/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-74.005973, 40.712775]
+          },
+          "properties": {
+            "title": "Decentralized Oxalis Genome Project",
+            "url": "/projects/decentralizedoxalisgenomeproject/",
+            "address": null,
+            "city": "New York City",
+            "state": null,
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Kombucha Genomics",
+            "url": "/projects/kombuchagenomics/",
+            "address": null,
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "Metafluidics",
+            "url": "/projects/metafluidics/",
+            "address": null,
+            "city": "Boston",
+            "state": null,
+            "country": "United States",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "OYEP: Open Yeast Engineering Project",
+            "url": "/projects/oyep/",
+            "address": null,
+            "city": "Boston",
+            "state": null,
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Opengenx",
+            "url": "/projects/opengenx/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Open Insulin",
+            "url": "/projects/openinsulin/",
+            "address": null,
+            "city": "Oakland",
+            "state": null,
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.955236, 37.354108]
+          },
+          "properties": {
+            "title": "OpenPCR",
+            "url": "/projects/openpcr/",
+            "address": null,
+            "city": "Santa Clara",
+            "state": null,
+            "country": "United States",
+            "type-org": null,
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.264195, 37.835233]
+          },
+          "properties": {
+            "title": "Real Vegan Cheese",
+            "url": "/projects/realvegancheese/",
+            "address": null,
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Roningenetics",
+            "url": "/projects/roningenetics/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      }
+      
+    ]
+}

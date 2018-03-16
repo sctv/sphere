@@ -1,0 +1,165 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.299814, 37.862421]
+          },
+          "properties": {
+            "title": "Berkley Biolabs",
+            "url": "/incubators/berkleybiolabs/",
+            "address": "614 Bancroft Way",
+            "city": "Berkley",
+            "state": "California",
+            "country": "United States",
+            "type-org": null,
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [72.897863, 19.07933]
+          },
+          "properties": {
+            "title": "BioRiiDL",
+            "url": "/incubators/bioriidl/",
+            "address": "SIMSR Building, Off 7th Rajawadi Road",
+            "city": "Mumbai",
+            "state": "Maharashtra",
+            "country": "India",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.274311, 33.135863]
+          },
+          "properties": {
+            "title": "Bio, Tech and Beyond",
+            "url": "/incubators/biotechandbeyond/",
+            "address": "2351 Faraday Ave",
+            "city": "Carlsbad",
+            "state": "California",
+            "country": "United States",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.501622, 51.920674]
+          },
+          "properties": {
+            "title": "Blue City Lab",
+            "url": "/incubators/bluecity/",
+            "address": "Maasboulevard 100",
+            "city": "Rotterdam",
+            "state": null,
+            "country": "Netherlands",
+            "type-org": null,
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Harlem Biospace",
+            "url": "/incubators/harlembiospace/",
+            "address": "423 W 127th Street",
+            "city": "New York City",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "for-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [114.057865, 22.543096]
+          },
+          "properties": {
+            "title": "Hax Accelerator",
+            "url": "/incubators/hax/",
+            "address": null,
+            "city": "Shenzhen",
+            "state": null,
+            "country": "China",
+            "type-org": "investor",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.40857, 37.781841]
+          },
+          "properties": {
+            "title": "IndieBio",
+            "url": "/incubators/indiebio/",
+            "address": "479 Jessie St",
+            "city": "San Francisco",
+            "state": "California",
+            "country": "United States",
+            "type-org": "investor",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-8.469755, 51.897351]
+          },
+          "properties": {
+            "title": "RebelBio",
+            "url": "/incubators/rebelbio/",
+            "address": "12 South Mall Street",
+            "city": "Cork",
+            "state": null,
+            "country": "Ireland",
+            "type-org": "university",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "incubators"
+          }
+      }
+      
+    ]
+}

@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+    "features": [ 
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-112.70926, 49.742742]
+          },
+          "properties": {
+            "title": "Amino Labs",
+            "url": "/startups/aminolabs/",
+            "address": null,
+            "city": "Lethbridge",
+            "state": "Alberta",
+            "country": "Canada",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-121.952022, 37.364356]
+          },
+          "properties": {
+            "title": "Chai Bio",
+            "url": "/startups/chaibio/",
+            "address": "990 Richard Avenue",
+            "city": "Santa Clara",
+            "state": "California",
+            "country": "United States",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-2.552189, 51.502299]
+          },
+          "properties": {
+            "title": "OpenBionics",
+            "url": "/startups/openbionics/",
+            "address": "UWE Bristol Exhibition and Conference Centre, Filton Rd, Stoke Gifford, Bristol , UK",
+            "city": "Bristol",
+            "state": null,
+            "country": "United Kingdom",
+            "type-org": "for-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.629798, 41.878114]
+          },
+          "properties": {
+            "title": "Open Trons",
+            "url": "/startups/opentrons/",
+            "address": "20 Jay Street,",
+            "city": "New York",
+            "state": "New York",
+            "country": "United States",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [4.501646, 51.92012]
+          },
+          "properties": {
+            "title": "RotterZwam",
+            "url": "/startups/rotterzwam/",
+            "address": "Maasboulevard 100",
+            "city": "Rotterdam",
+            "state": null,
+            "country": "Netherlands",
+            "type-org": "for-profit",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.298033, 37.804184]
+          },
+          "properties": {
+            "title": "The ODIN",
+            "url": "/startups/theodin/",
+            "address": null,
+            "city": "Oakland",
+            "state": "California",
+            "country": "United States",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      }
+      
+    ]
+}
