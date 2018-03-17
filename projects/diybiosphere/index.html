@@ -296,7 +296,7 @@
         
         
         
-        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/2#new_comment_field" target="_blank">
+        <a class="item noelink noul" href="https://github.com/diybiosphere/comments/issues/2#new_comment_field" target="_blank">
           <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
             <i class="fal fa-comment" data-fa-transform="grow-6 right-6"></i>
           </span>
@@ -963,7 +963,7 @@ ADDING A NEW
         
         
         
-        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/2#new_comment_field" target="_blank">
+        <a class="item noelink noul" href="https://github.com/diybiosphere/comments/issues/2#new_comment_field" target="_blank">
           <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
             <i class="fal fa-comment" data-fa-transform="grow-6 right-6"></i>
           </span>
@@ -2172,7 +2172,7 @@ ADDING A NEW
         
         
         
-        <a class="item noelink noul" href="https://github.com/diybiosphere/talk/issues/2#new_comment_field" target="_blank">
+        <a class="item noelink noul" href="https://github.com/diybiosphere/comments/issues/2#new_comment_field" target="_blank">
           <span data-tooltip="Add Comment in GitHub" data-variation="mini" data-inverted="">
             <i class="fal fa-comment" data-fa-transform="grow-6 right-6"></i>
           </span>
@@ -2251,7 +2251,7 @@ ADDING A NEW
     </div>
   </div>
 
-    <a target"_blank" href="https://github.com/diybiosphere/talk/issues/2">
+    <a target"_blank" href="https://github.com/diybiosphere/comments/issues/2">
       <div class="ui basic submit mini button">
           <i class="fal fa-comment"></i> Add Comment in GitHub
       </div>
@@ -2267,7 +2267,7 @@ function loadComments(data) {
     var cuser = data[i].user.login;
     var cuserlink = "https://www.github.com/" + data[i].user.login;
     var ctype = data[i].user.type;
-    var clink = "https://github.com/diybiosphere/talk/issues/2#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
+    var clink = "https://github.com/diybiosphere/comments/issues/2#issuecomment-" + data[i].url.substring(data[i].url.lastIndexOf("/")+1);
     var cbody = data[i].body_html;
     var cavatarlink = data[i].user.avatar_url;
     var cdate = Date.parse(data[i].created_at).toString("yyyy-MM-dd HH:mm");
@@ -2276,7 +2276,7 @@ function loadComments(data) {
   }
 }
 
-$.ajax("https://api.github.com/repos/diybiosphere/talk/issues/2/comments?per_page=100", {
+$.ajax("https://api.github.com/repos/diybiosphere/comments/issues/2/comments?per_page=100", {
   headers: {Accept: "application/vnd.github.full+json"},
   dataType: "json",
   success: function(msg){
