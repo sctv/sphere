@@ -71,6 +71,30 @@
     }
   },
   {
+    "title": "Gathering For Open Science Hardware",
+    "collection": "events",
+    "url": "/events/gatheringforopensciencehardware/",
+    "subtitle": "GOSH",
+    "start-date": "Sept/Oct 2018",
+    "end-date": null,
+    "status": "planned",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Community",
+    "address": null,
+    "directions": null,
+    "city": "Shenzhen",
+    "state": null,
+    "post-code": null,
+    "country": "China",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "twitter": "https://twitter.com/goshcommunity",
+      "website": "http://openhardware.science/"
+    }
+  },
+  {
     "title": "Global Community BioSummit",
     "collection": "events",
     "url": "/events/globalcommunitybiosummit/",
@@ -91,6 +115,30 @@
     "tags": ["conference"],
     "links": {
       "website": "https://www.biosummit.org/"
+    }
+  },
+  {
+    "title": "Hope Conference",
+    "collection": "events",
+    "url": "/events/hackersonplanetearth/",
+    "subtitle": "Hackers On Planet Earth",
+    "start-date": 1994,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Hackerspace",
+    "address": null,
+    "directions": null,
+    "city": "New York",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "twitter": "https://twitter.com/hopeconf",
+      "website": "http://hope.net/"
     }
   },
   {
@@ -116,6 +164,129 @@
       "facebook": "https://www.facebook.com/iGEMFoundation/",
       "twitter": "https://twitter.com/igem",
       "website": "http://igem.org/"
+    }
+  },
+  {
+    "title": "Nation Of Makers Conference",
+    "collection": "events",
+    "url": "/events/nationofmakersconference/",
+    "subtitle": "Collaborative Community-Wide Maker Convening",
+    "start-date": "June 9-10, 2018",
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Organization",
+    "address": null,
+    "directions": null,
+    "city": "Santa Fe",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "facebook": "https://www.facebook.com/nationofmakers",
+      "twitter": "https://twitter.com/nationofmakers",
+      "website": "https://www.nomcon.org/"
+    }
+  },
+  {
+    "title": "New Harvest",
+    "collection": "events",
+    "url": "/events/newharvest/",
+    "subtitle": null,
+    "start-date": 2017,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Organization",
+    "address": null,
+    "directions": null,
+    "city": "New York",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "facebook": "https://www.facebook.com/newharvestorg",
+      "twitter": "https://twitter.com/NewHarvestOrg",
+      "website": "http://www.new-harvest.org/"
+    }
+  },
+  {
+    "title": "PoreCamp",
+    "collection": "events",
+    "url": "/events/porecampvancouver/",
+    "subtitle": "A Training Bootcamp Based On The Oxford Nanopore MinION",
+    "start-date": 2015,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": null,
+    "address": null,
+    "directions": null,
+    "city": null,
+    "state": null,
+    "post-code": null,
+    "country": "USA",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "website": "http://porecamp.github.io/"
+    }
+  },
+  {
+    "title": "SynBioBeta",
+    "collection": "events",
+    "url": "/events/synbiobeta/",
+    "subtitle": "The Synthetic Biology Innovation Network",
+    "start-date": "October 1-3, 2018",
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Company",
+    "address": null,
+    "directions": null,
+    "city": "San Francisco",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "facebook": "https://www.facebook.com/SynBioBeta/",
+      "twitter": "https://twitter.com/SynBioBeta",
+      "website": "https://synbiobeta.com/"
+    }
+  },
+  {
+    "title": "TECNOx 3.0",
+    "collection": "events",
+    "url": "/events/tecnox30/",
+    "subtitle": "Free technologies for Latin America",
+    "start-date": "April 16 to 21, 2018",
+    "end-date": null,
+    "status": "planned",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Organization",
+    "address": null,
+    "directions": null,
+    "city": "Valparaiso",
+    "state": null,
+    "post-code": null,
+    "country": "Chile",
+    "_geoloc": null,
+    "tags": ["conference"],
+    "links": {
+      "facebook": "https://www.facebook.com/tecnoxlatam/",
+      "twitter": "https://twitter.com/TecnoxC",
+      "website": "http://tecnox.org/"
     }
   },
   {
@@ -2596,6 +2767,30 @@
     }
   },
   {
+    "title": "Boolean Biotech",
+    "collection": "projects",
+    "url": "/projects/booleanbiotech/",
+    "subtitle": null,
+    "start-date": 2014,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Project",
+    "address": null,
+    "directions": null,
+    "city": null,
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["DNA"],
+    "links": {
+      "twitter": "https://twitter.com/booleanbiotech?lang=en",
+      "website": "http://blog.booleanbiotech.com/"
+    }
+  },
+  {
     "title": "Decentralized Oxalis Genome Project",
     "collection": "projects",
     "url": "/projects/decentralizedoxalisgenomeproject/",
@@ -2813,6 +3008,81 @@
     }
   },
   {
+    "title": "AlgiKnit",
+    "collection": "startups",
+    "url": "/startups/algiknit/",
+    "subtitle": null,
+    "start-date": 2017,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "company",
+    "address": null,
+    "directions": null,
+    "city": "New York",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["fashion"],
+    "links": {
+      "facebook": "https://www.facebook.com/algiknit",
+      "twitter": "https://twitter.com/algiknit",
+      "website": "https://www.algiknit.com/"
+    }
+  },
+  {
+    "title": "Allevi",
+    "collection": "startups",
+    "url": "/startups/allevi/",
+    "subtitle": null,
+    "start-date": 2014,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Company",
+    "address": null,
+    "directions": null,
+    "city": "Philadelphia",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["hardware","software"],
+    "links": {
+      "facebook": "https://www.facebook.com/allevi3D/",
+      "twitter": "https://twitter.com/Allevi3D",
+      "website": "https://allevi3d.com/"
+    }
+  },
+  {
+    "title": "Amid Biosciences",
+    "collection": "startups",
+    "url": "/startups/amidbiosciences/",
+    "subtitle": "Competent Cells and Protein",
+    "start-date": 2016,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Company/Start-up",
+    "address": null,
+    "directions": null,
+    "city": "Santa Clara",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["biotechnology"],
+    "links": {
+      "facebook": "https://www.facebook.com/shopify",
+      "twitter": "https://twitter.com/shopify",
+      "website": "https://amidbiosciences.com/"
+    }
+  },
+  {
     "title": "Amino Labs",
     "collection": "startups",
     "url": "/startups/aminolabs/",
@@ -2835,6 +3105,29 @@
       "facebook": "https://www.facebook.com/aminobiolab/",
       "twitter": "https://twitter.com/Aminobiolab",
       "website": "https://amino.bio/"
+    }
+  },
+  {
+    "title": "Billion to One",
+    "collection": "startups",
+    "url": "/startups/billiontoone/",
+    "subtitle": "Prenatal testing for every expecting mother",
+    "start-date": null,
+    "end-date": null,
+    "status": "unknown",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Company",
+    "address": null,
+    "directions": null,
+    "city": "Palo Alto",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["diagnostics"],
+    "links": {
+      "website": "https://www.billiontoone.com/"
     }
   },
   {

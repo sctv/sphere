@@ -44,6 +44,26 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Boolean Biotech",
+            "url": "/projects/booleanbiotech/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "United States",
+            "type-org": "Project",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [-74.005973, 40.712775]
           },

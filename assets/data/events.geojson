@@ -64,6 +64,26 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Gathering For Open Science Hardware",
+            "url": "/events/gatheringforopensciencehardware/",
+            "address": null,
+            "city": "Shenzhen",
+            "state": null,
+            "country": "China",
+            "type-org": "Community",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [-71.087339, 42.360611]
           },
@@ -88,6 +108,26 @@
           "coordinates": []
           },
           "properties": {
+            "title": "Hope Conference",
+            "url": "/events/hackersonplanetearth/",
+            "address": null,
+            "city": "New York",
+            "state": null,
+            "country": "United States",
+            "type-org": "Hackerspace",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
             "title": "iGEM",
             "url": "/events/igem/",
             "address": null,
@@ -95,6 +135,106 @@
             "state": null,
             "country": "United States",
             "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Nation Of Makers Conference",
+            "url": "/events/nationofmakersconference/",
+            "address": null,
+            "city": "Santa Fe",
+            "state": null,
+            "country": "United States",
+            "type-org": "Organization",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "New Harvest",
+            "url": "/events/newharvest/",
+            "address": null,
+            "city": "New York",
+            "state": null,
+            "country": "United States",
+            "type-org": "Organization",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "PoreCamp",
+            "url": "/events/porecampvancouver/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": "USA",
+            "type-org": null,
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "SynBioBeta",
+            "url": "/events/synbiobeta/",
+            "address": null,
+            "city": "San Francisco",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "events"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "TECNOx 3.0",
+            "url": "/events/tecnox30/",
+            "address": null,
+            "city": "Valparaiso",
+            "state": null,
+            "country": "Chile",
+            "type-org": "Organization",
             "color": "blue",
             "marker": "circle",
             "collection": "events"

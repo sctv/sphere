@@ -57,6 +57,20 @@
   links:
     website: http://biohacktheplanet.com/
 
+- title: Gathering For Open Science Hardware
+  collection: events
+  sphere_url: /events/gatheringforopensciencehardware/
+  subtitle: GOSH
+  start-date: Sept/Oct 2018
+  type-org: Community
+  city: Shenzhen
+  country: China
+  tags: 
+    - conference
+  links:
+    twitter: https://twitter.com/goshcommunity
+    website: http://openhardware.science/
+
 - title: Global Community BioSummit
   collection: events
   sphere_url: /events/globalcommunitybiosummit/
@@ -74,6 +88,20 @@
   links:
     website: https://www.biosummit.org/
 
+- title: Hope Conference
+  collection: events
+  sphere_url: /events/hackersonplanetearth/
+  subtitle: Hackers On Planet Earth
+  start-date: 1994
+  type-org: Hackerspace
+  city: New York
+  country: United States
+  tags: 
+    - conference
+  links:
+    twitter: https://twitter.com/hopeconf
+    website: http://hope.net/
+
 - title: iGEM
   collection: events
   sphere_url: /events/igem/
@@ -90,6 +118,76 @@
     facebook: https://www.facebook.com/iGEMFoundation/
     twitter: https://twitter.com/igem
     website: http://igem.org/
+
+- title: Nation Of Makers Conference
+  collection: events
+  sphere_url: /events/nationofmakersconference/
+  subtitle: Collaborative Community-Wide Maker Convening
+  start-date: June 9-10, 2018
+  type-org: Organization
+  city: Santa Fe
+  country: United States
+  tags: 
+    - conference
+  links:
+    facebook: https://www.facebook.com/nationofmakers
+    twitter: https://twitter.com/nationofmakers
+    website: https://www.nomcon.org/
+
+- title: New Harvest
+  collection: events
+  sphere_url: /events/newharvest/
+  start-date: 2017
+  type-org: Organization
+  city: New York
+  country: United States
+  tags: 
+    - conference
+  links:
+    facebook: https://www.facebook.com/newharvestorg
+    twitter: https://twitter.com/NewHarvestOrg
+    website: http://www.new-harvest.org/
+
+- title: PoreCamp
+  collection: events
+  sphere_url: /events/porecampvancouver/
+  subtitle: A Training Bootcamp Based On The Oxford Nanopore MinION
+  start-date: 2015
+  country: USA
+  tags: 
+    - conference
+  links:
+    website: http://porecamp.github.io/
+
+- title: SynBioBeta
+  collection: events
+  sphere_url: /events/synbiobeta/
+  subtitle: The Synthetic Biology Innovation Network
+  start-date: October 1-3, 2018
+  type-org: Company
+  city: San Francisco
+  country: United States
+  tags: 
+    - conference
+  links:
+    facebook: https://www.facebook.com/SynBioBeta/
+    twitter: https://twitter.com/SynBioBeta
+    website: https://synbiobeta.com/
+
+- title: TECNOx 3.0
+  collection: events
+  sphere_url: /events/tecnox30/
+  subtitle: Free technologies for Latin America
+  start-date: April 16 to 21, 2018
+  type-org: Organization
+  city: Valparaiso
+  country: Chile
+  tags: 
+    - conference
+  links:
+    facebook: https://www.facebook.com/tecnoxlatam/
+    twitter: https://twitter.com/TecnoxC
+    website: http://tecnox.org/
 
 - title: Africa Open Science Hardware Summit
   collection: events
@@ -1842,6 +1940,18 @@
   links:
     
 
+- title: Boolean Biotech
+  collection: projects
+  sphere_url: /projects/booleanbiotech/
+  start-date: 2014
+  type-org: Project
+  country: United States
+  tags: 
+    - DNA
+  links:
+    twitter: https://twitter.com/booleanbiotech?lang=en
+    website: http://blog.booleanbiotech.com/
+
 - title: Decentralized Oxalis Genome Project
   collection: projects
   sphere_url: /projects/decentralizedoxalisgenomeproject/
@@ -1995,6 +2105,50 @@
 
 
 
+- title: AlgiKnit
+  collection: startups
+  sphere_url: /startups/algiknit/
+  start-date: 2017
+  type-org: company
+  city: New York
+  country: United States
+  tags: 
+    - fashion
+  links:
+    facebook: https://www.facebook.com/algiknit
+    twitter: https://twitter.com/algiknit
+    website: https://www.algiknit.com/
+
+- title: Allevi
+  collection: startups
+  sphere_url: /startups/allevi/
+  start-date: 2014
+  type-org: Company
+  city: Philadelphia
+  country: United States
+  tags: 
+    - hardware
+    - software
+  links:
+    facebook: https://www.facebook.com/allevi3D/
+    twitter: https://twitter.com/Allevi3D
+    website: https://allevi3d.com/
+
+- title: Amid Biosciences
+  collection: startups
+  sphere_url: /startups/amidbiosciences/
+  subtitle: Competent Cells and Protein
+  start-date: 2016
+  type-org: Company/Start-up
+  city: Santa Clara
+  country: United States
+  tags: 
+    - biotechnology
+  links:
+    facebook: https://www.facebook.com/shopify
+    twitter: https://twitter.com/shopify
+    website: https://amidbiosciences.com/
+
 - title: Amino Labs
   collection: startups
   sphere_url: /startups/aminolabs/
@@ -2014,6 +2168,18 @@
     facebook: https://www.facebook.com/aminobiolab/
     twitter: https://twitter.com/Aminobiolab
     website: https://amino.bio/
+
+- title: Billion to One
+  collection: startups
+  sphere_url: /startups/billiontoone/
+  subtitle: Prenatal testing for every expecting mother
+  type-org: Company
+  city: Palo Alto
+  country: United States
+  tags: 
+    - diagnostics
+  links:
+    website: https://www.billiontoone.com/
 
 - title: Chai Bio
   collection: startups

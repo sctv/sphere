@@ -4,6 +4,66 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "AlgiKnit",
+            "url": "/startups/algiknit/",
+            "address": null,
+            "city": "New York",
+            "state": null,
+            "country": "United States",
+            "type-org": "company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Allevi",
+            "url": "/startups/allevi/",
+            "address": null,
+            "city": "Philadelphia",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Amid Biosciences",
+            "url": "/startups/amidbiosciences/",
+            "address": null,
+            "city": "Santa Clara",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [-112.70926, 49.742742]
           },
@@ -16,6 +76,26 @@
             "country": "Canada",
             "type-org": "company",
             "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Billion to One",
+            "url": "/startups/billiontoone/",
+            "address": null,
+            "city": "Palo Alto",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company",
+            "color": "grey",
             "marker": "circle",
             "collection": "startups"
           }
