@@ -804,6 +804,26 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "My Lab",
+            "url": "/labs/mylab/",
+            "address": "85 First Road",
+            "city": "The City",
+            "state": null,
+            "country": "The Country",
+            "type-org": "community",
+            "color": "blue",
+            "marker": "marker",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [15.450556, 47.065773]
           },

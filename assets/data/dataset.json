@@ -2279,6 +2279,30 @@
     }
   },
   {
+    "title": "My Lab",
+    "collection": "labs",
+    "url": "/labs/mylab/",
+    "subtitle": "My Subtitle",
+    "start-date": "2017-10-23",
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "community",
+    "address": "85 First Road",
+    "directions": null,
+    "city": "The City",
+    "state": null,
+    "post-code": null,
+    "country": "The Country",
+    "_geoloc": null,
+    "tags": ["tag1","tag2"],
+    "links": {
+      "twitter": "http://twitterURL",
+      "website": "http://websiteURL"
+    }
+  },
+  {
     "title": "Open bioLab Graz Austria",
     "collection": "labs",
     "url": "/labs/openbiolabgraz/",
