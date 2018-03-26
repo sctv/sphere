@@ -2742,6 +2742,31 @@
     }
   },
   {
+    "title": "BioLink Depot",
+    "collection": "others",
+    "url": "/others/biolinkdepot/",
+    "subtitle": "Donating Science Supplies to Schools",
+    "start-date": 2002,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "Nonprofit",
+    "address": null,
+    "directions": null,
+    "city": "San Francisco",
+    "state": null,
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": null,
+    "tags": ["equipment","supplies"],
+    "links": {
+      "facebook": "https://www.facebook.com/biolinkdepot",
+      "twitter": "https://twitter.com/biolinkdepot",
+      "website": "http://biolinkdepot.org/"
+    }
+  },
+  {
     "title": "Biodisplay",
     "collection": "projects",
     "url": "/projects/biodisplay/",
