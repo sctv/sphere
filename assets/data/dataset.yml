@@ -1926,28 +1926,6 @@
 
 
 
-- title: DIYbiosphere
-  collection: projects
-  sphere_url: /projects/diybiosphere/
-  subtitle: Connecting DIYbio Worldwide
-  start-date: 2016
-  partners: 
-    - 'DIYbio.org'
-  type-org: non-profit
-  city: Boston
-  country: United States
-  _geoloc:
-    lat: 
-    lng: 
-  tags: 
-    - website
-    - database
-  links:
-    twitter: https://twitter.com/DIYbiosphere/
-    github: https://github.com/DIYbiosphere/sphere
-    gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
-    website: http://sphere.diybio.org/
-
 - title: Biodisplay
   collection: projects
   sphere_url: /projects/biodisplay/
@@ -2117,6 +2095,28 @@
   links:
     
 
+- title: DIYbiosphere
+  collection: projects
+  sphere_url: /projects/diybiosphere/
+  subtitle: Connecting DIYbio Worldwide
+  start-date: 2016
+  partners: 
+    - 'DIYbio.org'
+  type-org: non-profit
+  city: Boston
+  country: United States
+  _geoloc:
+    lat: 
+    lng: 
+  tags: 
+    - website
+    - database
+  links:
+    twitter: https://twitter.com/DIYbiosphere/
+    github: https://github.com/DIYbiosphere/sphere
+    gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+    website: http://sphere.diybio.org/
+
 
 
 
@@ -2196,6 +2196,21 @@
   links:
     website: https://www.billiontoone.com/
 
+- title: Biomeme
+  collection: startups
+  sphere_url: /startups/biomeme/
+  start-date: 2013
+  type-org: Company/Start-up
+  city: Philadelphia
+  country: United States
+  tags: 
+    - DNA
+    - smartphone
+  links:
+    facebook: https://www.facebook.com/Biomeme-Inc-170880129735006/?fref=ts
+    twitter: https://twitter.com/biomemeinc
+    website: http://biomeme.com/
+
 - title: Chai Bio
   collection: startups
   sphere_url: /startups/chaibio/
@@ -2213,6 +2228,173 @@
     facebook: https://www.facebook.com/chaibiotech
     twitter: https://twitter.com/chaibio
     website: https://www.chaibio.com/
+
+- title: Chronomed
+  collection: startups
+  sphere_url: /startups/chronomed/
+  start-date: 2016
+  type-org: Company
+  city: Amsterdam
+  country: Netherlands
+  tags: 
+    - sleep
+  links:
+    website: http://www.chronomed.nl/
+
+- title: Clear Gene
+  collection: startups
+  sphere_url: /startups/cleargene/
+  subtitle: Making Discoveries Count
+  type-org: Start-up
+  city: San Francisco
+  country: United States
+  tags: 
+    - DNA
+  links:
+    website: http://www.cleargene.co/
+
+- title: Combimmune
+  collection: startups
+  sphere_url: /startups/combimmune/
+  subtitle: Development of rational combinatorial immunotherapies for cancer.
+  start-date: 2012
+  type-org: Company/Start-up
+  city: Palo Alto
+  country: United States
+  tags: 
+    - oncology
+  links:
+    website: http://www.combimmune.com/
+
+- title: Digi.Bio
+  collection: startups
+  sphere_url: /startups/digibio/
+  start-date: 2017
+  type-org: Company/Start-up
+  city: Amsterdam
+  country: The Netherlands
+  tags: 
+    - hardware
+  links:
+    facebook: https://www.facebook.com/digi.bio.dmf/
+    twitter: https://twitter.com/digi_bio
+    website: http://digi.bio/
+
+- title: Ecovative Design
+  collection: startups
+  sphere_url: /startups/ecovativedesign/
+  start-date: 2007
+  type-org: Company
+  city: Green Island
+  country: United States
+  tags: 
+    - synthetics
+  links:
+    facebook: https://www.facebook.com/ecovative/?fref=gc&dti=161300983894992&hc_location=ufi
+    twitter: https://twitter.com/search?q=Ecovative&src=typd
+    website: https://www.ecovativedesign.com/
+
+- title: Eligo Bioscience
+  collection: startups
+  sphere_url: /startups/eligobioscience/
+  subtitle: The MicroBiome Company
+  start-date: 2014
+  type-org: Company
+  city: Paris
+  country: France
+  tags: 
+    - microbiome
+  links:
+    facebook: https://www.facebook.com/eligobioscience/
+    twitter: https://twitter.com/eligobio
+    website: http://eligo.bio/
+
+- title: Folia Water
+  collection: startups
+  sphere_url: /startups/foliawater/
+  subtitle: The World's First Water Filter For Pennies, Not Dollars.
+  start-date: 2016
+  type-org: Company/Start-up
+  city: Oakland
+  country: United States
+  tags: 
+    - water
+  links:
+    facebook: https://www.facebook.com/foliawater
+    twitter: https://twitter.com/foliawater
+    website: https://www.foliawater.com/
+
+- title: Folium Biosciences
+  collection: startups
+  sphere_url: /startups/foliumbiosciences/
+  start-date: 2015
+  type-org: Company/Start-up
+  city: Colorado Springs
+  country: United States
+  tags: 
+    - hemp
+  links:
+    facebook: https://www.facebook.com/foliumbio/
+    twitter: https://twitter.com/foliumbio
+    website: https://foliumbiosciences.com/
+
+- title: Hyasynth Biologicals
+  collection: startups
+  sphere_url: /startups/hyasynthbiologicals/
+  start-date: 2014
+  type-org: Company/Start-up
+  city: Montréal
+  country: Canada
+  tags: 
+    - drugs
+    - therapeutics
+  links:
+    facebook: https://www.facebook.com/hyasynthbio
+    twitter: https://twitter.com/hyasynthbio
+    website: http://hyasynthbio.com/
+
+- title: Innovative Medicine
+  collection: startups
+  sphere_url: /startups/innovativemedicine/
+  start-date: 2004
+  type-org: Company
+  city: New York
+  country: United States
+  tags: 
+    - medicine
+  links:
+    facebook: https://www.facebook.com/InnoMedicine
+    twitter: https://twitter.com/InnoMedicine
+    website: https://innovativemedicine.com/
+
+- title: Kilobaser
+  collection: startups
+  sphere_url: /startups/kilobaser/
+  subtitle: The Nespresso Machine For DNA Synthesis
+  start-date: 2014
+  type-org: Company/Sart-up
+  city: Graz
+  country: Austria
+  tags: 
+    - DNA
+    - hardware
+  links:
+    facebook: https://www.facebook.com/kilobaser.DNA
+    twitter: https://twitter.com/DNAPrototyper
+    website: http://www.kilobaser.com/
+
+- title: Microsynbiotix
+  collection: startups
+  sphere_url: /startups/microsynbiotix/
+  type-org: Start-up
+  city: San Diego
+  country: United States
+  tags: 
+    - agriculture
+  links:
+    facebook: https://www.facebook.com/microsynbiotix
+    twitter: https://twitter.com/microsynbiotix
+    website: https://www.microsynbiotix.com/
 
 - title: OpenBionics
   collection: startups
@@ -2260,6 +2442,51 @@
     facebook: https://www.facebook.com/opentronslabworks/
     website: https://opentrons.com/
 
+- title: PILI
+  collection: startups
+  sphere_url: /startups/pili/
+  start-date: 2014
+  type-org: Company/Start-up
+  city: Paris
+  country: France
+  tags: 
+    - biofabrication
+  links:
+    facebook: https://www.facebook.com/pilibio
+    twitter: https://twitter.com/_pilibio
+    website: http://www.pili.bio/
+
+- title: Pegware
+  collection: startups
+  sphere_url: /startups/pegware/
+  subtitle: Antifouling Polymers for Life Sciences.
+  start-date: 2016
+  type-org: Start-up
+  city: Menlo Park
+  country: United States
+  tags: 
+    - life sciences
+  links:
+    website: https://www.pegware.com/
+
+- title: Prospective Research
+  collection: startups
+  sphere_url: /startups/prospectiveresearch/
+  subtitle: Commercializing The Language Of Bacteria
+  type-org: Company/Start-up
+  city: Beverly
+  country: United States
+  tags: 
+    - antibiotics
+  links:
+    website: https://www.prospectiveresearch.com/read-me/
+
+- title: 
+  collection: startups
+  sphere_url: /startups/quantgene/
+  links:
+    
+
 - title: RotterZwam
   collection: startups
   sphere_url: /startups/rotterzwam/
@@ -2279,6 +2506,20 @@
     facebook: https://www.facebook.com/Rotterzwam
     twitter: https://twitter.com/RotterZwam
     website: https://www.rotterzwam.nl/
+
+- title: SE3D
+  collection: startups
+  sphere_url: /startups/se3d/
+  start-date: 2014
+  type-org: Company/Start-up
+  city: San Francisco
+  country: United States
+  tags: 
+    - bioprinting
+  links:
+    facebook: https://www.facebook.com/se3dedu/
+    twitter: https://twitter.com/se3dedu
+    website: https://www.se3d.com/
 
 - title: The ODIN
   collection: startups

@@ -104,6 +104,26 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Biomeme",
+            "url": "/startups/biomeme/",
+            "address": null,
+            "city": "Philadelphia",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [-121.952022, 37.364356]
           },
@@ -117,6 +137,246 @@
             "type-org": "company",
             "color": "blue",
             "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Chronomed",
+            "url": "/startups/chronomed/",
+            "address": null,
+            "city": "Amsterdam",
+            "state": null,
+            "country": "Netherlands",
+            "type-org": "Company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Clear Gene",
+            "url": "/startups/cleargene/",
+            "address": null,
+            "city": "San Francisco",
+            "state": null,
+            "country": "United States",
+            "type-org": "Start-up",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Combimmune",
+            "url": "/startups/combimmune/",
+            "address": null,
+            "city": "Palo Alto",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Digi.Bio",
+            "url": "/startups/digibio/",
+            "address": null,
+            "city": "Amsterdam",
+            "state": null,
+            "country": "The Netherlands",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Ecovative Design",
+            "url": "/startups/ecovativedesign/",
+            "address": null,
+            "city": "Green Island",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Eligo Bioscience",
+            "url": "/startups/eligobioscience/",
+            "address": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "type-org": "Company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Folia Water",
+            "url": "/startups/foliawater/",
+            "address": null,
+            "city": "Oakland",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Folium Biosciences",
+            "url": "/startups/foliumbiosciences/",
+            "address": null,
+            "city": "Colorado Springs",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Hyasynth Biologicals",
+            "url": "/startups/hyasynthbiologicals/",
+            "address": null,
+            "city": "Montréal",
+            "state": null,
+            "country": "Canada",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Innovative Medicine",
+            "url": "/startups/innovativemedicine/",
+            "address": null,
+            "city": "New York",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Kilobaser",
+            "url": "/startups/kilobaser/",
+            "address": null,
+            "city": "Graz",
+            "state": null,
+            "country": "Austria",
+            "type-org": "Company/Sart-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Microsynbiotix",
+            "url": "/startups/microsynbiotix/",
+            "address": null,
+            "city": "San Diego",
+            "state": null,
+            "country": "United States",
+            "type-org": "Start-up",
+            "color": "grey",
+            "marker": "circle",
             "collection": "startups"
           }
       },
@@ -164,6 +424,86 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "PILI",
+            "url": "/startups/pili/",
+            "address": null,
+            "city": "Paris",
+            "state": null,
+            "country": "France",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Pegware",
+            "url": "/startups/pegware/",
+            "address": null,
+            "city": "Menlo Park",
+            "state": null,
+            "country": "United States",
+            "type-org": "Start-up",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "Prospective Research",
+            "url": "/startups/prospectiveresearch/",
+            "address": null,
+            "city": "Beverly",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "grey",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": null,
+            "url": "/startups/quantgene/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [4.501646, 51.92012]
           },
@@ -177,6 +517,26 @@
             "type-org": "for-profit",
             "color": "blue",
             "marker": "marker",
+            "collection": "startups"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": "SE3D",
+            "url": "/startups/se3d/",
+            "address": null,
+            "city": "San Francisco",
+            "state": null,
+            "country": "United States",
+            "type-org": "Company/Start-up",
+            "color": "blue",
+            "marker": "circle",
             "collection": "startups"
           }
       },
