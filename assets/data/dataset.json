@@ -271,7 +271,7 @@
     "subtitle": "Free technologies for Latin America",
     "start-date": "April 16 to 21, 2018",
     "end-date": null,
-    "status": "planned",
+    "status": "active",
     "hosts": null,
     "partners": null,
     "type-org": "Organization",
@@ -2767,6 +2767,32 @@
     }
   },
   {
+    "title": "DIYbiosphere",
+    "collection": "projects",
+    "url": "/projects/diybiosphere/",
+    "subtitle": "Connecting DIYbio Worldwide",
+    "start-date": 2016,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": ["DIYbio.org"],
+    "type-org": "non-profit",
+    "address": null,
+    "directions": null,
+    "city": "Boston",
+    "state": "Massachusetts",
+    "post-code": null,
+    "country": "United States",
+    "_geoloc": [{"lat":42.360082,"lng":-71.05888}],
+    "tags": ["website","database"],
+    "links": {
+      "twitter": "https://twitter.com/DIYbiosphere/",
+      "github": "https://github.com/DIYbiosphere/sphere",
+      "gitter": "https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link",
+      "website": "http://sphere.diybio.org/"
+    }
+  },
+  {
     "title": "Biodisplay",
     "collection": "projects",
     "url": "/projects/biodisplay/",
@@ -3031,32 +3057,6 @@
     }
   },
   {
-    "title": "DIYbiosphere",
-    "collection": "projects",
-    "url": "/projects/diybiosphere/",
-    "subtitle": "Connecting DIYbio Worldwide",
-    "start-date": 2016,
-    "end-date": null,
-    "status": "active",
-    "hosts": null,
-    "partners": ["DIYbio.org"],
-    "type-org": "non-profit",
-    "address": null,
-    "directions": null,
-    "city": "Boston",
-    "state": "Massachusetts",
-    "post-code": null,
-    "country": "United States",
-    "_geoloc": [{"lat":42.360082,"lng":-71.05888}],
-    "tags": ["website","database"],
-    "links": {
-      "twitter": "https://twitter.com/DIYbiosphere/",
-      "github": "https://github.com/DIYbiosphere/sphere",
-      "gitter": "https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link",
-      "website": "http://sphere.diybio.org/"
-    }
-  },
-  {
     "title": "AlgiKnit",
     "collection": "startups",
     "url": "/startups/algiknit/",
@@ -3154,6 +3154,31 @@
       "facebook": "https://www.facebook.com/aminobiolab/",
       "twitter": "https://twitter.com/Aminobiolab",
       "website": "https://amino.bio/"
+    }
+  },
+  {
+    "title": "Bento Lab",
+    "collection": "startups",
+    "url": "/startups/bentolab/",
+    "subtitle": "The portable DNA analysis lab for scientists, students and all curious minds to engage with genetics and bioengineering.",
+    "start-date": 2014,
+    "end-date": null,
+    "status": "active",
+    "hosts": null,
+    "partners": null,
+    "type-org": "company",
+    "address": "Corner of Keeton's and Collett Road, 3Space, Bermondsey, SE16 4EE",
+    "directions": null,
+    "city": "London",
+    "state": null,
+    "post-code": null,
+    "country": "UK",
+    "_geoloc": null,
+    "tags": ["DNA","hardware","education","research","kits","PCR","centrifuge","gel electrophoresis","STEM","STEAM"],
+    "links": {
+      "facebook": "https://www.facebook.com/theBentoLab",
+      "twitter": "https://www.twitter.com/theBentoLab",
+      "website": "https://www.bento.bio"
     }
   },
   {

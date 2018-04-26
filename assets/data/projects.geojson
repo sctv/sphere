@@ -4,6 +4,26 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": "Point",
+          "coordinates": [-71.05888, 42.360082]
+          },
+          "properties": {
+            "title": "DIYbiosphere",
+            "url": "/projects/diybiosphere/",
+            "address": null,
+            "city": "Boston",
+            "state": "Massachusetts",
+            "country": "United States",
+            "type-org": "non-profit",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": 
           "coordinates": []
           },
@@ -216,26 +236,6 @@
             "country": null,
             "type-org": null,
             "color": "grey",
-            "marker": "circle",
-            "collection": "projects"
-          }
-      },
-      
-      {
-        "type": "Feature",
-        "geometry": {
-          "type": "Point",
-          "coordinates": [-71.05888, 42.360082]
-          },
-          "properties": {
-            "title": "DIYbiosphere",
-            "url": "/projects/diybiosphere/",
-            "address": null,
-            "city": "Boston",
-            "state": "Massachusetts",
-            "country": "United States",
-            "type-org": "non-profit",
-            "color": "blue",
             "marker": "circle",
             "collection": "projects"
           }
