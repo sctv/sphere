@@ -664,6 +664,26 @@
       {
         "type": "Feature",
         "geometry": {
+          "type": 
+          "coordinates": []
+          },
+          "properties": {
+            "title": null,
+            "url": "/labs/katalab/",
+            "address": null,
+            "city": null,
+            "state": null,
+            "country": null,
+            "type-org": null,
+            "color": "grey",
+            "marker": "circle",
+            "collection": "labs"
+          }
+      },
+      
+      {
+        "type": "Feature",
+        "geometry": {
           "type": "Point",
           "coordinates": [6.575231, 46.521464]
           },
