@@ -1952,28 +1952,6 @@
 
 
 
-- title: DIYbiosphere
-  collection: projects
-  sphere_url: /projects/diybiosphere/
-  subtitle: Connecting DIYbio Worldwide
-  start-date: 2016
-  partners: 
-    - 'DIYbio.org'
-  type-org: non-profit
-  city: Boston
-  country: United States
-  _geoloc:
-    lat: 
-    lng: 
-  tags: 
-    - website
-    - database
-  links:
-    twitter: https://twitter.com/DIYbiosphere/
-    github: https://github.com/DIYbiosphere/sphere
-    gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
-    website: http://sphere.diybio.org/
-
 - title: Biodisplay
   collection: projects
   sphere_url: /projects/biodisplay/
@@ -2112,6 +2090,23 @@
     twitter: https://twitter.com/openpcr
     website: http://openpcr.org/
 
+- title: Open qPCR
+  collection: projects
+  sphere_url: /projects/openqpcr/
+  subtitle: An open source Real-Time PCR machine, with support for 2 channel multiplexing, amplification curves, and melt curves.
+  start-date: 2013
+  city: Santa Clara
+  country: United States
+  _geoloc:
+    lat: 37.354108
+    lng: -121.955236
+  tags: 
+    - hardware
+  links:
+    facebook: https://www.facebook.com/chaibiotech
+    twitter: https://twitter.com/chaibio
+    website: https://www.chaibio.com/openqpcr
+
 - title: Real Vegan Cheese
   collection: projects
   sphere_url: /projects/realvegancheese/
@@ -2142,6 +2137,28 @@
   tags: 
   links:
     
+
+- title: DIYbiosphere
+  collection: projects
+  sphere_url: /projects/diybiosphere/
+  subtitle: Connecting DIYbio Worldwide
+  start-date: 2016
+  partners: 
+    - 'DIYbio.org'
+  type-org: non-profit
+  city: Boston
+  country: United States
+  _geoloc:
+    lat: 
+    lng: 
+  tags: 
+    - website
+    - database
+  links:
+    twitter: https://twitter.com/DIYbiosphere/
+    github: https://github.com/DIYbiosphere/sphere
+    gitter: https://gitter.im/DIYbiosphere/sphere?utm_source=share-link&utm_medium=link&utm_campaign=share-link
+    website: http://sphere.diybio.org/
 
 
 

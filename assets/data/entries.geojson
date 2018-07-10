@@ -1962,6 +1962,25 @@
         "type": "Feature",
         "geometry": {
           "type": "Point",
+          "coordinates": [-121.955236, 37.354108]
+          },
+          "properties": {
+            "title": "Open qPCR",
+            "url": "/projects/openqpcr/",
+            "address": null,
+            "city": "Santa Clara",
+            "state": null,
+            "country": "United States",
+            "status": "active",
+            "color": "blue",
+            "marker": "circle",
+            "collection": "projects"
+          }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
           "coordinates": [-122.264195, 37.835233]
           },
           "properties": {
