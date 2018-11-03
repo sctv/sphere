@@ -1,5 +1,5 @@
 ---
-title: Turbine Bio Lab
+title: TurbinaBioLab
 tags:
 - bioart
 - fermentation
